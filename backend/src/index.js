@@ -17,7 +17,8 @@ app.use(express.json());
 app.use("/api/exam", examRoutes);
 
 if (process.env.NODE_ENV === "production") {
-  app.use(express.static(path.join(__dirname, "../frontend/dist")));
+  const frontendPath = path.join(__dirname, "../frontend/dist");
+  app.use(express.static(frontendPath));
 
   app.use((req, res, next) => {
     if (!req.path.startsWith("/api")) {
