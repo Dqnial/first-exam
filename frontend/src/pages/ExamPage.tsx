@@ -26,20 +26,21 @@ const ExamPage = () => {
     const q = questions.find((q) => q._id === id);
     if (!q) return;
 
-    // проверяем, может ли быть множественный выбор
     const multiple = Array.isArray(q.a);
-    if (multiple) {
-      setAnswers((prev) => {
-        const prevArr = (prev[id] as number[]) || [];
-        if (prevArr.includes(idx)) {
-          return { ...prev, [id]: prevArr.filter((i) => i !== idx) };
-        } else {
-          return { ...prev, [id]: [...prevArr, idx] };
-        }
-      });
-    } else {
-      setAnswers((prev) => ({ ...prev, [id]: idx }));
-    }
+
+    setAnswers((prev) => {
+      if (multiple) {
+        const prevArr = Array.isArray(prev[id])
+          ? [...(prev[id] as number[])]
+          : [];
+        const newArr = prevArr.includes(idx)
+          ? prevArr.filter((i) => i !== idx)
+          : [...prevArr, idx];
+        return { ...prev, [id]: newArr };
+      } else {
+        return { ...prev, [id]: idx };
+      }
+    });
   };
 
   const handleFinish = () => setFinished(true);
@@ -55,13 +56,15 @@ const ExamPage = () => {
   if (finished) {
     const correctCount = questions.reduce((acc, q) => {
       const userAnswer = answers[q._id];
-      if (Array.isArray(q.a)) {
-        // множественный ответ
-        if (
-          Array.isArray(userAnswer) &&
-          userAnswer.sort().join(",") === q.a.sort().join(",")
-        ) {
-          return acc + 1;
+      const multiple = Array.isArray(q.a);
+
+      if (multiple) {
+        if (Array.isArray(userAnswer)) {
+          const sortedUser = [...userAnswer].sort();
+          const sortedCorrect = [...(q.a as number[])].sort();
+          if (sortedUser.join(",") === sortedCorrect.join(",")) {
+            return acc + 1;
+          }
         }
       } else if (userAnswer === q.a) {
         return acc + 1;
@@ -93,7 +96,8 @@ const ExamPage = () => {
             const multiple = Array.isArray(q.a);
             const isCorrect = multiple
               ? Array.isArray(userAnswer) &&
-                userAnswer.sort().join(",") === q.a.sort().join(",")
+                [...userAnswer].sort().join(",") ===
+                  [...(q.a as number[])].sort().join(",")
               : userAnswer === q.a;
 
             return (
@@ -112,35 +116,33 @@ const ExamPage = () => {
                     {idx + 1}. {q.q}
                   </CardTitle>
                   <div className="ml-4 space-y-1">
-                    {q.options.map((opt, i) => (
-                      <p
-                        key={i}
-                        className={`${
-                          (multiple ? (q.a as number[]).includes(i) : i === q.a)
-                            ? "font-bold text-green-700"
-                            : (
-                                Array.isArray(userAnswer)
-                                  ? userAnswer.includes(i)
-                                  : userAnswer === i
-                              )
-                            ? "text-red-600 font-semibold"
-                            : ""
-                        }`}
-                      >
-                        {opt}
-                        {(multiple ? (q.a as number[]).includes(i) : i === q.a)
-                          ? " (Correct)"
-                          : ""}
-                        {Array.isArray(userAnswer)
-                          ? userAnswer.includes(i) &&
-                            !(q.a as number[]).includes(i)
+                    {q.options.map((opt, i) => {
+                      const isCorrectOption = multiple
+                        ? (q.a as number[]).includes(i)
+                        : i === q.a;
+                      const isUserOption = Array.isArray(userAnswer)
+                        ? userAnswer.includes(i)
+                        : userAnswer === i;
+
+                      return (
+                        <p
+                          key={i}
+                          className={`${
+                            isCorrectOption
+                              ? "font-bold text-green-700"
+                              : isUserOption
+                              ? "text-red-600 font-semibold"
+                              : ""
+                          }`}
+                        >
+                          {opt}
+                          {isCorrectOption ? " (Correct)" : ""}
+                          {isUserOption && !isCorrectOption
                             ? " (Your answer)"
-                            : ""
-                          : userAnswer === i && i !== q.a
-                          ? " (Your answer)"
-                          : ""}
-                      </p>
-                    ))}
+                            : ""}
+                        </p>
+                      );
+                    })}
                   </div>
                 </CardContent>
               </Card>
@@ -163,7 +165,11 @@ const ExamPage = () => {
         qNumber={currentIndex + 1}
         question={currentQuestion.q}
         options={currentQuestion.options}
-        selected={answers[currentQuestion._id]}
+        selected={
+          Array.isArray(currentQuestion.a)
+            ? (answers[currentQuestion._id] as number[]) || []
+            : (answers[currentQuestion._id] as number) ?? -1
+        }
         onSelect={(optIdx) => handleSelect(currentQuestion._id, optIdx)}
         multiple={Array.isArray(currentQuestion.a)}
       />
