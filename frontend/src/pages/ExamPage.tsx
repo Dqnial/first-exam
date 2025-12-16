@@ -47,9 +47,11 @@ const ExamPage = () => {
 
   if (loading)
     return (
-      <div className="flex justify-center items-center h-screen flex-col">
+      <div className="flex h-screen flex-col items-center justify-center bg-background text-foreground">
         <Spinner />
-        <p className="mt-2 text-lg">Loading questions...</p>
+        <p className="mt-3 text-sm text-muted-foreground">
+          Loading questions...
+        </p>
       </div>
     );
 
@@ -75,22 +77,24 @@ const ExamPage = () => {
     const percent = Math.round((correctCount / questions.length) * 100);
 
     return (
-      <div className="max-w-4xl mx-auto mt-8 space-y-6">
-        <h1 className="text-3xl font-bold text-center">Exam Finished</h1>
-        <p className="text-center text-lg">
-          Score: {correctCount} / {questions.length} ({percent}%)
-        </p>
-        <p className="text-center font-semibold text-xl">
-          Result:{" "}
-          {percent >= 85
-            ? "Excellent 🎉"
-            : percent >= 70
-            ? "Good 👍"
-            : "Needs Improvement ⚠️"}
-        </p>
+      <div className="mx-auto mt-8 max-w-4xl space-y-6 px-4 text-foreground">
+        <div className="rounded-xl border bg-card p-6 text-center shadow-sm">
+          <h1 className="text-3xl font-bold">Exam Finished</h1>
+          <p className="mt-2 text-muted-foreground">
+            Score: {correctCount} / {questions.length} ({percent}%)
+          </p>
+          <p className="mt-3 text-xl font-semibold">
+            {percent >= 85
+              ? "Excellent 🎉"
+              : percent >= 70
+              ? "Good 👍"
+              : "Needs Improvement ⚠️"}
+          </p>
+        </div>
 
-        <h2 className="text-2xl font-bold mt-6">Review Questions</h2>
-        <div className="space-y-4 mt-4">
+        <h2 className="text-2xl font-bold">Review Questions</h2>
+
+        <div className="space-y-4">
           {questions.map((q, idx) => {
             const userAnswer = answers[q._id];
             const multiple = Array.isArray(q.a);
@@ -105,17 +109,18 @@ const ExamPage = () => {
                 key={q._id}
                 className={`border ${
                   userAnswer === undefined
-                    ? "border-gray-300"
+                    ? "border-border"
                     : isCorrect
-                    ? "border-green-400"
-                    : "border-red-400"
+                    ? "border-green-500/50"
+                    : "border-red-500/50"
                 }`}
               >
-                <CardContent>
-                  <CardTitle className="text-lg font-semibold mb-2">
+                <CardContent className="space-y-3">
+                  <CardTitle className="text-base font-semibold">
                     {idx + 1}. {q.q}
                   </CardTitle>
-                  <div className="ml-4 space-y-1">
+
+                  <div className="space-y-1">
                     {q.options.map((opt, i) => {
                       const isCorrectOption = multiple
                         ? (q.a as number[]).includes(i)
@@ -127,12 +132,12 @@ const ExamPage = () => {
                       return (
                         <p
                           key={i}
-                          className={`${
+                          className={`text-sm ${
                             isCorrectOption
-                              ? "font-bold text-green-700"
+                              ? "font-semibold text-green-600 dark:text-green-400"
                               : isUserOption
-                              ? "text-red-600 font-semibold"
-                              : ""
+                              ? "font-semibold text-red-600 dark:text-red-400"
+                              : "text-muted-foreground"
                           }`}
                         >
                           {opt}
@@ -156,10 +161,8 @@ const ExamPage = () => {
   const currentQuestion = questions[currentIndex];
 
   return (
-    <div className="max-w-3xl mx-auto p-4">
-      <h1 className="text-2xl font-bold mb-4 text-center">
-        Random Practice Exam
-      </h1>
+    <div className="mx-auto max-w-3xl space-y-6 px-4 py-6 text-foreground">
+      <h1 className="text-center text-2xl font-bold">Random Practice Exam</h1>
 
       <QuestionCard
         qNumber={currentIndex + 1}
@@ -174,18 +177,27 @@ const ExamPage = () => {
         multiple={Array.isArray(currentQuestion.a)}
       />
 
-      <div className="flex flex-wrap gap-2 mt-4 justify-center">
+      <div className="flex flex-wrap justify-center gap-2">
         {questions.map((q, idx) => {
           const isAnswered = answers[q._id] !== undefined;
           const isCurrent = idx === currentIndex;
+
           return (
             <button
               key={idx}
               onClick={() => setCurrentIndex(idx)}
-              className={`w-10 h-10 rounded border transition-colors duration-200
-                ${isAnswered ? "bg-black text-white" : "bg-white"}
-                ${isCurrent ? "ring-2 ring-blue-500" : ""}
-                hover:bg-gray-300 hover:text-black`}
+              className={`flex h-9 w-9 items-center justify-center rounded-md border text-sm font-medium transition
+                ${
+                  isAnswered
+                    ? "bg-primary text-primary-foreground"
+                    : "bg-background"
+                }
+                ${
+                  isCurrent
+                    ? "ring-2 ring-primary ring-offset-2 ring-offset-background"
+                    : ""
+                }
+                hover:bg-muted`}
             >
               {idx + 1}
             </button>
@@ -193,7 +205,7 @@ const ExamPage = () => {
         })}
       </div>
 
-      <Button className="w-full mt-6" onClick={handleFinish}>
+      <Button className="w-full" onClick={handleFinish}>
         Finish Exam
       </Button>
     </div>

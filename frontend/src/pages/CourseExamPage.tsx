@@ -22,7 +22,7 @@ const CourseExamPage = () => {
   useEffect(() => {
     if (!courseId) return;
     fetchCourseQuestions(courseId)
-      .then((data) => setQuestions(data))
+      .then(setQuestions)
       .catch(console.error)
       .finally(() => setLoading(false));
   }, [courseId]);
@@ -48,13 +48,16 @@ const CourseExamPage = () => {
 
   const handleFinish = () => setFinished(true);
 
-  if (loading)
+  if (loading) {
     return (
-      <div className="flex justify-center items-center h-screen flex-col">
+      <div className="flex flex-col items-center justify-center h-screen bg-background">
         <Spinner />
-        <p className="mt-2 text-lg">Loading {courseId} questions...</p>
+        <p className="mt-2 text-lg text-muted-foreground">
+          Loading {courseId} questions...
+        </p>
       </div>
     );
+  }
 
   if (finished) {
     const correctCount = questions.reduce((acc, q) => {
@@ -62,12 +65,12 @@ const CourseExamPage = () => {
       const multiple = Array.isArray(q.a);
 
       if (multiple) {
-        if (Array.isArray(userAnswer)) {
-          const sortedUser = [...userAnswer].sort();
-          const sortedCorrect = [...(q.a as number[])].sort();
-          if (sortedUser.join(",") === sortedCorrect.join(",")) {
-            return acc + 1;
-          }
+        if (
+          Array.isArray(userAnswer) &&
+          [...userAnswer].sort().join(",") ===
+            [...(q.a as number[])].sort().join(",")
+        ) {
+          return acc + 1;
         }
       } else if (userAnswer === q.a) {
         return acc + 1;
@@ -78,14 +81,16 @@ const CourseExamPage = () => {
     const percent = Math.round((correctCount / questions.length) * 100);
 
     return (
-      <div className="max-w-4xl mx-auto mt-8 space-y-6">
+      <div className="max-w-4xl mx-auto mt-8 space-y-6 bg-background text-foreground p-4">
         <h1 className="text-3xl font-bold text-center">
           {courseId} Exam Finished
         </h1>
+
         <p className="text-center text-lg">
           Score: {correctCount} / {questions.length} ({percent}%)
         </p>
-        <p className="text-center font-semibold text-xl">
+
+        <p className="text-center text-xl font-semibold">
           Result:{" "}
           {percent >= 85
             ? "Excellent 🎉"
@@ -95,7 +100,8 @@ const CourseExamPage = () => {
         </p>
 
         <h2 className="text-2xl font-bold mt-6">Review Questions</h2>
-        <div className="space-y-4 mt-4">
+
+        <div className="space-y-4">
           {questions.map((q, idx) => {
             const userAnswer = answers[q._id];
             const multiple = Array.isArray(q.a);
@@ -108,18 +114,19 @@ const CourseExamPage = () => {
             return (
               <Card
                 key={q._id}
-                className={`border ${
+                className={`bg-background border ${
                   userAnswer === undefined
-                    ? "border-gray-300"
+                    ? "border-border"
                     : isCorrect
-                    ? "border-green-400"
-                    : "border-red-400"
+                    ? "border-green-500 dark:border-green-400"
+                    : "border-red-500 dark:border-red-400"
                 }`}
               >
                 <CardContent>
-                  <CardTitle className="text-lg font-semibold mb-2">
+                  <CardTitle className="mb-2 text-lg font-semibold">
                     {idx + 1}. {q.q}
                   </CardTitle>
+
                   <div className="ml-4 space-y-1">
                     {q.options.map((opt, i) => {
                       const isCorrectOption = multiple
@@ -132,19 +139,17 @@ const CourseExamPage = () => {
                       return (
                         <p
                           key={i}
-                          className={`${
+                          className={
                             isCorrectOption
-                              ? "font-bold text-green-700"
+                              ? "font-bold text-green-600 dark:text-green-400"
                               : isUserOption
-                              ? "text-red-600 font-semibold"
-                              : ""
-                          }`}
+                              ? "font-semibold text-red-600 dark:text-red-400"
+                              : "text-muted-foreground"
+                          }
                         >
                           {opt}
-                          {isCorrectOption ? " (Correct)" : ""}
-                          {isUserOption && !isCorrectOption
-                            ? " (Your answer)"
-                            : ""}
+                          {isCorrectOption && " (Correct)"}
+                          {isUserOption && !isCorrectOption && " (Your answer)"}
                         </p>
                       );
                     })}
@@ -155,7 +160,7 @@ const CourseExamPage = () => {
           })}
         </div>
 
-        <Button className="mt-4" onClick={() => navigate("/")}>
+        <Button className="mt-4 w-full" onClick={() => navigate("/")}>
           Back to Courses
         </Button>
       </div>
@@ -165,8 +170,8 @@ const CourseExamPage = () => {
   const currentQuestion = questions[currentIndex];
 
   return (
-    <div className="max-w-3xl mx-auto p-4">
-      <h1 className="text-2xl font-bold mb-4 text-center">
+    <div className="max-w-3xl mx-auto p-4 bg-background text-foreground">
+      <h1 className="mb-4 text-2xl font-bold text-center">
         {courseId} Practice Exam
       </h1>
 
@@ -183,18 +188,23 @@ const CourseExamPage = () => {
         multiple={Array.isArray(currentQuestion.a)}
       />
 
-      <div className="flex flex-wrap gap-2 mt-4 justify-center">
+      <div className="flex flex-wrap justify-center gap-2 mt-4">
         {questions.map((q, idx) => {
           const isAnswered = answers[q._id] !== undefined;
           const isCurrent = idx === currentIndex;
+
           return (
             <button
               key={idx}
               onClick={() => setCurrentIndex(idx)}
-              className={`w-10 h-10 rounded border transition-colors duration-200
-                ${isAnswered ? "bg-black text-white" : "bg-white"}
-                ${isCurrent ? "ring-2 ring-blue-500" : ""}
-                hover:bg-gray-300 hover:text-black`}
+              className={`w-10 h-10 rounded border transition
+                ${
+                  isAnswered
+                    ? "bg-primary text-primary-foreground"
+                    : "bg-background"
+                }
+                ${isCurrent ? "ring-2 ring-ring" : ""}
+                hover:bg-muted`}
             >
               {idx + 1}
             </button>
