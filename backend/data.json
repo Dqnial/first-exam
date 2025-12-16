@@ -1,2156 +1,1880 @@
 [
   {
-    "q": "Which Cisco product allows creation of virtual network devices for testing?",
-    "options": ["NSO", "pyATS", "CML", "Ansible"],
-    "a": 2,
-    "topic": "Cisco Automation"
+    "q": "Which capability of a Zero-Trust segmentation platform uses a combination of anti-malware, intrusion prevention, and cyberthreat prevention technologies to provide comprehensive protection against both known and unknown threats, including threats on mobile devices?",
+    "options": [
+      "Inspection of all traffic",
+      "Secure access",
+      "Least privilege access control",
+      "Cyberthreat protection"
+    ],
+    "a": 3,
+    "topic": "Course 2"
   },
   {
-    "q": "What does NSO stand for in Cisco automation?",
+    "q": "Which Security Operating Platform capability allows organizations to exert positive control based on applications, users, and content, with support for open communication, orchestration, and visibility?",
     "options": [
-      "Network Services Orchestrator",
-      "Network Simplify Operator",
-      "Network Secure Object",
-      "None"
+      "Provide full visibility",
+      "Reduce the attack surface",
+      "Prevent all known threats, fast",
+      "Detect and prevent new, unknown threats with automation"
     ],
     "a": 0,
-    "topic": "Cisco Automation"
+    "topic": "Course 2"
   },
   {
-    "q": "Which protocol uses TCP port 830 by default?",
-    "options": ["NETCONF", "SNMP", "HTTP", "SSH"],
+    "q": "True or False. The Security Operating Platform consists of a tightly integrated system of components and services, including a partner ecosystem, that delivers consistent security across the network, endpoints, and cloud.",
+    "options": ["True", "False"],
     "a": 0,
-    "topic": "REST/NETCONF"
+    "topic": "Course 2"
   },
   {
-    "q": "RESTCONF is primarily based on which data model?",
-    "options": ["XML", "JSON", "YANG", "SNMP"],
-    "a": 2,
-    "topic": "REST/NETCONF"
-  },
-  {
-    "q": "What HTTP status code means too many requests?",
-    "options": ["401", "403", "429", "500"],
-    "a": 2,
-    "topic": "HTTP APIs"
-  },
-  {
-    "q": "Which feature of REST APIs ensures independence of each request?",
-    "options": ["Stateful", "Stateless", "Cacheable", "Private"],
-    "a": 1,
-    "topic": "HTTP APIs"
-  },
-  {
-    "q": "Which HTTP method retrieves data?",
-    "options": ["GET", "POST", "PUT", "DELETE"],
+    "q": "Which Secure the Cloud technology functions as a multimode cloud access security broker – CASB - , offering inline and API-based protection working together to minimize the range of cloud risks that can lead to breaches?",
+    "options": ["Prisma SaaS", "Prisma Access", "Prisma SASE", "Prisma Cloud"],
     "a": 0,
-    "topic": "HTTP APIs"
+    "topic": "Course 2"
   },
   {
-    "q": "Which HTTP method is used to update an existing resource?",
-    "options": ["GET", "POST", "PUT", "DELETE"],
-    "a": 2,
-    "topic": "HTTP APIs"
-  },
-  {
-    "q": "In Python, which function can show available methods for a data type?",
-    "options": ["len()", "help()", "list()", "show()"],
-    "a": 1,
-    "topic": "Python"
-  },
-  {
-    "q": "Which Python data type is used for key–value pairs?",
-    "options": ["list", "dict", "tuple", "set"],
-    "a": 1,
-    "topic": "Python"
-  },
-  {
-    "q": "How do you print the hostname from devices list [{'hostname':'csr1'}]?",
+    "q": "Which of the following are important characteristics and capabilities of advanced malware? Select all that apply.",
     "options": [
-      "print(devices['hostname'])",
-      "print(devices[0]['hostname'])",
-      "print(devices.hostname)",
-      "print(hostname)"
+      "Hiding techniques such as obfuscation",
+      "Hiding techniques such as polymorphism and metamorphism",
+      "Multi-functionality",
+      "Distributed, fault-tolerant architecture"
+    ],
+    "a": [0, 1, 2, 3],
+    "topic": "Course 2"
+  },
+  {
+    "q": "One problem with LLMs is _____________ , which can result from model training associating data with a particular demographic.",
+    "options": ["bias", "hallucination", "overreliance", "manipulation"],
+    "a": 0,
+    "topic": "Course 2"
+  },
+  {
+    "q": "AI can provide enhanced incident response management by performing which of the following?",
+    "options": [
+      "generate accurate and timely reports",
+      "facilitate communications between stakeholders and response teams",
+      "managing reputational risks associated with security breaches",
+      "all of the above"
+    ],
+    "a": 3,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Supervised Learning LLM training is performed using ______________.",
+    "options": [
+      "unlabeled data",
+      "labeled data",
+      "parameter prompts",
+      "output filters"
     ],
     "a": 1,
-    "topic": "Python"
+    "topic": "Course 2"
   },
   {
-    "q": "Which Ansible file defines device groups?",
-    "options": ["hosts", "playbook.yml", "vars.yml", "roles.yml"],
-    "a": 0,
-    "topic": "Ansible"
-  },
-  {
-    "q": "Which Ansible module sends operational commands to Cisco IOS devices?",
-    "options": ["ios_config", "ios_facts", "ios_command", "netconf"],
-    "a": 2,
-    "topic": "Ansible"
-  },
-  {
-    "q": "In Ansible templating, which language is used?",
-    "options": ["Handlebars", "Jinja2", "Mustache", "Liquid"],
-    "a": 1,
-    "topic": "Ansible"
-  },
-  {
-    "q": "Which parameter is required when using Ansible template module?",
-    "options": ["source", "template", "dest", "path"],
-    "a": 2,
-    "topic": "Ansible"
-  },
-  {
-    "q": "Which SDLC phase comes after planning?",
-    "options": ["Design", "Develop", "Test", "Deploy"],
-    "a": 0,
-    "topic": "DevOps"
-  },
-  {
-    "q": "What is the main goal of Lean methodology?",
+    "q": "________________ uses clustering, grouping unlabeled examples together by identifying similarities between data.",
     "options": [
-      "Increase staff",
-      "Eliminate waste",
-      "Add more features",
-      "Reduce users"
+      "Unsupervised learning",
+      "Supervised learning",
+      "Pre-trained learning",
+      "Parameter learning"
+    ],
+    "a": 0,
+    "topic": "Course 2"
+  },
+  {
+    "q": "___________ is the way we communicate with computers using human language.",
+    "options": [
+      "Data processing",
+      "Vision processing",
+      "Machine learning",
+      "NLP - natural language processing"
+    ],
+    "a": 3,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which of the following are examples of an endpoint? Choose 3.",
+    "options": [
+      "Desktop",
+      "Point of Sale Terminal - POS",
+      "Smartphone",
+      "Mainframe"
+    ],
+    "a": [0, 1, 2],
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which type of Wildfire analysis method supports a custom-built, evasion-resistant virtual environment in which previously unknown submissions are executed within a virtualized test environment to determine real world effects and behavior.",
+    "options": ["Static", "Dynamic", "Machine", "Bare Metal"],
+    "a": 3,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which type of attacker is motivated by political or social causes?",
+    "options": [
+      "Cybercriminal",
+      "Hacktivist",
+      "Cyberterrorist",
+      "State-affiliated"
     ],
     "a": 1,
-    "topic": "DevOps"
+    "topic": "Course 2"
   },
   {
-    "q": "What is a Git remote repository used for?",
+    "q": "What type of attack is intended to rapidly cause damage to the victim's network and system infrastructure, as well as their business and reputation?",
     "options": [
-      "Local history backup",
-      "Shared central repo",
-      "Temporary storage",
-      "Debug logs"
+      "Man in the Middle Attack - MITM",
+      "Distributed Denial of Service - DDoS",
+      "Social Engineering Attack",
+      "Reconnaissance Attack"
     ],
     "a": 1,
-    "topic": "DevOps"
+    "topic": "Course 2"
   },
   {
-    "q": "Which tool isolates an OS and dependencies for reproducible environments?",
-    "options": ["Vagrant", "Docker", "Pipenv", "Qemu"],
+    "q": "Which of the following WLAN standards is the LEAST secure? Pick two.",
+    "options": [
+      "Wireless Protected Access - WPA",
+      "Wired Equivalent Privacy - WEP",
+      "Wireless Protected Access 2 - WPA2",
+      "WiFi Protected Setup - WPS"
+    ],
+    "a": [1, 3],
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which Secure the Enterprise network security management technology enables centralized control, log collection, and policy workflow automation across all your next-generation firewalls - scalable to tens of thousands of firewalls:from a single pane of glass?",
+    "options": [
+      "Next Generation Firewall",
+      "Panorama",
+      "VM Series Firewall",
+      "Subscription Services"
+    ],
     "a": 1,
-    "topic": "DevOps"
+    "topic": "Course 2"
   },
   {
-    "q": "Docker containers share which part of the system?",
-    "options": ["Host OS kernel", "CPU only", "VM firmware", "Hypervisor"],
+    "q": "What type of malware typically targets a computer network by replicating itself in order to spread rapidly?",
+    "options": ["Logic Bomb", "Virus", "Worm", "Backdoor"],
+    "a": 2,
+    "topic": "Course 2"
+  },
+  {
+    "q": "True or False. Wired Equivalent Privacy – WEP - is the most effective protocol for securing wireless networks.",
+    "options": ["True", "False"],
+    "a": 1,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which Security Operating Platform capability supports a coordinated security platform that accounts for the full scope of an attack, across the various security controls that compose the security posture. This allows organizations to quickly identify and block known threats.",
+    "options": [
+      "Prevent all known threats, fast.",
+      "Full Visibility.",
+      "Reduce the attack surface.",
+      "Detect and prevent new, unknown threats with automation."
+    ],
     "a": 0,
-    "topic": "DevOps"
+    "topic": "Course 2"
   },
   {
-    "q": "Which layer of OSI does IEEE 802 split into sublayers?",
-    "options": ["Physical", "Data Link", "Network", "Transport"],
+    "q": "True or False. The Security Operating Platform prevents successful attacks and stops attacks in progress while providing consistent protection to secure the enterprise, the cloud, and the future.",
+    "options": ["True", "False"],
+    "a": 0,
+    "topic": "Course 2"
+  },
+  {
+    "q": "LLM supervised learning requires _____________.",
+    "options": [
+      "transformers",
+      "prompts",
+      "natural language",
+      "data labels and classifications"
+    ],
+    "a": 3,
+    "topic": "Course 2"
+  },
+  {
+    "q": "True or False. The Security Operating Platform proactively blocks known threats, which provides baseline defenses against known exploits, malware, malicious URLs, and C2 activity.",
+    "options": ["True", "False"],
+    "a": 0,
+    "topic": "Course 2"
+  },
+  {
+    "q": "LLM input and data quality assessment can be hindered by a lack of input _____________.",
+    "options": ["diversity", "validation", "bias", "sampling"],
     "a": 1,
-    "topic": "Networking"
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which technique is NOT used to break the command and control – CnC - phase of the Cyber Kill Chain®?",
+    "options": [
+      "Blocking outbound traffic to known malicious sites and IP addresses",
+      "DNS sinkholing",
+      "Vulnerability and Patch Management",
+      "DNS poisoning"
+    ],
+    "a": 2,
+    "topic": "Course 2"
+  },
+  {
+    "q": "True or False. Someone with limited hacking and/or programming skills that uses malicious programs (malware:written by others to attack a computer or network is known as a newbie.",
+    "options": ["True", "False"],
+    "a": 1,
+    "topic": "Course 2"
+  },
+  {
+    "q": "True or False. A vulnerability is a small piece of software code, part of a malformed data file, or a sequence – string - of commands created by an attacker to cause unintended or unanticipated behavior in a system or software.",
+    "options": ["True", "False"],
+    "a": 1,
+    "topic": "Course 2"
+  },
+  {
+    "q": "The term for LLM generated text that is not logically consistent with input, but still sounds plausible to a human reader is _____________.",
+    "options": [
+      "facsimile",
+      "neural cross-connect",
+      "hallucination",
+      "parallel assumption"
+    ],
+    "a": 2,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which of the following is not a benefit of implementing a Zero-Trust network?",
+    "options": [
+      "Clearly improved effectiveness in mitigating data loss with visibility and safe enablement of applications.",
+      "Greater efficiency for achieving and maintaining compliance with security and privacy mandates.",
+      "Improved ability to securely enable transformative IT initiatives.",
+      "Higher total cost of ownership – TCO - with a consolidated and fully integrated security operating platform."
+    ],
+    "a": 3,
+    "topic": "Course 2"
+  },
+  {
+    "q": "One of the vulnerabilities of open source LLMs is _________.",
+    "options": [
+      "they do not function with encrypted content",
+      "they quickly identify malicious prompt injections",
+      "they deliver consistent, predictable outputs",
+      "all of the above"
+    ],
+    "a": 0,
+    "topic": "Course 2"
+  },
+  {
+    "q": "True or False. It is possible for an organization to be compliant with all applicable security and privacy regulations for its industry, yet still not be secure.",
+    "options": ["True", "False"],
+    "a": 0,
+    "topic": "Course 2"
+  },
+  {
+    "q": "What is an easy way to make your WiFi security stronger and make it more difficult for hackers to discover your wireless network?",
+    "options": [
+      "Change the Access Point – AP - Password",
+      "Change the Service Set Identifier - SSID",
+      "Change the Initialization Vector - IV",
+      "Change the Extensible Authentication Protocol - EAP"
+    ],
+    "a": 1,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Malicious software or code that typically damages, takes control of, or collects information from an infected endpoint is known as:",
+    "options": ["Exploit", "Malware", "Vulnerability", "Anti-Virus"],
+    "a": 1,
+    "topic": "Course 2"
+  },
+  {
+    "q": "What type of malware allows an attacker to bypass authentication to gain access to a compromised system?",
+    "options": ["Logic Bomb", "BootKit", "Rootkit", "Backdoor"],
+    "a": 3,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which cybersecurity regulation strengthens data protection for European Union - EU - residents and addresses the export of personal data outside the EU?",
+    "options": [
+      "Canada Personal Information Protection and Electronic Documents Act - PIPEDA",
+      "General Data Protection Regulation - GDPR",
+      "Payment Card Industry Data Security Standard - PCI DSS",
+      "North American Electric Reliability Corporation - NERC",
+      "Critical Infrastructure Protection - CIP"
+    ],
+    "a": 1,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which cybersecurity act defines individual rights with respect to the privacy of their personal information and governs how private sector organizations collect, use, and disclose personal information in the course of business?",
+    "options": [
+      "Australian Privacy Principles Act - APPA",
+      "California Consumer Privacy Act - CCPA",
+      "Canada Personal Information Protection and Electronic Documents Act - PIPEDA",
+      "U.S. Cybersecurity Information Sharing Act - CISA."
+    ],
+    "a": 2,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which is not a Zero Trust design principle?",
+    "options": [
+      "Ensure that all resources are accessed securely, regardless of location",
+      "Adopt a least privilege strategy and strictly enforce access control",
+      "Allow internal users to access network services through remote access"
+    ],
+    "a": 2,
+    "topic": "Course 2"
+  },
+  {
+    "q": "The cloud computing service model in which a provider’s applications run on a cloud infrastructure and the consumer does not manage or control the underlying infrastructure is known as:",
+    "options": [
+      "Infrastructure as a Service - IaaS",
+      "Software as a Service - SaaS",
+      "Platform as a Service - PaaS",
+      "Identity as a Service -IDaaS"
+    ],
+    "a": 1,
+    "topic": "Course 2"
+  },
+  {
+    "q": "A Zero Trust network security model is based on which of the following security principles?",
+    "options": [
+      "Due Diligence",
+      "Least privilege",
+      "Non-repudiation",
+      "Negative Control"
+    ],
+    "a": 1,
+    "topic": "Course 2"
+  },
+  {
+    "q": "True or False. The Cyber-Attack Lifecycle framework is a five-step process that an attacker can implement in order to attack a network.",
+    "options": ["True", "False"],
+    "a": 0,
+    "topic": "Course 2"
+  },
+  {
+    "q": "PCI DSS is mandated and administered by the:",
+    "options": [
+      "U.S. Federal Government",
+      "European Union - EU",
+      "United Nations - UN",
+      "PCI Security Standards Council - SSC"
+    ],
+    "a": 3,
+    "topic": "Course 2"
+  },
+  {
+    "q": "What type of malware is triggered by a specific condition, such as a specific date or a particular user account being disabled?",
+    "options": ["Logic Bomb", "TROJAN HORSE", "Rootkit", "Backdoor"],
+    "a": 0,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which Wildfire verdict indicates no security risk but might display obtrusive behavior - for example, adware, spyware, and browser helper objects?",
+    "options": ["Benign", "Grayware", "Malware", "Phishing"],
+    "a": 1,
+    "topic": "Course 2"
+  },
+  {
+    "q": "______________ are forms of digitally altered media that use AI to create believable messages engineered to encourage people to provide access to information or systems they would otherwise protect.",
+    "options": [
+      "Mirror transformers",
+      "Altered Learning Agents - AGAs",
+      "Deepfakes",
+      "Rogue Agents"
+    ],
+    "a": 2,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which Secure the Future technology is the only security orchestration, automation, and response system that combines security orchestration, incident management, and interactive investigation to serve security teams across the incident lifecycle?",
+    "options": ["Cortex XDR", "AutoFocus", "Cortex Data Lake", "Cortex XSOAR"],
+    "a": 3,
+    "topic": "Course 2"
+  },
+  {
+    "q": "True or False. An effective security strategy is to deploy Perimeter-Based Network defenses, where countermeasures are defined at a handful of well-defined ingress/egress points to the network. You can then assume that everything on the internal network can be trusted.",
+    "options": ["True", "False"],
+    "a": 1,
+    "topic": "Course 2"
+  },
+  {
+    "q": "True of False. The primary issue with a perimeter-based network security strategy in which countermeasures are deployed at a handful of well-defined ingress and egress points to the network is that it relies on the assumption that everything on the internal network can be trusted.",
+    "options": ["True", "False"],
+    "a": 0,
+    "topic": "Course 2"
+  },
+  {
+    "q": "A lower ____________ parameter can reduce LLM hallucinations.",
+    "options": ["consistency", "temperature", "accuracy", "coherence"],
+    "a": 1,
+    "topic": "Course 2"
+  },
+  {
+    "q": "True or False. Most Botnets are designed to withstand the loss of a command and control - CnC:server - , meaning that the entire Botnet infrastructure must be disabled almost simultaneously.",
+    "options": ["True", "False"],
+    "a": 0,
+    "topic": "Course 2"
+  },
+  {
+    "q": "True of False. The principle of least privilege in network security requires that only the permission or access rights necessary to perform an authorized task is denied.",
+    "options": ["True", "False"],
+    "a": 1,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Effective LLM data policies and file plans should include change management and _________ controls.",
+    "options": ["version", "retention", "expiration", "all of the above"],
+    "a": 3,
+    "topic": "Course 2"
+  },
+  {
+    "q": "True or False. An attacker only needs to successfully execute one step of the Cyber-Attack Lifecycle in order to infiltrate a network, whereas a defender must “be right every time” and break every step of the chain to prevent an attack.",
+    "options": ["True", "False"],
+    "a": 0,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Select the DevOps process in which developers or IT operations teams can programmatically provision and manage the infrastructure stack - such as virtual machines, networks, and connectivity - for an application in software.",
+    "options": ["IaaS", "PaaS", "IaC", "SaaS"],
+    "a": 2,
+    "topic": "Course 2"
+  },
+  {
+    "q": "What is the decimal equivalent of 1110?",
+    "options": ["10", "12", "14", "16"],
+    "a": 2,
+    "topic": "Course 2"
+  },
+  {
+    "q": "What is the binary equivalent of 250?",
+    "options": ["1111 1100", "1111 1010", "1111 1001", "1111 1000"],
+    "a": 1,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Identify the broadcast address from the following.",
+    "options": [
+      "192.168.0.255/16",
+      "192.168.12.127/25",
+      "214.19.21.255/14",
+      "10.24.36.48/28"
+    ],
+    "a": 2,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which address class is within the range of 192 to 223?",
+    "options": ["Class A", "Class B", "Class C", "Class D"],
+    "a": 2,
+    "topic": "Course 2"
+  },
+  {
+    "q": "An IPv6 address is structured with how many bits?",
+    "options": ["32", "48", "64", "128", "256"],
+    "a": 3,
+    "topic": "Course 2"
   },
   {
     "q": "What is another term for a logical address?",
-    "options": ["MAC address", "IP address", "Subnet", "Gateway"],
-    "a": 1,
-    "topic": "Networking"
-  },
-  {
-    "q": "Which network device forwards packets based on MAC addresses?",
-    "options": ["Router", "Switch", "Hub", "Repeater"],
-    "a": 1,
-    "topic": "Networking"
-  },
-  {
-    "q": "True or False: A hypervisor allows multiple virtual OS to run on one host.",
-    "options": ["True", "False", "Only with special licenses", "Only in cloud"],
-    "a": 0,
-    "topic": "Virtualization"
-  },
-  {
-    "q": "Which Zero Trust principle eliminates implicit trust?",
     "options": [
-      "Trust internal",
-      "Trust external",
-      "Never trust, always verify",
-      "Only perimeter"
-    ],
-    "a": 2,
-    "topic": "Security"
-  },
-  {
-    "q": "Which SASE component focuses on secure web traffic?",
-    "options": ["CASB", "ZTNA", "SWG", "SD-WAN"],
-    "a": 2,
-    "topic": "Security"
-  },
-  {
-    "q": "CASB in SASE provides protection for what?",
-    "options": [
-      "Network routing",
-      "Web filtering",
-      "SaaS usage",
-      "Private apps"
-    ],
-    "a": 2,
-    "topic": "Security"
-  },
-  {
-    "q": "Zero Trust design principle adopts what strategy?",
-    "options": [
-      "Least privilege",
-      "Implicit allow",
-      "Open network",
-      "Single trust"
+      "IP Address",
+      "Physical Address",
+      "MAC Address",
+      "Burned-In Address"
     ],
     "a": 0,
-    "topic": "Security"
+    "topic": "Course 2"
   },
   {
-    "q": "Which regulation addresses data export outside the EU?",
-    "options": ["HIPAA", "GDPR", "PCI DSS", "SOX"],
-    "a": 1,
-    "topic": "Security"
-  },
-  {
-    "q": "What type of log records who performed a specific action?",
-    "options": ["Error log", "Access log", "Audit log", "System log"],
-    "a": 2,
-    "topic": "Google Cloud Security"
-  },
-  {
-    "q": "Which GCP service tier uses the public internet?",
-    "options": ["Premium", "Standard", "Basic", "Private"],
-    "a": 1,
-    "topic": "Google Cloud Networking"
-  },
-  {
-    "q": "What GCP feature provides centralized multi-project networking?",
-    "options": ["Cloud VPN", "Shared VPC", "Interconnect", "Cloud NAT"],
-    "a": 1,
-    "topic": "Google Cloud Networking"
-  },
-  {
-    "q": "In GCP, lifecycle management rules apply to what?",
+    "q": "Which subnetwork is 192.168.25.50/28 on?",
     "options": [
-      "VM instances",
-      "Cloud Storage objects",
-      "Firewall rules",
-      "IAM roles"
+      "192.168.0.0",
+      "192.168.25.64",
+      "192.168.25.48",
+      "192.168.25.0"
     ],
-    "a": 1,
-    "topic": "Google Cloud Storage"
+    "a": 2,
+    "topic": "Course 2"
   },
   {
-    "q": "Which GCP service enforces authentication before access?",
+    "q": "Which area network separates the control and management processes from the underlying networking hardware, making them available as software that can be easily configured and deployed?",
+    "options": ["LAN", "WAN", "SD-WAN", "CAN"],
+    "a": 2,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which DNS record type specifies authoritative information about a DNS zone such as a primary name server, email address of the domain administrator, and domain serial number?",
     "options": [
-      "Cloud DNS",
-      "Identity-Aware Proxy",
-      "Cloud Armor",
-      "Cloud Router"
+      "SOA - Start for Authority:",
+      "NS - Name Server:",
+      "PTR - Pointer:",
+      "CNAME - Canonical Name:"
     ],
-    "a": 1,
-    "topic": "Google Cloud Security"
+    "a": 0,
+    "topic": "Course 2"
   },
   {
-    "q": "Which GCP log type shows network traffic flows?",
-    "options": ["Audit Logs", "VPC Flow Logs", "System Logs", "Access Logs"],
-    "a": 1,
-    "topic": "Google Cloud Monitoring"
-  },
-  {
-    "q": "Which cloud model provides managed infrastructure but not hardware?",
-    "options": ["SaaS", "PaaS", "IaaS", "FaaS"],
-    "a": 2,
-    "topic": "Cloud Fundamentals"
-  },
-  {
-    "q": "Which GCP load balancer operates at layer 7?",
-    "options": ["Network LB", "Internal LB", "HTTP(S) LB", "Hybrid LB"],
-    "a": 2,
-    "topic": "Google Cloud Networking"
-  },
-  {
-    "q": "Which service lets you run containerized web apps serverlessly?",
-    "options": ["GKE", "Cloud Run", "Compute Engine", "App Engine"],
-    "a": 1,
-    "topic": "Google Cloud Services"
-  },
-  {
-    "q": "Which database is designed for high scalability across regions?",
-    "options": ["Cloud SQL", "Bigtable", "Firestore", "Spanner"],
+    "q": "Which IoT technology is backed by ultra-low latency, massive connectivity and scalability for IoT devices, more efficient use of licensed spectrum, and network slicing for application traffic prioritization?",
+    "options": ["2G", "3G", "4G", "5G"],
     "a": 3,
-    "topic": "Google Cloud Databases"
+    "topic": "Course 2"
   },
   {
-    "q": "Which GCP interconnect option comes with an SLA?",
+    "q": "Which network device is essentially an intelligent hub that uses physical addresses to forward data packets to devices on a network?",
+    "options": ["Switch", "Router", "Firewall", "Server"],
+    "a": 0,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which layer of the hierarchical networking model is responsible for high-speed routing and switching? Routers and switches at this layer are designed for high-speed packet routing and forwarding.",
+    "options": ["Access", "Core", "Distribution", "Internet"],
+    "a": 1,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which type of extranet will allow businesses within an industry to share information or integrate shared business processes?",
     "options": [
-      "Carrier Peering",
-      "Direct Peering",
-      "Dedicated Interconnect",
-      "Standard Tier"
+      "Storage Area Network - SAN",
+      "Metropolitan Area Network - MAN",
+      "Campus Area Network - CAN",
+      "Value Add Network - VAN"
     ],
-    "a": 2,
-    "topic": "Google Cloud Networking"
+    "a": 3,
+    "topic": "Course 2"
   },
   {
-    "q": "In cybersecurity, what is an internal threat actor?",
+    "q": "Which task is typically not included in server and system administration duties?",
     "options": [
-      "Malicious outsider",
-      "Employee insider",
-      "Contractor only",
-      "Partner only"
+      "Account provisioning and de-provisioning",
+      "Managing account permissions",
+      "Installing and maintaining server software",
+      "Maintaining and optimizing network devices"
+    ],
+    "a": 3,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which application identification technique determines whether the initially detected application protocol is the 'real one' or if it is being used as a tunnel to hide the actual application - for example, Tor might run inside HTTPS.",
+    "options": [
+      "Application protocol detection and decryption",
+      "Application protocol decoding",
+      "Application signatures",
+      "Heuristics"
+    ],
+    "a": 0,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which Content-ID filtering capability controls the transfer of sensitive data patterns such as credit card and social security numbers in application content and attachments?",
+    "options": [
+      "File blocking by type",
+      "Data filtering",
+      "File transfer function control",
+      "File filtering by size"
     ],
     "a": 1,
-    "topic": "Security"
+    "topic": "Course 2"
   },
   {
-    "q": "Which OSI layer is responsible for routing between networks?",
+    "q": "Which Linux command gives you extensive help on how to use a command?",
+    "options": ["help", "more", "man", "guide"],
+    "a": 2,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which subscription service complements App-ID by enabling you to configure the next-generation firewall to identify and control access to websites and to protect your organization from websites hosting malware and phishing pages.",
+    "options": [
+      "URL Filtering",
+      "Wildfire",
+      "Threat Prevention",
+      "DNS Security"
+    ],
+    "a": 0,
+    "topic": "Course 2"
+  },
+  {
+    "q": "On the NGFW, which type of User-ID technique can be configured to probe Microsoft Windows servers for active network sessions of a user?",
+    "options": [
+      "Client Probing",
+      "Server Probing",
+      "Internet Probing",
+      "Connection Probing"
+    ],
+    "a": 1,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Characteristics of unified threat management (UTM) include all of the following except:",
+    "options": [
+      "Combines security functions such as firewalls, intrusion detection systems (IDS), anti-malware, and data loss prevention (DLP) in a single appliance.",
+      "Enabling all of the security functions in a UTM device can have a significant performance impact.",
+      "UTM fully integrates all of the security functions installed on the device.",
+      "UTM can be a convenient solution for small networks."
+    ],
+    "a": 2,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Characteristics of application firewalls include all of the following except:",
+    "options": [
+      "Proxies traffic rather than permitting direct communication between hosts",
+      "Can be used to implement strong user authentication",
+      "Masks the internal network from untrusted networks",
+      "Is extremely fast and has no impact on network performance"
+    ],
+    "a": 3,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which VPN technology is currently considered the preferred method for securely connecting a remote endpoint device back to an enterprise network?",
+    "options": [
+      "Point-to-point Tunneling protocol - PPTP",
+      "Secure Socket Layer - SSL",
+      "Secure Socket tunneling protocol - SSTP",
+      "Internet Protocol Security - IPSEC"
+    ],
+    "a": 3,
+    "topic": "Course 2"
+  },
+  {
+    "q": "At which Data Link sublayer does the physical address reside?",
+    "options": [
+      "Media Access Control - MAC",
+      "Logical Link Control - LLC",
+      "Data Access Control - DAC",
+      "Network Access Control - NAC"
+    ],
+    "a": 0,
+    "topic": "Course 2"
+  },
+  {
+    "q": "HTTPS interacts with which OSI layer?",
+    "options": ["Application", "Physical", "Data Link", "Session"],
+    "a": 0,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which OSI layer handles flow control, data segmentation, and reliability?",
+    "options": ["Application", "Physical", "Transport", "Data Link"],
+    "a": 2,
+    "topic": "Course 2"
+  },
+  {
+    "q": "At which OSI layer does the PDU contain sequence and acknowledgement numbers?",
+    "options": ["Application", "4", "Data Link", "6"],
+    "a": 1,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which OSI layer determines the route a packet takes from sender to receiver?",
+    "options": ["7", "1", "3", "4"],
+    "a": 2,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which OSI layer is responsible for setting up, maintaining, and ending ongoing information exchanges across a network?",
+    "options": ["6", "3", "2", "5"],
+    "a": 3,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which layer of the OSI model does Project 802 divide into two sublayers?",
     "options": ["Physical", "Data Link", "Network", "Session"],
-    "a": 2,
-    "topic": "Networking"
-  },
-  {
-    "q": "Which type of authentication header uses a token?",
-    "options": ["Basic", "Bearer", "APIKey", "Cookie"],
     "a": 1,
-    "topic": "HTTP APIs"
+    "topic": "Course 2"
   },
   {
-    "q": "True or False: Containers are heavier than virtual machines.",
-    "options": ["True", "False", "Depends", "Only in Linux"],
-    "a": 1,
-    "topic": "DevOps"
-  },
-  {
-    "q": "Which principle is core for both SecOps and DevSecOps?",
+    "q": "Which term refers to stripping header information as a PDU is passed from one layer to a higher layer?",
     "options": [
-      "Manual code review",
-      "Automation",
-      "Isolation",
-      "Exclusive tools"
-    ],
-    "a": 1,
-    "topic": "Security"
-  },
-  {
-    "q": "Which Google Cloud feature prevents data from being used outside Europe?",
-    "options": [
-      "VPC Service Controls",
-      "Organization policy constraints",
-      "Cloud Identity",
-      "Cloud Monitoring"
-    ],
-    "a": 1,
-    "topic": "Google Cloud Security"
-  },
-  {
-    "q": "Which JSON method converts a string into an object?",
-    "options": ["parse()", "stringify()", "fromJSON()", "toObject()"],
-    "a": 0,
-    "topic": "JSON Basics"
-  },
-  {
-    "q": "Which method updates an existing record in REST?",
-    "options": ["GET", "POST", "PUT", "DELETE"],
-    "a": 2,
-    "topic": "HTTP APIs"
-  },
-  {
-    "q": "What is the purpose of Git pull?",
-    "options": [
-      "Upload changes",
-      "Download changes",
-      "Delete branch",
-      "Format repo"
-    ],
-    "a": 1,
-    "topic": "DevOps"
-  },
-  {
-    "q": "Which command stages files for commit in Git?",
-    "options": ["git push", "git status", "git add", "git init"],
-    "a": 2,
-    "topic": "DevOps"
-  },
-  {
-    "q": "Which Linux command shows current directory?",
-    "options": ["ls", "pwd", "cd", "rm"],
-    "a": 1,
-    "topic": "Basics"
-  },
-  {
-    "q": "Which GCP service can store unstructured data?",
-    "options": ["Cloud SQL", "Cloud Storage", "Spanner", "Cloud Memorystore"],
-    "a": 1,
-    "topic": "Google Cloud Storage"
-  },
-  {
-    "q": "Which HTTP status code means resource not found?",
-    "options": ["200", "204", "404", "301"],
-    "a": 2,
-    "topic": "HTTP APIs"
-  },
-  {
-    "q": "Which Zero Trust component enforces least privilege?",
-    "options": ["ZTNA", "IAM", "CASB", "SWG"],
-    "a": 1,
-    "topic": "Security"
-  },
-  {
-    "q": "What is the default branch in Git called?",
-    "options": ["main", "master", "dev", "release"],
-    "a": 0,
-    "topic": "DevOps"
-  },
-  {
-    "q": "Which GCP feature routes traffic to closest endpoint?",
-    "options": ["Cloud Router", "Global LB", "Cloud Armor", "DNS Only"],
-    "a": 1,
-    "topic": "Google Cloud Networking"
-  },
-
-  {
-    "q": "Which Cisco tool automates network configuration changes?",
-    "options": ["NSO", "VIRL", "CML", "pyATS"],
-    "a": 0,
-    "topic": "Cisco Automation"
-  },
-  {
-    "q": "Which protocol is used to automate devices using structured data?",
-    "options": ["REST", "NETCONF", "SSH", "Telnet"],
-    "a": 1,
-    "topic": "REST/NETCONF"
-  },
-  {
-    "q": "Which Python data type is immutable?",
-    "options": ["list", "dict", "tuple", "set"],
-    "a": 2,
-    "topic": "Python"
-  },
-  {
-    "q": "Which Ansible module gathers facts from devices?",
-    "options": ["ios_command", "ios_facts", "ios_config", "netconf"],
-    "a": 1,
-    "topic": "Ansible"
-  },
-  {
-    "q": "Which HTTP method deletes a resource?",
-    "options": ["GET", "POST", "PUT", "DELETE"],
-    "a": 3,
-    "topic": "HTTP APIs"
-  },
-  {
-    "q": "Which SASE component provides secure access to private apps?",
-    "options": ["ZTNA", "SWG", "CASB", "SD-WAN"],
-    "a": 0,
-    "topic": "Security"
-  },
-  {
-    "q": "What GCP service allows serverless function execution?",
-    "options": ["Cloud Functions", "Cloud Run", "Compute Engine", "App Engine"],
-    "a": 0,
-    "topic": "Google Cloud Services"
-  },
-  {
-    "q": "Which load balancer operates at L4?",
-    "options": ["HTTP(S) LB", "TCP/UDP LB", "Internal LB", "Global LB"],
-    "a": 1,
-    "topic": "Google Cloud Networking"
-  },
-  {
-    "q": "Which network topology isolates sensitive data?",
-    "options": ["Hub-and-spoke", "Mesh", "Star", "Ring"],
-    "a": 0,
-    "topic": "Networking"
-  },
-  {
-    "q": "Which GCP log records API calls for auditing?",
-    "options": ["VPC Flow Logs", "Audit Logs", "System Logs", "Access Logs"],
-    "a": 1,
-    "topic": "Google Cloud Security"
-  },
-  {
-    "q": "True or False: Containers run isolated processes sharing the kernel.",
-    "options": ["True", "False", "Depends", "Only Linux"],
-    "a": 0,
-    "topic": "DevOps"
-  },
-  {
-    "q": "Which Git command shows commit history?",
-    "options": ["git log", "git status", "git branch", "git commit"],
-    "a": 0,
-    "topic": "DevOps"
-  },
-  {
-    "q": "Which Zero Trust principle applies verification at every step?",
-    "options": [
-      "Trust but verify",
-      "Never trust, always verify",
-      "Implicit trust",
-      "Perimeter only"
-    ],
-    "a": 1,
-    "topic": "Security"
-  },
-  {
-    "q": "What is the main advantage of Jinja2 templates in Ansible?",
-    "options": ["Automation", "Dynamic configs", "Debugging", "Monitoring"],
-    "a": 1,
-    "topic": "Ansible"
-  },
-  {
-    "q": "Which Cisco tool allows API-based testing?",
-    "options": ["CML", "NSO", "VIRL", "Ansible"],
-    "a": 2,
-    "topic": "Cisco Automation"
-  },
-  {
-    "q": "Which GCP database is NoSQL and scalable?",
-    "options": ["Cloud SQL", "Firestore", "Spanner", "Bigtable"],
-    "a": 1,
-    "topic": "Google Cloud Databases"
-  },
-  {
-    "q": "Which Python function returns length of a collection?",
-    "options": ["size()", "count()", "len()", "length()"],
-    "a": 2,
-    "topic": "Python"
-  },
-  {
-    "q": "Which GCP feature enforces resource access policies?",
-    "options": ["Cloud IAM", "Cloud Armor", "VPC Firewall", "Cloud DNS"],
-    "a": 0,
-    "topic": "Google Cloud Security"
-  },
-  {
-    "q": "What command stages files in Git for commit?",
-    "options": ["git push", "git add", "git commit", "git status"],
-    "a": 1,
-    "topic": "DevOps"
-  },
-  {
-    "q": "Which SASE component inspects web traffic for malware?",
-    "options": ["ZTNA", "SWG", "CASB", "Firewall"],
-    "a": 1,
-    "topic": "Security"
-  },
-  {
-    "q": "Which OSI layer is responsible for MAC addresses?",
-    "options": ["Network", "Data Link", "Physical", "Session"],
-    "a": 1,
-    "topic": "Networking"
-  },
-  {
-    "q": "Which HTTP status code means unauthorized?",
-    "options": ["200", "401", "403", "404"],
-    "a": 1,
-    "topic": "HTTP APIs"
-  },
-  {
-    "q": "Which GCP feature routes traffic within a VPC?",
-    "options": ["Cloud Router", "Cloud NAT", "Shared VPC", "Peering"],
-    "a": 0,
-    "topic": "Google Cloud Networking"
-  },
-  {
-    "q": "Which Ansible module configures IOS devices?",
-    "options": ["ios_command", "ios_facts", "ios_config", "netconf"],
-    "a": 2,
-    "topic": "Ansible"
-  },
-  {
-    "q": "Which Git command downloads remote changes?",
-    "options": ["git pull", "git push", "git clone", "git fetch"],
-    "a": 0,
-    "topic": "DevOps"
-  },
-  {
-    "q": "Which HTTP method submits new data to a server?",
-    "options": ["GET", "POST", "PUT", "DELETE"],
-    "a": 1,
-    "topic": "HTTP APIs"
-  },
-  {
-    "q": "Which Python data type is unordered?",
-    "options": ["dict", "list", "tuple", "set"],
-    "a": 3,
-    "topic": "Python"
-  },
-  {
-    "q": "Which GCP service is for object storage?",
-    "options": ["Cloud SQL", "Cloud Storage", "Firestore", "Bigtable"],
-    "a": 1,
-    "topic": "Google Cloud Storage"
-  },
-  {
-    "q": "Which SASE principle ensures complete traffic visibility?",
-    "options": ["ZTNA", "CASB", "SWG", "ADEM"],
-    "a": 3,
-    "topic": "Security"
-  },
-  {
-    "q": "Which cloud model provides applications only?",
-    "options": ["IaaS", "PaaS", "SaaS", "FaaS"],
-    "a": 2,
-    "topic": "Cloud Fundamentals"
-  },
-  {
-    "q": "Which GCP load balancer is global?",
-    "options": ["Network LB", "Internal LB", "HTTP(S) LB", "TCP LB"],
-    "a": 2,
-    "topic": "Google Cloud Networking"
-  },
-  {
-    "q": "Which tool automates testing and validation of network devices?",
-    "options": ["CML", "VIRL", "NSO", "pyATS"],
-    "a": 3,
-    "topic": "Cisco Automation"
-  },
-  {
-    "q": "Which Zero Trust principle enforces least privilege?",
-    "options": ["ZTNA", "IAM", "SWG", "CASB"],
-    "a": 1,
-    "topic": "Security"
-  },
-  {
-    "q": "Which DevOps tool builds reproducible environments?",
-    "options": ["Docker", "Vagrant", "Pipenv", "Qemu"],
-    "a": 0,
-    "topic": "DevOps"
-  },
-  {
-    "q": "Which Ansible file defines host variables?",
-    "options": ["inventory", "playbook", "vars", "roles"],
-    "a": 2,
-    "topic": "Ansible"
-  },
-  {
-    "q": "Which HTTP status code indicates success?",
-    "options": ["200", "404", "500", "403"],
-    "a": 0,
-    "topic": "HTTP APIs"
-  },
-  {
-    "q": "Which OSI layer handles routing between networks?",
-    "options": ["Network", "Data Link", "Session", "Transport"],
-    "a": 0,
-    "topic": "Networking"
-  },
-  {
-    "q": "True or False: Containers are lighter than VMs.",
-    "options": ["True", "False", "Depends", "Only Linux"],
-    "a": 0,
-    "topic": "DevOps"
-  },
-  {
-    "q": "Which Git command creates a new repository?",
-    "options": ["git init", "git clone", "git add", "git push"],
-    "a": 0,
-    "topic": "DevOps"
-  },
-  {
-    "q": "Which Google Cloud feature sets policies per organization unit?",
-    "options": ["Cloud IAM", "Organization Policy", "Cloud Armor", "Cloud DNS"],
-    "a": 1,
-    "topic": "Google Cloud Security"
-  },
-  {
-    "q": "Which Ansible module retrieves device facts?",
-    "options": ["ios_config", "ios_facts", "ios_command", "netconf"],
-    "a": 1,
-    "topic": "Ansible"
-  },
-  {
-    "q": "Which GCP service allows serverless containers?",
-    "options": ["GKE", "Cloud Run", "App Engine", "Compute Engine"],
-    "a": 1,
-    "topic": "Google Cloud Services"
-  },
-  {
-    "q": "Which database scales automatically and globally?",
-    "options": ["Cloud SQL", "Firestore", "Spanner", "Bigtable"],
-    "a": 2,
-    "topic": "Google Cloud Databases"
-  },
-  {
-    "q": "Which HTTP method updates a resource fully?",
-    "options": ["GET", "POST", "PUT", "PATCH"],
-    "a": 2,
-    "topic": "HTTP APIs"
-  },
-  {
-    "q": "Which Python method converts object to string?",
-    "options": ["json.parse()", "json.stringify()", "str()", "toString()"],
-    "a": 2,
-    "topic": "Python"
-  },
-  {
-    "q": "Which Git command shows branches?",
-    "options": ["git log", "git status", "git branch", "git remote"],
-    "a": 2,
-    "topic": "DevOps"
-  },
-  {
-    "q": "Which GCP log tracks API calls for auditing?",
-    "options": ["Audit Logs", "VPC Flow Logs", "System Logs", "Access Logs"],
-    "a": 0,
-    "topic": "Google Cloud Security"
-  },
-  {
-    "q": "Which SASE component manages cloud SaaS access?",
-    "options": ["ZTNA", "SWG", "CASB", "SD-WAN"],
-    "a": 2,
-    "topic": "Security"
-  },
-  {
-    "q": "Which Cisco tool models network topologies for testing?",
-    "options": ["VIRL", "NSO", "CML", "pyATS"],
-    "a": 0,
-    "topic": "Cisco Automation"
-  },
-  {
-    "q": "Which Python data type allows duplicate items?",
-    "options": ["set", "dict", "tuple", "list"],
-    "a": 3,
-    "topic": "Python"
-  },
-  {
-    "q": "Which OSI layer provides end-to-end communication?",
-    "options": ["Transport", "Network", "Data Link", "Session"],
-    "a": 0,
-    "topic": "Networking"
-  },
-  {
-    "q": "True or False: REST API requests must be stateless.",
-    "options": ["True", "False", "Sometimes", "Depends"],
-    "a": 0,
-    "topic": "REST/NETCONF"
-  },
-  {
-    "q": "Which Ansible module applies configuration templates?",
-    "options": ["template", "copy", "command", "lineinfile"],
-    "a": 0,
-    "topic": "Ansible"
-  },
-  {
-    "q": "Which GCP interconnect option is private?",
-    "options": [
-      "Carrier Peering",
-      "Direct Peering",
-      "Dedicated Interconnect",
-      "Standard Tier"
-    ],
-    "a": 2,
-    "topic": "Google Cloud Networking"
-  },
-  {
-    "q": "Which HTTP header contains basic authentication?",
-    "options": ["Authorization", "Cookie", "Token", "APIKey"],
-    "a": 0,
-    "topic": "HTTP APIs"
-  },
-  {
-    "q": "Which DevOps practice ensures code quality via continuous testing?",
-    "options": ["CI/CD", "Versioning", "Monitoring", "Deployment"],
-    "a": 0,
-    "topic": "DevOps"
-  },
-  {
-    "q": "Which Zero Trust component validates identity before granting access?",
-    "options": ["ZTNA", "IAM", "SWG", "Firewall"],
-    "a": 1,
-    "topic": "Security"
-  },
-  {
-    "q": "Which Python function converts string to integer?",
-    "options": ["int()", "str()", "float()", "bool()"],
-    "a": 0,
-    "topic": "Python"
-  },
-  {
-    "q": "Which SASE principle allows secure access from any location?",
-    "options": ["ZTNA", "CASB", "SWG", "ADEM"],
-    "a": 0,
-    "topic": "Security"
-  },
-  {
-    "q": "Which GCP service enables monitoring and alerting?",
-    "options": [
-      "Cloud Logging",
-      "Cloud Monitoring",
-      "Cloud Trace",
-      "Cloud Debugger"
-    ],
-    "a": 1,
-    "topic": "Google Cloud Monitoring"
-  },
-  {
-    "q": "Which Git command uploads commits to remote?",
-    "options": ["git pull", "git push", "git add", "git commit"],
-    "a": 1,
-    "topic": "DevOps"
-  },
-  {
-    "q": "Which Ansible file defines the sequence of tasks?",
-    "options": ["playbook", "inventory", "vars", "roles"],
-    "a": 0,
-    "topic": "Ansible"
-  },
-  {
-    "q": "Which Cisco automation tool supports REST APIs?",
-    "options": ["VIRL", "CML", "NSO", "pyATS"],
-    "a": 2,
-    "topic": "Cisco Automation"
-  },
-  {
-    "q": "Which cloud model provides only runtime environment?",
-    "options": ["SaaS", "PaaS", "IaaS", "FaaS"],
-    "a": 3,
-    "topic": "Cloud Fundamentals"
-  },
-  {
-    "q": "Which GCP load balancer is internal only?",
-    "options": ["Internal LB", "Network LB", "HTTP LB", "Global LB"],
-    "a": 0,
-    "topic": "Google Cloud Networking"
-  },
-  {
-    "q": "Which Python keyword is used to define a function?",
-    "options": ["func", "define", "def", "function"],
-    "a": 2,
-    "topic": "Python"
-  },
-  {
-    "q": "Which Ansible module manages files on a remote host?",
-    "options": ["copy", "file", "template", "lineinfile"],
-    "a": 1,
-    "topic": "Ansible"
-  },
-  {
-    "q": "Which HTTP method partially updates a resource?",
-    "options": ["GET", "POST", "PUT", "PATCH"],
-    "a": 3,
-    "topic": "HTTP APIs"
-  },
-  {
-    "q": "Which GCP service is used for container orchestration?",
-    "options": ["Cloud Run", "Cloud Functions", "GKE", "Compute Engine"],
-    "a": 2,
-    "topic": "Google Cloud Services"
-  },
-  {
-    "q": "Which SASE component inspects cloud application traffic?",
-    "options": ["ZTNA", "CASB", "SWG", "Firewall"],
-    "a": 1,
-    "topic": "Security"
-  },
-  {
-    "q": "True or False: NETCONF uses XML for configuration data.",
-    "options": ["True", "False", "Sometimes", "Depends"],
-    "a": 0,
-    "topic": "REST/NETCONF"
-  },
-  {
-    "q": "Which Git command creates a branch?",
-    "options": ["git branch", "git checkout", "git merge", "git log"],
-    "a": 0,
-    "topic": "DevOps"
-  },
-  {
-    "q": "Which OSI layer handles logical addressing?",
-    "options": ["Data Link", "Network", "Transport", "Session"],
-    "a": 1,
-    "topic": "Networking"
-  },
-  {
-    "q": "Which Python function outputs to console?",
-    "options": ["print()", "echo()", "console.log()", "write()"],
-    "a": 0,
-    "topic": "Python"
-  },
-  {
-    "q": "Which GCP feature allows private communication between VPCs?",
-    "options": ["VPC Peering", "Cloud NAT", "Shared VPC", "Cloud Router"],
-    "a": 0,
-    "topic": "Google Cloud Networking"
-  },
-  {
-    "q": "Which Ansible module executes CLI commands on devices?",
-    "options": ["ios_command", "ios_facts", "ios_config", "netconf"],
-    "a": 0,
-    "topic": "Ansible"
-  },
-  {
-    "q": "Which Cisco automation tool supports network modeling and simulation?",
-    "options": ["NSO", "VIRL", "CML", "pyATS"],
-    "a": 2,
-    "topic": "Cisco Automation"
-  },
-  {
-    "q": "Which HTTP status code indicates forbidden access?",
-    "options": ["401", "403", "404", "500"],
-    "a": 1,
-    "topic": "HTTP APIs"
-  },
-  {
-    "q": "Which DevOps practice involves continuous integration?",
-    "options": ["CI/CD", "GitOps", "Monitoring", "Testing"],
-    "a": 0,
-    "topic": "DevOps"
-  },
-  {
-    "q": "Which Python data type stores key-value pairs?",
-    "options": ["dict", "list", "set", "tuple"],
-    "a": 0,
-    "topic": "Python"
-  },
-  {
-    "q": "Which GCP load balancer distributes traffic globally for HTTP(S)?",
-    "options": ["Network LB", "Internal LB", "HTTP(S) LB", "TCP LB"],
-    "a": 2,
-    "topic": "Google Cloud Networking"
-  },
-  {
-    "q": "Which SASE component enforces web filtering policies?",
-    "options": ["ZTNA", "SWG", "CASB", "Firewall"],
-    "a": 1,
-    "topic": "Security"
-  },
-  {
-    "q": "Which cloud model provides full infrastructure control?",
-    "options": ["SaaS", "PaaS", "IaaS", "FaaS"],
-    "a": 2,
-    "topic": "Cloud Fundamentals"
-  },
-  {
-    "q": "Which Git command shows the status of changes?",
-    "options": ["git log", "git status", "git add", "git commit"],
-    "a": 1,
-    "topic": "DevOps"
-  },
-  {
-    "q": "Which Ansible module copies files from control node to managed node?",
-    "options": ["template", "copy", "file", "command"],
-    "a": 1,
-    "topic": "Ansible"
-  },
-  {
-    "q": "Which Zero Trust principle limits lateral movement?",
-    "options": ["Microsegmentation", "Least privilege", "ZTNA", "CASB"],
-    "a": 0,
-    "topic": "Security"
-  },
-  {
-    "q": "Which Python keyword handles exceptions?",
-    "options": ["try", "except", "catch", "error"],
-    "a": 1,
-    "topic": "Python"
-  },
-  {
-    "q": "Which GCP database service is relational?",
-    "options": ["Cloud SQL", "Firestore", "Bigtable", "Spanner"],
-    "a": 0,
-    "topic": "Google Cloud Databases"
-  },
-  {
-    "q": "Which HTTP header is used for bearer tokens?",
-    "options": ["Authorization", "Cookie", "APIKey", "Token"],
-    "a": 0,
-    "topic": "HTTP APIs"
-  },
-  {
-    "q": "True or False: Containers include the OS kernel.",
-    "options": ["True", "False", "Depends", "Only Linux"],
-    "a": 1,
-    "topic": "DevOps"
-  },
-  {
-    "q": "Which GCP feature restricts data movement across regions?",
-    "options": [
-      "Cloud IAM",
-      "Organization Policy",
-      "Cloud Armor",
-      "VPC Firewall"
-    ],
-    "a": 1,
-    "topic": "Google Cloud Security"
-  },
-  {
-    "q": "Which Cisco tool allows API-driven network validation?",
-    "options": ["CML", "VIRL", "NSO", "pyATS"],
-    "a": 3,
-    "topic": "Cisco Automation"
-  },
-  {
-    "q": "Which OSI layer ensures end-to-end delivery?",
-    "options": ["Network", "Data Link", "Transport", "Session"],
-    "a": 2,
-    "topic": "Networking"
-  },
-  {
-    "q": "Which SASE component provides secure remote access?",
-    "options": ["ZTNA", "SWG", "CASB", "Firewall"],
-    "a": 0,
-    "topic": "Security"
-  },
-  {
-    "q": "Which DevOps tool isolates environments with containers?",
-    "options": ["Docker", "Vagrant", "Pipenv", "Qemu"],
-    "a": 0,
-    "topic": "DevOps"
-  },
-  {
-    "q": "Which Python keyword declares a class?",
-    "options": ["class", "def", "object", "module"],
-    "a": 0,
-    "topic": "Python"
-  },
-  {
-    "q": "Which GCP service allows logging metrics and creating alerts?",
-    "options": [
-      "Cloud Monitoring",
-      "Cloud Logging",
-      "Cloud Trace",
-      "Cloud Debugger"
+      "De-encapsulation",
+      "Encapsulation",
+      "PDU stripping",
+      "Packetization"
     ],
     "a": 0,
-    "topic": "Google Cloud Monitoring"
+    "topic": "Course 2"
   },
   {
-    "q": "Which Ansible module manages device templates?",
-    "options": ["template", "copy", "lineinfile", "command"],
-    "a": 0,
-    "topic": "Ansible"
-  },
-  {
-    "q": "Which HTTP method retrieves information from server?",
-    "options": ["GET", "POST", "PUT", "DELETE"],
-    "a": 0,
-    "topic": "HTTP APIs"
-  },
-  {
-    "q": "Which Git command merges branches?",
-    "options": ["git merge", "git rebase", "git commit", "git branch"],
-    "a": 0,
-    "topic": "DevOps"
-  },
-  {
-    "q": "Which cloud model abstracts runtime and application stack?",
-    "options": ["IaaS", "PaaS", "SaaS", "FaaS"],
-    "a": 1,
-    "topic": "Cloud Fundamentals"
-  },
-  {
-    "q": "Which GCP service allows serverless execution of containers?",
-    "options": ["GKE", "Cloud Functions", "Cloud Run", "App Engine"],
-    "a": 2,
-    "topic": "Google Cloud Services"
-  },
-  {
-    "q": "Which Python method converts list to string?",
-    "options": ["str()", "join()", "concat()", "print()"],
-    "a": 1,
-    "topic": "Python"
-  },
-  {
-    "q": "Which Cisco tool models networks for QA testing?",
-    "options": ["VIRL", "NSO", "CML", "pyATS"],
-    "a": 0,
-    "topic": "Cisco Automation"
-  },
-  {
-    "q": "Which HTTP code indicates resource not found?",
-    "options": ["404", "403", "401", "500"],
-    "a": 0,
-    "topic": "HTTP APIs"
-  },
-  {
-    "q": "Which DevOps practice uses automated deployment pipelines?",
-    "options": ["CI/CD", "Versioning", "Testing", "Monitoring"],
-    "a": 0,
-    "topic": "DevOps"
-  },
-  {
-    "q": "Which Ansible module manages device facts?",
-    "options": ["ios_command", "ios_facts", "ios_config", "netconf"],
-    "a": 1,
-    "topic": "Ansible"
-  },
-  {
-    "q": "Which OSI layer manages MAC addressing?",
-    "options": ["Physical", "Data Link", "Network", "Transport"],
-    "a": 1,
-    "topic": "Networking"
-  },
-  {
-    "q": "Which GCP feature enables private communication between services?",
-    "options": ["VPC Peering", "Cloud NAT", "Shared VPC", "Cloud Router"],
-    "a": 2,
-    "topic": "Google Cloud Networking"
-  },
-  {
-    "q": "Which Zero Trust principle enforces strict access control?",
-    "options": ["IAM", "ZTNA", "SWG", "Firewall"],
-    "a": 0,
-    "topic": "Security"
-  },
-  {
-    "q": "True or False: RESTCONF is based on YANG models.",
-    "options": ["True", "False", "Sometimes", "Depends"],
-    "a": 0,
-    "topic": "REST/NETCONF"
-  },
-  {
-    "q": "Which Git command clones a repository?",
-    "options": ["git init", "git clone", "git pull", "git push"],
-    "a": 1,
-    "topic": "DevOps"
-  },
-  {
-    "q": "Which Python function reads user input?",
-    "options": ["input()", "read()", "get()", "scan()"],
-    "a": 0,
-    "topic": "Python"
-  },
-  {
-    "q": "Which GCP load balancer distributes TCP/UDP traffic?",
-    "options": ["HTTP LB", "Network LB", "Internal LB", "Global LB"],
-    "a": 1,
-    "topic": "Google Cloud Networking"
-  },
-  {
-    "q": "Which SASE component monitors SaaS applications?",
-    "options": ["ZTNA", "SWG", "CASB", "ADEM"],
-    "a": 2,
-    "topic": "Security"
-  },
-  {
-    "q": "Which Ansible file contains hosts and groups?",
-    "options": ["inventory", "playbook", "vars", "roles"],
-    "a": 0,
-    "topic": "Ansible"
-  },
-  {
-    "q": "Which HTTP method creates a new resource?",
-    "options": ["POST", "GET", "PUT", "DELETE"],
-    "a": 0,
-    "topic": "HTTP APIs"
-  },
-  {
-    "q": "Which Python keyword creates a loop?",
-    "options": ["for", "loop", "while", "repeat"],
-    "a": 0,
-    "topic": "Python"
-  },
-  {
-    "q": "Which GCP database is designed for time-series data?",
-    "options": ["Firestore", "Bigtable", "Cloud SQL", "Spanner"],
-    "a": 1,
-    "topic": "Google Cloud Databases"
-  },
-  {
-    "q": "Which DevOps tool manages Python dependencies?",
-    "options": ["Docker", "Pipenv", "Vagrant", "Ansible"],
-    "a": 1,
-    "topic": "DevOps"
-  },
-  {
-    "q": "Which Cisco tool allows programmatic network orchestration?",
-    "options": ["NSO", "VIRL", "CML", "pyATS"],
-    "a": 0,
-    "topic": "Cisco Automation"
-  },
-  {
-    "q": "Which OSI layer handles error detection and framing?",
-    "options": ["Data Link", "Network", "Transport", "Session"],
-    "a": 0,
-    "topic": "Networking"
-  },
-  {
-    "q": "Which GCP log type tracks network flow data?",
-    "options": ["Audit Logs", "VPC Flow Logs", "System Logs", "Access Logs"],
-    "a": 1,
-    "topic": "Google Cloud Security"
-  },
-  {
-    "q": "Which SASE component provides secure web gateway?",
-    "options": ["ZTNA", "SWG", "CASB", "Firewall"],
-    "a": 1,
-    "topic": "Security"
-  },
-  {
-    "q": "Which Python collection is ordered and mutable?",
-    "options": ["list", "dict", "tuple", "set"],
-    "a": 0,
-    "topic": "Python"
-  },
-  {
-    "q": "Which Git command discards local changes?",
-    "options": ["git reset", "git revert", "git checkout", "git clean"],
-    "a": 2,
-    "topic": "DevOps"
-  },
-  {
-    "q": "Which Ansible module manages text lines in a file?",
-    "options": ["lineinfile", "copy", "template", "ios_command"],
-    "a": 0,
-    "topic": "Ansible"
-  },
-  {
-    "q": "Which GCP service allows secure API management?",
+    "q": "Which of the following problems can occur at the Physical layer of the OSI Model?",
     "options": [
-      "API Gateway",
-      "Cloud Run",
-      "Cloud Functions",
-      "Cloud Endpoints"
+      "NIC driver problems",
+      "Incorrect IP addresses",
+      "Signal errors caused by noise"
+    ],
+    "a": 2,
+    "topic": "Course 2"
+  },
+  {
+    "q": "In the Kipling Model of Zero Trust which question allows security solutions to track where accessed data resides?",
+    "options": ["Where", "What", "Who", "How"],
+    "a": 0,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which control point in a Zero-Trust Model scans all content for malicious activity and data theft?",
+    "options": ["Access", "Transaction", "Device/Workload", "Identity"],
+    "a": 1,
+    "topic": "Course 2"
+  },
+  {
+    "q": "In the Kipling Model of Zero Trust which question asks for the asserted identity of the user or entity that attempts resource access?",
+    "options": ["When", "What", "Who", "How"],
+    "a": 2,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Select True or False - Zero Trust is intended to remedy the deficiencies of perimeter-centric strategies.",
+    "options": ["True", "False"],
+    "a": 0,
+    "topic": "Course 2"
+  },
+  {
+    "q": "In the Kipling Model of Zero Trust which question identifies the application used to access protected data?",
+    "options": ["What", "When", "How", "Where"],
+    "a": 0,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Select True or False - Zero Trust eliminates Implicit Trust",
+    "options": ["True", "False"],
+    "a": 0,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which Microsoft Zero Trust Guiding Principle minimizes blast radius and segment access?",
+    "options": [
+      "Assume Breach",
+      "Least Privileged Access",
+      "Trust and Verify",
+      "Verify Explicitly"
+    ],
+    "a": 1,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which of the following are limitations of Zero Trust Network Access 1?",
+    "options": [
+      "Secures all apps",
+      "Adheres to the principles of Least Privileged Access",
+      "Doesn't protect data"
+    ],
+    "a": 2,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which of the following is an appropriate explanation of the functions of Zero Trust?",
+    "options": [
+      "Cooper Test",
+      "CART Model",
+      "Keynesian Theory",
+      "Kipling Method"
     ],
     "a": 3,
-    "topic": "Google Cloud Security"
+    "topic": "Course 2"
   },
   {
-    "q": "Which DevOps practice ensures reproducible builds?",
-    "options": ["CI/CD", "Versioning", "Testing", "Monitoring"],
-    "a": 0,
-    "topic": "DevOps"
-  },
-  {
-    "q": "Which cloud model abstracts all software and infrastructure?",
-    "options": ["SaaS", "PaaS", "IaaS", "FaaS"],
-    "a": 0,
-    "topic": "Cloud Fundamentals"
-  },
-  {
-    "q": "Which Python data type is unordered and unique?",
-    "options": ["list", "tuple", "dict", "set"],
-    "a": 3,
-    "topic": "Python"
-  },
-  {
-    "q": "Which GCP service allows scalable relational databases?",
-    "options": ["Cloud SQL", "Firestore", "Spanner", "Bigtable"],
-    "a": 2,
-    "topic": "Google Cloud Databases"
-  },
-  {
-    "q": "Which HTTP status code indicates internal server error?",
-    "options": ["500", "404", "403", "200"],
-    "a": 0,
-    "topic": "HTTP APIs"
-  },
-  {
-    "q": "Which Cisco tool allows virtual network simulation?",
-    "options": ["CML", "VIRL", "NSO", "pyATS"],
-    "a": 1,
-    "topic": "Cisco Automation"
-  },
-  {
-    "q": "Which Ansible module manages CLI commands on IOS devices?",
-    "options": ["ios_command", "ios_facts", "ios_config", "netconf"],
-    "a": 0,
-    "topic": "Ansible"
-  },
-  {
-    "q": "Which GCP service allows serverless event-driven execution?",
-    "options": ["Cloud Run", "Cloud Functions", "GKE", "App Engine"],
-    "a": 1,
-    "topic": "Google Cloud Services"
-  },
-  {
-    "q": "True or False: Containers share the host OS kernel.",
-    "options": ["True", "False", "Depends", "Only Linux"],
-    "a": 0,
-    "topic": "DevOps"
-  },
-  {
-    "q": "Which SASE component enforces zero trust access?",
-    "options": ["ZTNA", "CASB", "SWG", "Firewall"],
-    "a": 0,
-    "topic": "Security"
-  },
-  {
-    "q": "Which OSI layer provides reliable data transfer?",
-    "options": ["Transport", "Network", "Data Link", "Session"],
-    "a": 0,
-    "topic": "Networking"
-  },
-  {
-    "q": "Which Git command downloads latest commits without merging?",
-    "options": ["git pull", "git fetch", "git clone", "git checkout"],
-    "a": 1,
-    "topic": "DevOps"
-  },
-  {
-    "q": "Which Python keyword declares a loop that continues while condition is true?",
-    "options": ["for", "loop", "while", "repeat"],
-    "a": 2,
-    "topic": "Python"
-  },
-  {
-    "q": "Which GCP feature secures cloud apps using policies?",
-    "options": ["CASB", "Cloud Armor", "IAM", "VPC"],
-    "a": 0,
-    "topic": "Google Cloud Security"
-  },
-  {
-    "q": "Which Ansible module manages service states on devices?",
-    "options": ["service", "systemd", "command", "ios_service"],
-    "a": 0,
-    "topic": "Ansible"
-  },
-  {
-    "q": "Which HTTP header carries content type information?",
-    "options": ["Content-Type", "Authorization", "Accept", "Host"],
-    "a": 0,
-    "topic": "HTTP APIs"
-  },
-  {
-    "q": "Which Git command shows commit history?",
-    "options": ["git log", "git status", "git branch", "git diff"],
-    "a": 0,
-    "topic": "DevOps"
-  },
-  {
-    "q": "Which Python method adds an element to a list?",
-    "options": ["append()", "add()", "insert()", "push()"],
-    "a": 0,
-    "topic": "Python"
-  },
-  {
-    "q": "Which GCP service provides managed Kubernetes clusters?",
-    "options": ["Cloud Run", "GKE", "Cloud Functions", "App Engine"],
-    "a": 1,
-    "topic": "Google Cloud Services"
-  },
-  {
-    "q": "True or False: Zero Trust requires continuous verification of users.",
-    "options": ["True", "False", "Sometimes", "Depends"],
-    "a": 0,
-    "topic": "Security"
-  },
-  {
-    "q": "Which Cisco tool allows configuration automation via Python?",
-    "options": ["NSO", "VIRL", "CML", "pyATS"],
-    "a": 0,
-    "topic": "Cisco Automation"
-  },
-  {
-    "q": "Which OSI layer defines routing between networks?",
-    "options": ["Network", "Data Link", "Transport", "Session"],
-    "a": 0,
-    "topic": "Networking"
-  },
-  {
-    "q": "Which SASE component enforces cloud access policies?",
-    "options": ["ZTNA", "SWG", "CASB", "Firewall"],
-    "a": 2,
-    "topic": "Security"
-  },
-  {
-    "q": "Which DevOps tool creates reproducible virtual environments?",
-    "options": ["Docker", "Vagrant", "Pipenv", "Ansible"],
-    "a": 1,
-    "topic": "DevOps"
-  },
-  {
-    "q": "Which Python keyword defines an exception handler?",
-    "options": ["try", "except", "catch", "error"],
-    "a": 1,
-    "topic": "Python"
-  },
-  {
-    "q": "Which GCP service enables structured relational data storage?",
-    "options": ["Cloud SQL", "Firestore", "Bigtable", "Spanner"],
-    "a": 0,
-    "topic": "Google Cloud Databases"
-  },
-  {
-    "q": "Which HTTP method updates a resource completely?",
-    "options": ["PUT", "GET", "POST", "PATCH"],
-    "a": 0,
-    "topic": "HTTP APIs"
-  },
-  {
-    "q": "Which Ansible module manages users on devices?",
-    "options": ["user", "group", "ios_user", "command"],
-    "a": 0,
-    "topic": "Ansible"
-  },
-  {
-    "q": "Which Git command creates a new commit?",
-    "options": ["git commit", "git add", "git push", "git merge"],
-    "a": 0,
-    "topic": "DevOps"
-  },
-  {
-    "q": "Which cloud model abstracts infrastructure entirely?",
-    "options": ["SaaS", "PaaS", "IaaS", "FaaS"],
-    "a": 0,
-    "topic": "Cloud Fundamentals"
-  },
-  {
-    "q": "Which Python data type stores an ordered sequence of elements?",
-    "options": ["list", "tuple", "dict", "set"],
-    "a": 0,
-    "topic": "Python"
-  },
-  {
-    "q": "Which GCP load balancer handles global HTTP/HTTPS traffic?",
-    "options": ["Network LB", "Internal LB", "HTTP(S) LB", "TCP LB"],
-    "a": 2,
-    "topic": "Google Cloud Networking"
-  },
-  {
-    "q": "Which SASE component provides secure remote access without VPN?",
-    "options": ["ZTNA", "SWG", "CASB", "Firewall"],
-    "a": 0,
-    "topic": "Security"
-  },
-  {
-    "q": "Which OSI layer is responsible for framing and MAC addressing?",
-    "options": ["Data Link", "Network", "Transport", "Physical"],
-    "a": 0,
-    "topic": "Networking"
-  },
-  {
-    "q": "Which DevOps practice emphasizes automation of deployments?",
-    "options": ["CI/CD", "Testing", "Monitoring", "Versioning"],
-    "a": 0,
-    "topic": "DevOps"
-  },
-  {
-    "q": "Which Python keyword creates a class?",
-    "options": ["class", "def", "object", "module"],
-    "a": 0,
-    "topic": "Python"
-  },
-  {
-    "q": "Which GCP service provides audit logs for user actions?",
+    "q": "Which of the following statements is the best way to describe Zero Trust?",
     "options": [
-      "Cloud Logging",
-      "Cloud Monitoring",
-      "VPC Flow Logs",
-      "Audit Logs"
+      "Zero Trust endpoint applications are automatically verified",
+      "Never Trust - Always Verify",
+      "Always Trust - Always Verify",
+      "Zero Trust eliminates the need for user authentication"
+    ],
+    "a": 1,
+    "topic": "Course 2"
+  },
+  {
+    "q": "An effective SASE solution needs to service the following requirements - Select the best answer.",
+    "options": [
+      "Mobility",
+      "Scalability",
+      "Diversity - Carrier Agnostic",
+      "All of the answers"
     ],
     "a": 3,
-    "topic": "Google Cloud Security"
+    "topic": "Course 2"
   },
   {
-    "q": "Which Ansible module configures device templates?",
-    "options": ["template", "copy", "lineinfile", "command"],
-    "a": 0,
-    "topic": "Ansible"
+    "q": "Select the phrase below that best fills in the blank in the following sentence - A successful SASE deployment employs a ____________________ approach, as it services a company's need to provide application resources for a hybrid work demand.",
+    "options": ["mobile", "restricted", "proprietary", "cloud first"],
+    "a": 3,
+    "topic": "Course 2"
   },
   {
-    "q": "Which HTTP method retrieves information?",
-    "options": ["GET", "POST", "PUT", "DELETE"],
-    "a": 0,
-    "topic": "HTTP APIs"
-  },
-  {
-    "q": "Which Git command merges one branch into another?",
-    "options": ["git merge", "git rebase", "git commit", "git branch"],
-    "a": 0,
-    "topic": "DevOps"
-  },
-  {
-    "q": "Which cloud model abstracts runtime and app stack?",
-    "options": ["IaaS", "PaaS", "SaaS", "FaaS"],
+    "q": "The term SASE stands for:",
+    "options": [
+      "Services Authentication Services Edge",
+      "Secure Access Services Edge",
+      "Secure Access Standards Enforcement",
+      "Standards Authentication Services Enforcement"
+    ],
     "a": 1,
-    "topic": "Cloud Fundamentals"
+    "topic": "Course 2"
   },
   {
-    "q": "Which GCP service executes containers serverlessly?",
-    "options": ["GKE", "Cloud Functions", "Cloud Run", "App Engine"],
-    "a": 2,
-    "topic": "Google Cloud Services"
-  },
-  {
-    "q": "Which Python method joins elements of a list into a string?",
-    "options": ["join()", "str()", "concat()", "print()"],
+    "q": "Which of the following is NOT one of the 10 Tenets of an Effective SASE Solution?",
+    "options": [
+      "Complexity",
+      "Cost Reduction",
+      "Monitoring and Reporting",
+      "Agility"
+    ],
     "a": 0,
-    "topic": "Python"
+    "topic": "Course 2"
   },
   {
-    "q": "Which Cisco automation tool simulates networks?",
+    "q": "Which of the following is NOT one of the Ten Benefits of SASE?",
+    "options": [
+      "Authentication Capabilities",
+      "Service Connections",
+      "Default Routes",
+      "Website Enrollments"
+    ],
+    "a": 2,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which Prisma Access Architecture Layer provides SD-WAN, VPN, ZTNA, and QoS capabilities?",
+    "options": [
+      "Public Cloud",
+      "Management",
+      "Security-as-a-service",
+      "Network-as-a-service"
+    ],
+    "a": 3,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which SASE tenet is able to accurately detect devices for full visibility and enforce policies to ensure security across the network, eliminating the need for additional IoT security solutions?",
+    "options": [
+      "Autonomous Digital Experience Monitoring - ADEM",
+      "Zero Trust Network Access - ZTNA",
+      "Internet of Things - IoT",
+      "Cloud Access Security Broker - CASB"
+    ],
+    "a": 0,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which SASE tenet provides segment-wise insights across the entire service delivery path, allowing real and synthetic traffic analysis that enables organizations to proactively drive remediation of digital experience problems?",
+    "options": [
+      "Autonomous Digital Experience Monitoring - ADEM",
+      "Software Defined - Wide Area Network - SD-WAN",
+      "Cloud Access Security Broker - CASB",
+      "Zero Trust Network Access - ZTNA"
+    ],
+    "a": 0,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which SASE tenet should enable complete visibility and control over all traffic, regardless of where a user may be located, to ensure the secure use of cloud-based apps and other web services?",
+    "options": [
+      "Secure Web Gateway - SWG",
+      "Cloud Access Security Broker - CASB",
+      "Zero Trust Network Access - ZTNA",
+      "Autonomous Digital Experience Monitoring - ADEM"
+    ],
+    "a": 1,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which tenet is a core component of SASE, creating a single platform for administrators to manage security controls for all application types?",
+    "options": [
+      "Cloud Access Security Broker - CASB",
+      "Data Loss Prevention - DLP",
+      "Software Defined - Wide Area Network - SD-WAN",
+      "Zero Trust Network Access - ZTNA"
+    ],
+    "a": 0,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which of the following terms describes the process of making and using codes to secure the transmission of information?",
+    "options": ["Cryptanalysis", "Cryptography", "Steganography", "Algorithm"],
+    "a": 1,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Select True or False for the following statement: PKI systems are based on public-key cryptosystems and include digital certificates and certificate authorities.",
+    "options": ["True", "False"],
+    "a": 0,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which of the following is considered to be the strongest symmetric encryption cryptosystem?",
+    "options": [
+      "Advanced Encryption Standard (AES)",
+      "Data Encryption Standard (DES)",
+      "RSA Algorithm",
+      "Triple DES (3DES)"
+    ],
+    "a": 0,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Select True or False for the following statement. Packet-Filtering Firewalls operate at Layer 3 (network layer) of the Open Systems Interconnection (OSI) reference model.",
+    "options": ["False", "True"],
+    "a": 1,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which of the following is not a phase of implementing security in virtualized data centers:",
+    "options": [
+      "Consolidating servers across trust levels",
+      "Consolidating servers within trust levels",
+      "Selective network security virtualization",
+      "Implementing a static and flat computing fabric"
+    ],
+    "a": 3,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Data that moves in and out of the virtualized environment from the host network or a corresponding traditional data center is also known as:",
+    "options": ["North-South", "Unknown", "North-East", "East-West"],
+    "a": 0,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Intra-VM traffic is also known as:",
+    "options": ["North-South", "Unknown", "North-East", "East-West"],
+    "a": 3,
+    "topic": "Course 2"
+  },
+  {
+    "q": "The first phase of implementing security in virtualized data centers consists of:",
+    "options": [
+      "Consolidating servers across trust levels",
+      "Consolidating servers within trust levels",
+      "Selectively virtualizing network security functions",
+      "Implementing a dynamic computing fabric"
+    ],
+    "a": 1,
+    "topic": "Course 2"
+  },
+  {
+    "q": "An added benefit of using virtual firewalls for east-west protection is the unprecedented traffic and threat visibility that the virtualized security device can now provide.",
+    "options": ["True", "False"],
+    "a": 0,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which of the 4 Cs of cloud native security provides the trusted computing base for a Kubernetes cluster. If the cluster is built on a foundation that is inherently vulnerable or configured with poor security controls, then the other layers cannot be properly secured.",
+    "options": ["Clusters", "Containers", "Code", "Cloud"],
+    "a": 0,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Development and Operations teams meet regularly, share analytics, and co-own projects from beginning to end.",
+    "options": ["True", "False"],
+    "a": 0,
+    "topic": "Course 2"
+  },
+  {
+    "q": "The Cloud Native Computing Foundation (CNCF) Kubernetes project defines a container security model for Kubernetes in the context of cloud native security. This model is referred to as 'the 4 C’s of Cloud Native security'.",
+    "options": ["True", "False"],
+    "a": 0,
+    "topic": "Course 2"
+  },
+  {
+    "q": "The CI/CD pipeline integrates Development and Operations teams to improve productivity by automating infrastructure and workflows as well as continuously measuring application performance.",
+    "options": ["True", "False"],
+    "a": 0,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Ensuring your cloud resources and SaaS applications are correctly configured and adhere to your organization’s security standards from day one is essential to prevent successful attacks.",
+    "options": ["True", "False"],
+    "a": 0,
+    "topic": "Course 2"
+  },
+  {
+    "q": "The term 'cloud native' refers to an approach to building and running applications that takes full advantage of a cloud computing delivery model instead of an on-premises data center.",
+    "options": ["True", "False"],
+    "a": 0,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which platform provides all three cloud native characteristics by default and, while assembled from many more generic components, are highly optimized for container workloads.",
+    "options": [
+      "Serverless",
+      "Container as a Service",
+      "Thin VMs",
+      "On-Demand Containers"
+    ],
+    "a": 1,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which cloud native technology balances separation, excellent compatibility with existing apps, and a high degree of operational control with good density potential and easy integration into software development flows.",
+    "options": ["Thin VMs", "Serverless", "Containers", "CaaS"],
+    "a": 2,
+    "topic": "Course 2"
+  },
+  {
+    "q": "In which cloud native technology do applications rely on managed services that abstract away the need to manage, patch, and secure infrastructure and virtual machines.",
+    "options": ["Serverless", "Thin VMs", "Containers", "CaaS"],
+    "a": 0,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which consideration is not associated with secure virtualization?",
+    "options": [
+      "Dormant VMs",
+      "Hypervisor Sprawl",
+      "Hypervisor Vulnerabilities",
+      "Intra-VM Communication"
+    ],
+    "a": 3,
+    "topic": "Course 2"
+  },
+  {
+    "q": "A hypervisor allows multiple, virtual ('guest') operating systems to run concurrently on a single physical host computer.",
+    "options": ["True", "False"],
+    "a": 0,
+    "topic": "Course 2"
+  },
+  {
+    "q": "In the serverless model, applications rely on managed services that abstract away the need to manage, patch, and secure infrastructure and virtual machines.",
+    "options": ["True", "False"],
+    "a": 0,
+    "topic": "Course 2"
+  },
+  {
+    "q": "The benefit of moving toward a cloud computing model is that it improves operational efficiencies and lowers capital expenditures.",
+    "options": ["True", "False"],
+    "a": 0,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which cloud computing deployment model is used exclusively by a single organization?",
+    "options": ["Private", "Community", "Public", "Hybrid"],
+    "a": 0,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which cloud computing service model is not defined by NIST?",
+    "options": [
+      "Software as a Service (SaaS)",
+      "Infrastructure as a Service (IaaS)",
+      "Desktop as a Service (DaaS)",
+      "Platform as a Service (PaaS)"
+    ],
+    "a": 2,
+    "topic": "Course 2"
+  },
+  {
+    "q": "The cloud computing service model in which a provider’s applications run on a cloud infrastructure and the consumer does not manage or control the underlying infrastructure is known as:",
+    "options": [
+      "Infrastructure as a Service (IAAS)",
+      "Software as a Service (SAAS)",
+      "Platform as a Service (PAAS)",
+      "Identity as a Service (IDAAS)"
+    ],
+    "a": 1,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which cloud deployment model is bound by standardized or proprietary technology that enables data and application portability (for example, fail over to a secondary data center for disaster recovery or content delivery networks across multiple clouds)?",
+    "options": ["Public", "Community", "Private", "Hybrid"],
+    "a": 3,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Platform as a Service - PaaS – is best described as:",
+    "options": [
+      "An online space where customers can develop, run, and manage applications without the complexity of building and maintaining the infrastructure typically associated with developing and launching an app.",
+      "An underlying network infrastructure that virtualizes physical computing resources, data partitioning, scaling, security, backup.",
+      "A licensing and delivery model in which software is licensed on a subscription basis and is centrally hosted."
+    ],
+    "a": 0,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which security-as-a-service layer in Prisma Access SASE capability provides visibility into SaaS application usage, understands where their sensitive data resides, enforces company policies for user access, and protects their data from hackers.",
+    "options": [
+      "Threat Prevention",
+      "Data Loss Prevention - DLP",
+      "Cloud Access Security Broker - CASB",
+      "Secure Web Gateway - SWG"
+    ],
+    "a": 2,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Select the Cortex Cloud capability that decouples workload identity from IP addresses, leverages tags and metadata to assign a logical identity to applications and workloads, and then uses it to enforce ID-based micro-segmentation and security policies that adapt to your dynamic environments.",
+    "options": [
+      "Identity and access management - IAM - security",
+      "UEBA",
+      "Access management",
+      "Machine identity"
+    ],
+    "a": 3,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which Prisma Access SASE capability can be used to block inappropriate content - such as pornography and gambling - or websites that businesses simply don’t want users accessing while at work, such as streaming services like Netflix.",
+    "options": [
+      "Virtual Private Network - VPN",
+      "Secure Web Gateway - SWG",
+      "Firewall as a Service - FWaaS",
+      "Zero Trust Network Access - ZTNA"
+    ],
+    "a": 1,
+    "topic": "Course 2"
+  },
+  {
+    "q": "To safely enable SaaS usage in your organization, start by clearly defining the SaaS applications that should be used and which behaviors within those applications are allowed. Which category of applications are not allowed, then controlling their usage with granular policies.",
+    "options": ["Tolerated", "Unsanctioned", "Sanctioned", "Permitted"],
+    "a": 1,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Select the type of cybersecurity solution or feature that discovers threats by identifying activity that deviates from a baseline.",
+    "options": [
+      "Software configuration management - SCM",
+      "User and entity behavior analytics - UEBA",
+      "Integrated development environment - IDE",
+      "Dynamic User List - DUL"
+    ],
+    "a": 1,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Prisma SaaS is an inline service, so it doesn’t impact latency, bandwidth, or end-user experience.",
+    "options": ["True", "False"],
+    "a": 0,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Sanctioned SaaS applications fulfill a legitimate business need, but certain usage restrictions may be necessary to reduce risk.",
+    "options": ["True", "False"],
+    "a": 0,
+    "topic": "Course 2"
+  },
+  {
+    "q": "A cloud access security broker – CASB - is software that monitors activity and enforces security policies on traffic between an organization’s users and cloud-based applications and services.",
+    "options": ["True", "False"],
+    "a": 0,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which key capability of Cortex Cloud identity security decouples workload identity from IP addresses?",
+    "options": [
+      "UEBA",
+      "Access Management",
+      "IAM Security",
+      "Machine Identity"
+    ],
+    "a": 3,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which of the following add-ons for Prisma Access SASE provides native end-to-end visibility and insights for SASE, and can automate remediation of remote user digital experience problems?",
+    "options": ["FWaaS", "CASB", "ADEM", "DNS_Sec"],
+    "a": 2,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which of the following is NOT a strength of Prisma Access - SASE cloud-delivered management?",
+    "options": [
+      "Flexible Management Options",
+      "Visibility Into the Management Options",
+      "Continuous Configuration Assessment",
+      "Rapid Application Development"
+    ],
+    "a": 3,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which of the following serves as Prisma Access SASE security policy enforcement points and helps organizations discover where their data resides across multiple SaaS applications, cloud services environments, on-premises data centers and mobile workers?",
+    "options": ["DNS_Sec", "FWaaS", "ADEM", "CASB"],
+    "a": 3,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which of the following would NOT be an element for discussion in a Prisma Access SASE design review?",
+    "options": [
+      "Authentication Capabilities",
+      "Service Connections",
+      "Website Enrollments",
+      "Default Routes"
+    ],
+    "a": 2,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which Pillar of Cortex Cloud monitors and leverages user and entity behavior analytics - UEBA - across your environments to detect and block malicious actions?",
+    "options": [
+      "Visibility, Governance, and Compliance",
+      "Network Protection",
+      "Identity Security",
+      "Compute Security"
+    ],
+    "a": 0,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which Prisma Access capability offers simplified workflows with secure out-of-the-box configurations?",
+    "options": [
+      "Cloud Management",
+      "Access and Protection",
+      "Security Protection",
+      "Best-in-Class-Security"
+    ],
+    "a": 0,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which Cortex Cloud Pillar Enforce machine learning-based runtime protection to protect applications and workloads in real time?",
+    "options": [
+      "Visibility, Governance, and Compliance",
+      "Network Protection",
+      "Identity Security",
+      "Compute Security"
+    ],
+    "a": 3,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which Prisma SaaS applications are allowed because of a legitimate business need, with restrictions, but not provided by IT?",
+    "options": ["Unsanctioned", "Sanctioned", "Tolerated", "Visible"],
+    "a": 2,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which term refers to an approach to building and running applications that takes full advantage of a cloud computing delivery model instead of an on-premises data center?",
+    "options": [
+      "Cloud-Native",
+      "Cloud-Agnostic",
+      "Cloud-Centric",
+      "Cloud-Protection"
+    ],
+    "a": 0,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which SecOps Investigate function provides the data needed to perform the different types of investigation from severity triage to detailed analysis and hunting?",
+    "options": [
+      "Forensics and Telemetry",
+      "Detailed Analysis",
+      "Breach Response",
+      "Change Control"
+    ],
+    "a": 0,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which SecOp element includes capabilities needed to provide visibility and enable people?",
+    "options": ["Technology", "Processes", "People", "Interfaces"],
+    "a": 2,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which SecOps Improve function is rooted in revisiting prior incidents and asking how these incidents can be better prevented or mitigated in the future?",
+    "options": [
+      "Quality Review",
+      "Process Improvement",
+      "Tuning",
+      "Capability Improvement"
+    ],
+    "a": 1,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which type of SecOps gathered data includes the complete contents of an item, without change or modification?",
+    "options": ["Event", "Alert", "Telemetry", "Forensic"],
+    "a": 3,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which SecOps element includes external functions to help achieve goals?",
+    "options": ["Business", "People", "Interfaces", "Visibility"],
+    "a": 0,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which main function of SecOps stops the attack?",
+    "options": ["Identify", "Mitigate", "Investigate", "Improve"],
+    "a": 1,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which SecOps Identify function defines the event prioritization based on impact to the business to help guide the analyst’s actions through the incident response lifecycle?",
+    "options": [
+      "Escalation Process",
+      "Initial Research",
+      "Content Engineering",
+      "Severity Triage"
+    ],
+    "a": 3,
+    "topic": "Course 2"
+  },
+  {
+    "q": "SecOps content engineering is the function that builds alerting profiles which identify the alerts that will be forwarded for investigation.",
+    "options": ["True", "False"],
+    "a": 0,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which SOC feature helps ensure consistency through machine-driven responses to security issues?",
+    "options": ["Automation", "EDR", "Threat Intelligence", "DLP"],
+    "a": 0,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which SOC team is responsible for the implementation and ongoing maintenance of the SecOps team’s tools, including the SIEM and analysis tools?",
+    "options": ["Engineering", "Security", "Operations", "Development"],
+    "a": 0,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which SOC Infrastructure tool is used as a central repository to ingest logs from all corporate-owned systems. SIEMs collect and process audit trails, activity logs, security alarms, telemetry, metadata, and other historical or observational data from a variety of different applications, systems, and networks in an enterprise?",
+    "options": ["Analysis", "SIEM", "Engineering", "Orchestration"],
+    "a": 1,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which SOC function allows for accelerated incident response through the execution of standardized and automated playbooks that work upon inputs from security technology and other data flows?",
+    "options": ["SIEM", "EDR", "SOAR", "DLP"],
+    "a": 2,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which SOC tool allows an organization to define incident analysis and response procedures in a digital workflow format.",
+    "options": ["DLP", "SOAR", "EDR", "SIEM"],
+    "a": 1,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Security Operations infrastructure includes a security information and event management – SIEM - platform, analysis tools, and SOC engineering.",
+    "options": ["True", "False"],
+    "a": 0,
+    "topic": "Course 2"
+  },
+  {
+    "q": "SecOps engineering tools are often based on machine learning, deep learning, and artificial intelligence— that provide either stand-alone, embedded, or add-on functionality to detect evidence of a security compromise.",
+    "options": ["True", "False"],
+    "a": 0,
+    "topic": "Course 2"
+  },
+  {
+    "q": "SOC playbooks coordinate across technologies, security teams, and external users for centralized data visibility and action.",
+    "options": ["True", "False"],
+    "a": 0,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which Cortex XDR WIldfire analysis technique detonates previously unknown submissions in a custom-built, evasion-resistant virtual environment to determine real-world effects and behavior?",
+    "options": ["Static", "Dynamic", "Virtual", "Bare-Metal"],
+    "a": 1,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which Cortex XDR component is designed to minimize the operational challenges associated with protecting your endpoints?",
+    "options": [
+      "Management Console",
+      "Endpoint Agent",
+      "Data Lake",
+      "Malware Prevention"
+    ],
+    "a": 1,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which remediation endpoint action disables all network access on compromised endpoints except for traffic to the Cortex XDR management console, preventing these endpoints from communicating with and potentially infecting other endpoints?",
+    "options": [
+      "Terminate Processes",
+      "Isolate Endpoints",
+      "Block Executions",
+      "Quarantine Files"
+    ],
+    "a": 1,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Before a file runs, the Cortex XDR agent queries WildFire with the hash of any Windows, macOS, or Linux executable file, as well as any dynamic link library – DLL - or Office macro, to assess its standing within the global threat community. WildFire returns a near-instantaneous verdict on whether a file is malicious or benign.",
+    "options": ["True", "False"],
+    "a": 0,
+    "topic": "Course 2"
+  },
+  {
+    "q": "In addition to third-party feeds, Cortex XDR uses the intelligence obtained from tens of thousands of subscribers to the Palo Alto Networks WildFire malware prevention service to continuously aggregate threat data and maintain the collective immunity of all users across endpoints, networks, and cloud applications.",
+    "options": ["True", "False"],
+    "a": 0,
+    "topic": "Course 2"
+  },
+  {
+    "q": "The Cortex XDR agent uses multiple methods – such as local analysis, WildFire inspection and analysis, Gatekeeper enhancements, trusted publisher identification, and administrator override policies – to block malware on macOS systems.",
+    "options": ["True", "False"],
+    "a": 0,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which element of SecOps provides information needed to accomplish goals?",
+    "options": ["Business", "People", "Interfaces", "Visibility"],
+    "a": 3,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Cortex is a one-stop shop for SecOps, solving all key challenges in a more efficient way with higher security outcomes.",
+    "options": ["True", "False"],
+    "a": 1,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Cortex Data Lake unifies case management, automation, real-time collaboration, and native threat intel management in the industry’s first extended security orchestration, automation, and response – SOAR - offering.",
+    "options": ["True", "False"],
+    "a": 0,
+    "topic": "Course 2"
+  },
+  {
+    "q": "How does automation in SecOps configuration contribute to faster incident response readiness?",
+    "options": [
+      "D: By focusing solely on configuring preventative controls, thus eliminating incidents.",
+      "C: By pre-configuring response actions and playbooks in SOAR platforms based on defined security policies, allowing for quicker activation during an incident.",
+      "B: By significantly reducing the number of security alerts generated.",
+      "A: By automatically resolving all detected incidents without human intervention."
+    ],
+    "a": 1,
+    "topic": "Course 2"
+  },
+  {
+    "q": "How does automation primarily benefit the initial configuration of security tools in a SecOps environment?",
+    "options": [
+      "A: By completely eliminating the need for security engineers.",
+      "B: By ensuring consistent application of baseline security policies and reducing human error in repetitive setup tasks.",
+      "C: By negotiating better licensing terms with security vendors.",
+      "D: By automatically writing custom scripts for every unique security scenario."
+    ],
+    "a": 1,
+    "topic": "Course 2"
+  },
+  {
+    "q": "The concept of 'shifting left' is most closely associated with which methodology?",
+    "options": [
+      "D: ITIL Service Management",
+      "A: Traditional SecOps",
+      "B: DevSecOps",
+      "C: Waterfall development"
+    ],
+    "a": 2,
+    "topic": "Course 2"
+  },
+  {
+    "q": "What is a primary focus of traditional Security Operations (SecOps)?",
+    "options": [
+      "A: Integrating security directly into the software development lifecycle.",
+      "B: Monitoring, detecting, responding to, and recovering from security incidents in a live operational environment.",
+      "D: Conducting market research for new security products.",
+      "C: Automating the deployment of new software features."
+    ],
+    "a": 1,
+    "topic": "Course 2"
+  },
+  {
+    "q": "What is one significant benefit of automating the implementation of security controls?",
+    "options": [
+      "D: Making the security configuration less flexible to changes.",
+      "C: Enhanced scalability, allowing security configurations to be rapidly deployed and updated across a growing and dynamic IT environment.",
+      "A: The elimination of compliance requirements.",
+      "B: A reduction in the variety of security tools needed."
+    ],
+    "a": 1,
+    "topic": "Course 2"
+  },
+  {
+    "q": "What is the core function of the 'Technology' pillar in SOC operations?",
+    "options": [
+      "D: The physical layout and ergonomics of the SOC workspace.",
+      "C: Developing custom programming languages for security tasks.",
+      "A: Ensuring all analysts have the latest smartphone models.",
+      "B: The selection, deployment, and maintenance of tools and platforms (e.g., SIEM, SOAR, EDR, TIP) that enable visibility, detection, analysis, and response."
+    ],
+    "a": 3,
+    "topic": "Course 2"
+  },
+  {
+    "q": "What is the primary advantage of leveraging automation and AI for SecOps configuration and implementation?",
+    "options": [
+      "A: To make the SecOps team smaller by replacing most human roles.",
+      "D: To ensure that security configurations are never changed once implemented.",
+      "B: To increase the complexity of the security stack.",
+      "C: To free up skilled security personnel from repetitive, manual tasks, allowing them to focus on more strategic initiatives, threat hunting, and complex incident analysis."
+    ],
+    "a": 3,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which key element is crucial for both SecOps and DevSecOps to function effectively?",
+    "options": [
+      "A: Daily manual code reviews by the CEO.",
+      "D: A strict separation of duties with no collaboration between teams.",
+      "C: The exclusive use of open-source security tools.",
+      "B: Automation of security tasks and processes."
+    ],
+    "a": 3,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which of the following best describes the 'People' pillar in SOC operations?",
+    "options": [
+      "A: The end-users whose activity the SOC monitors.",
+      "D: The individuals responsible for the physical security of the SOC facility.",
+      "C: The skilled cybersecurity professionals (analysts, engineers, managers) responsible for executing SOC functions, their expertise, and ongoing training.",
+      "B: The vendors who supply security tools to the SOC."
+    ],
+    "a": 2,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which of the following is a core element of DevSecOps?",
+    "options": [
+      "B: Isolating the security team from the development and operations teams.",
+      "A: Performing security audits only after software is fully deployed.",
+      "C: Embedding security practices, tools, and responsibilities throughout the entire software development lifecycle (SDLC), from design to deployment and operation.",
+      "D: Focusing security efforts exclusively on network infrastructure."
+    ],
+    "a": 2,
+    "topic": "Course 2"
+  },
+  {
+    "q": "During data collection for enterprise security, what is a primary role of AI?",
+    "options": [
+      "A: Exclusively storing data in a centralized database.",
+      "D: Replacing all human security analysts.",
+      "B: Manually categorizing each collected log file.",
+      "C: Optimizing collection by identifying relevant data sources and adjusting frequency based on perceived risk."
+    ],
+    "a": 3,
+    "topic": "Course 2"
+  },
+  {
+    "q": "How does AI contribute to automating the defense against phishing attacks?",
+    "options": [
+      "B: By analyzing email content, sender reputation, and embedded links to identify and block malicious emails with high accuracy.",
+      "C: By designing more secure email encryption standards.",
+      "A: By automatically calling individuals who send phishing emails.",
+      "D: By sending automated replies to all suspected phishing emails to gather more information."
+    ],
+    "a": 0,
+    "topic": "Course 2"
+  },
+  {
+    "q": "How does AI in Cortex XDR help in threat detection?",
+    "options": [
+      "C: By using behavioral analytics and AI-driven local analysis to detect unknown malware, fileless attacks, and anomalous activity across endpoint, network, and cloud data.",
+      "B: By requiring analysts to manually correlate all alerts.",
+      "A: By solely relying on known malware signatures.",
+      "D: By only focusing on network traffic analysis."
+    ],
+    "a": 0,
+    "topic": "Course 2"
+  },
+  {
+    "q": "How does AI primarily enhance the automation of threat detection in cybersecurity?",
+    "options": [
+      "D: By creating more complex CAPTCHAs to stop bot attacks.",
+      "C: By solely relying on pre-defined signature-based detection methods.",
+      "A: By replacing the need for human security analysts entirely.",
+      "B: By rapidly analyzing massive datasets to identify anomalous patterns and potential threats in real-time."
+    ],
+    "a": 3,
+    "topic": "Course 2"
+  },
+  {
+    "q": "How does the AI in Cortex XSIAM contribute to reducing alert fatigue in a Security Operations Center (SOC)?",
+    "options": [
+      "A: By generating more alerts to ensure nothing is missed.",
+      "B: By routing all alerts directly to senior management.",
+      "D: By disabling alerting for low-severity events.",
+      "C: By automatically correlating related alerts into incidents, prioritizing them based on AI-driven risk scoring, and automating initial investigation steps."
+    ],
+    "a": 3,
+    "topic": "Course 2"
+  },
+  {
+    "q": "What is a key AI-driven capability of Cortex XSOAR (Security Orchestration, Automation and Response)?",
+    "options": [
+      "A: Generating new AI models from scratch for each incident.",
+      "C: Exclusively managing user access permissions.",
+      "D: Performing penetration testing using AI agents.",
+      "B: Automating incident response playbooks and orchestrating actions across different security tools based on AI-driven insights and threat intelligence."
+    ],
+    "a": 3,
+    "topic": "Course 2"
+  },
+  {
+    "q": "What is one of the primary goals of AI in automating cybersecurity defense strategies?",
+    "options": [
+      "A: Increase the complexity of security tools for analysts.",
+      "D: Focus solely on preventing external threats while ignoring insider risks.",
+      "C: Reduce the mean time to detect (MTTD) and mean time to respond (MTTR) to security incidents.",
+      "B: Generate more alerts for the security team to investigate."
+    ],
+    "a": 2,
+    "topic": "Course 2"
+  },
+  {
+    "q": "What is the main goal of data integration in the context of AI/ML for security?",
+    "options": [
+      "A: To encrypt all collected data.",
+      "B: To reduce the volume of data collected.",
+      "C: To create a unified view by mapping disparate data formats and correlating events.",
+      "D: To train AI models on raw, unaltered data."
+    ],
+    "a": 2,
+    "topic": "Course 2"
+  },
+  {
+    "q": "What is the primary goal of Palo Alto Networks' Cortex XSIAM (Extended Security Intelligence and Automation Management) platform?",
+    "options": [
+      "C: To consolidate and normalize security data from all sources, using AI and automation to improve security outcomes and transform security operations.",
+      "D: To focus exclusively on cloud security posture management.",
+      "B: To manually manage security alerts from various point products.",
+      "A: To provide only endpoint detection and response capabilities."
+    ],
+    "a": 0,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which of the following is NOT a typical data source for AI/ML in enterprise security?",
+    "options": [
+      "C: Intrusion Detection System (IDS) alerts",
+      "A: Firewall logs",
+      "B: Employee social media posts unrelated to work",
+      "D: Endpoint detection and response (EDR) data"
+    ],
+    "a": 2,
+    "topic": "Course 2"
+  },
+  {
+    "q": "Which two statements best describe the current state of network operations? (Choose two.)",
+    "options": [
+      "Network engineers automate all their tasks.",
+      "SSH and CLI are the primary means of network management.",
+      "Network teams should have to hire more engineers as the network grows.",
+      "SNMP is the primary programmatic interface for network management systems to communicate with network devices.",
+      "RESTful APIs are the primary programmatic interface for network management systems to communicate with network devices."
+    ],
+    "a": [1, 4],
+    "topic": "Course 1"
+  },
+  {
+    "q": "What does a network operation team require in order to successfully benefit from network automation?",
+    "options": [
+      "The network operation team needs to hire more network engineers.",
+      "The network must be completely upgraded to the latest vendor models.",
+      "Network Operation teams need to be able to use multiple tools for network automation.",
+      "Network Operations teams need a cohesive network management strategy with proper controls and standards."
+    ],
+    "a": 3,
+    "topic": "Course 1"
+  },
+  {
+    "q": "What is one reason why Simple Network Management Protocol (SNMP) is not an optimal protocol for programmatic network device configuration?",
+    "options": [
+      "SNMP is new protocol, and many Network Engineers have not worked with it.",
+      "SNMP is only used for network monitoring.",
+      "SNMP is not as reliable as other network configuration protocols.",
+      "Unlike other network automation protocols, SNMP offers no security."
+    ],
+    "a": 1,
+    "topic": "Course 1"
+  },
+  {
+    "q": "Which two options are not a network API? (Choose two.)",
+    "options": ["RESTCONF", "YANG", "NETCONF", "RESTful", "gRPC"],
+    "a": [1, 3],
+    "topic": "Course 1"
+  },
+  {
+    "q": "Which is not a benefit of DevOps culture and mindset?",
+    "options": [
+      "Improved speed and agility to deploy network configurations",
+      "Using tools that improve collaboration and communication.",
+      "Iterative and continual Improvement.",
+      "Using faster-converging routing protocols."
+    ],
+    "a": 3,
+    "topic": "Course 1"
+  },
+  {
+    "q": "What is the current Cisco product that allows you to create virtualized network devices through an API that can be used for QA and testing?",
     "options": ["VIRL", "NSO", "CML", "pyATS"],
     "a": 2,
-    "topic": "Cisco Automation"
+    "topic": "Course 1"
   },
   {
-    "q": "Which HTTP status code means resource not found?",
-    "options": ["404", "403", "401", "500"],
-    "a": 0,
-    "topic": "HTTP APIs"
-  },
-  {
-    "q": "Which DevOps practice involves automated pipelines?",
-    "options": ["CI/CD", "Versioning", "Testing", "Monitoring"],
-    "a": 0,
-    "topic": "DevOps"
-  },
-  {
-    "q": "Which Ansible module collects device facts?",
-    "options": ["ios_command", "ios_facts", "ios_config", "netconf"],
-    "a": 1,
-    "topic": "Ansible"
-  },
-  {
-    "q": "Which OSI layer handles IP addresses?",
-    "options": ["Network", "Data Link", "Transport", "Session"],
-    "a": 0,
-    "topic": "Networking"
-  },
-  {
-    "q": "Which GCP feature enables private VPC communication?",
-    "options": ["VPC Peering", "Cloud NAT", "Shared VPC", "Cloud Router"],
-    "a": 2,
-    "topic": "Google Cloud Networking"
-  },
-  {
-    "q": "Which Zero Trust principle enforces least privilege?",
-    "options": ["IAM", "ZTNA", "SWG", "Firewall"],
-    "a": 0,
-    "topic": "Security"
-  },
-  {
-    "q": "True or False: RESTCONF uses YANG data models.",
-    "options": ["True", "False", "Sometimes", "Depends"],
-    "a": 0,
-    "topic": "REST/NETCONF"
-  },
-  {
-    "q": "Which Git command clones a repository?",
-    "options": ["git init", "git clone", "git pull", "git push"],
-    "a": 1,
-    "topic": "DevOps"
-  },
-  {
-    "q": "Which Python function reads input from the user?",
-    "options": ["input()", "read()", "get()", "scan()"],
-    "a": 0,
-    "topic": "Python"
-  },
-  {
-    "q": "Which GCP load balancer handles TCP/UDP traffic?",
-    "options": ["HTTP LB", "Network LB", "Internal LB", "Global LB"],
-    "a": 1,
-    "topic": "Google Cloud Networking"
-  },
-  {
-    "q": "Which SASE component monitors SaaS usage?",
-    "options": ["ZTNA", "SWG", "CASB", "ADEM"],
-    "a": 2,
-    "topic": "Security"
-  },
-  {
-    "q": "Which Ansible file lists hosts and groups?",
-    "options": ["inventory", "playbook", "vars", "roles"],
-    "a": 0,
-    "topic": "Ansible"
-  },
-  {
-    "q": "Which HTTP method creates a resource?",
-    "options": ["POST", "GET", "PUT", "DELETE"],
-    "a": 0,
-    "topic": "HTTP APIs"
-  },
-  {
-    "q": "Which Python keyword creates a while loop?",
-    "options": ["for", "loop", "while", "repeat"],
-    "a": 2,
-    "topic": "Python"
-  },
-  {
-    "q": "Which GCP feature enforces cloud app policies?",
-    "options": ["CASB", "Cloud Armor", "IAM", "VPC"],
-    "a": 0,
-    "topic": "Google Cloud Security"
-  },
-  {
-    "q": "Which Ansible module manages services on Linux hosts?",
-    "options": ["service", "systemd", "command", "copy"],
-    "a": 0,
-    "topic": "Ansible"
-  },
-  {
-    "q": "Which HTTP header provides bearer token?",
-    "options": ["Authorization", "Cookie", "Token", "APIKey"],
-    "a": 0,
-    "topic": "HTTP APIs"
-  },
-  {
-    "q": "Which DevOps tool isolates environments using containers?",
-    "options": ["Docker", "Vagrant", "Pipenv", "Ansible"],
-    "a": 0,
-    "topic": "DevOps"
-  },
-  {
-    "q": "Which Python collection is immutable and ordered?",
-    "options": ["list", "tuple", "dict", "set"],
-    "a": 1,
-    "topic": "Python"
-  },
-  {
-    "q": "Which GCP service provides scalable NoSQL database?",
-    "options": ["Cloud SQL", "Firestore", "Spanner", "Bigtable"],
-    "a": 1,
-    "topic": "Google Cloud Databases"
-  },
-  {
-    "q": "Which HTTP code indicates internal server error?",
-    "options": ["500", "404", "403", "200"],
-    "a": 0,
-    "topic": "HTTP APIs"
-  },
-  {
-    "q": "Which Cisco tool allows network modeling for QA?",
-    "options": ["CML", "VIRL", "NSO", "pyATS"],
-    "a": 0,
-    "topic": "Cisco Automation"
-  },
-  {
-    "q": "Which Ansible module sends CLI commands to IOS?",
-    "options": ["ios_command", "ios_facts", "ios_config", "netconf"],
-    "a": 0,
-    "topic": "Ansible"
-  },
-  {
-    "q": "Which GCP serverless service executes functions on events?",
-    "options": ["Cloud Run", "Cloud Functions", "GKE", "App Engine"],
-    "a": 1,
-    "topic": "Google Cloud Services"
-  },
-  {
-    "q": "True or False: Containers share host OS kernel.",
-    "options": ["True", "False", "Depends", "Only Linux"],
-    "a": 0,
-    "topic": "DevOps"
-  },
-  {
-    "q": "Which SASE component provides ZTNA access?",
-    "options": ["ZTNA", "CASB", "SWG", "Firewall"],
-    "a": 0,
-    "topic": "Security"
-  },
-  {
-    "q": "Which OSI layer ensures reliable delivery?",
-    "options": ["Transport", "Network", "Data Link", "Session"],
-    "a": 0,
-    "topic": "Networking"
-  },
-  {
-    "q": "Which Git command fetches commits without merging?",
-    "options": ["git pull", "git fetch", "git clone", "git checkout"],
-    "a": 1,
-    "topic": "DevOps"
-  },
-  {
-    "q": "Which Python keyword defines a while loop?",
-    "options": ["for", "loop", "while", "repeat"],
-    "a": 2,
-    "topic": "Python"
-  },
-  {
-    "q": "Which GCP feature restricts data across regions?",
-    "options": ["CASB", "Organization Policy", "IAM", "VPC"],
-    "a": 1,
-    "topic": "Google Cloud Security"
-  },
-  {
-    "q": "Which HTTP method partially updates a resource?",
-    "options": ["PATCH", "POST", "PUT", "GET"],
-    "a": 0,
-    "topic": "HTTP APIs"
-  },
-  {
-    "q": "Which GCP service provides managed Redis caching?",
-    "options": ["Memorystore", "Cloud SQL", "Bigtable", "Firestore"],
-    "a": 0,
-    "topic": "Google Cloud Services"
-  },
-  {
-    "q": "Which Ansible module manages file contents on devices?",
-    "options": ["copy", "lineinfile", "template", "file"],
-    "a": 1,
-    "topic": "Ansible"
-  },
-  {
-    "q": "Which DevOps principle emphasizes 'shift-left' testing?",
+    "q": "Which use case enables historical tracking of changes for compliance and audits?",
     "options": [
-      "Early testing",
-      "Continuous deployment",
-      "Monitoring",
-      "Versioning"
+      "Automated Backups",
+      "Zero-Touch Provisioning",
+      "Continuous Compliance"
+    ],
+    "a": 2,
+    "topic": "Course 1"
+  },
+  {
+    "q": "What is the name of the DevOps concept that uses chat clients that can receive notifications from automation tools?",
+    "options": ["Cisco Webex", "ChatOps", "ITSM", "Configuration Management"],
+    "a": 1,
+    "topic": "Course 1"
+  },
+  {
+    "q": "ACI is integrated with an SD-WAN controller and provides information on how to prioritize traffic to or from a particular application. Which pair of domains is involved?",
+    "options": [
+      "enterprise and data center",
+      "data center and security",
+      "data center and service provider",
+      "service provider and enterprise"
     ],
     "a": 0,
-    "topic": "DevOps"
+    "topic": "Course 1"
   },
   {
-    "q": "Which Python method removes and returns the last element of a list?",
-    "options": ["pop()", "remove()", "del()", "clear()"],
-    "a": 0,
-    "topic": "Python"
-  },
-  {
-    "q": "Which SASE component inspects web traffic?",
-    "options": ["SWG", "ZTNA", "CASB", "Firewall"],
-    "a": 0,
-    "topic": "Security"
-  },
-  {
-    "q": "Which Cisco automation tool validates configurations programmatically?",
-    "options": ["pyATS", "VIRL", "CML", "NSO"],
-    "a": 0,
-    "topic": "Cisco Automation"
-  },
-  {
-    "q": "Which OSI layer ensures end-to-end communication?",
-    "options": ["Transport", "Network", "Data Link", "Application"],
-    "a": 0,
-    "topic": "Networking"
-  },
-  {
-    "q": "Which Git command lists all branches?",
-    "options": ["git branch", "git status", "git log", "git checkout"],
-    "a": 0,
-    "topic": "DevOps"
-  },
-  {
-    "q": "Which Python function returns the number of items in a list?",
-    "options": ["len()", "size()", "count()", "length()"],
-    "a": 0,
-    "topic": "Python"
-  },
-  {
-    "q": "Which GCP load balancer is regional and internal?",
-    "options": ["Internal LB", "HTTP LB", "Network LB", "Global LB"],
-    "a": 0,
-    "topic": "Google Cloud Networking"
-  },
-  {
-    "q": "Which HTTP status code indicates successful request?",
-    "options": ["200", "201", "400", "500"],
-    "a": 0,
-    "topic": "HTTP APIs"
-  },
-  {
-    "q": "Which Ansible module manages users and groups?",
-    "options": ["user", "group", "ios_user", "file"],
-    "a": 0,
-    "topic": "Ansible"
-  },
-  {
-    "q": "Which DevOps tool automates configuration management?",
-    "options": ["Ansible", "Git", "Docker", "Terraform"],
-    "a": 0,
-    "topic": "DevOps"
-  },
-  {
-    "q": "Which Python keyword raises an exception?",
-    "options": ["raise", "throw", "error", "except"],
-    "a": 0,
-    "topic": "Python"
-  },
-  {
-    "q": "Which GCP feature monitors network flow logs?",
+    "q": "What technology domain supports a network engineer using Cisco Webex to send a request to a chatbot to provision a network interface on a network device?",
     "options": [
-      "VPC Flow Logs",
-      "Cloud Logging",
-      "Cloud Monitoring",
-      "Audit Logs"
+      "Collaboration",
+      "Enterprise",
+      "Data Center",
+      "Service Provider"
     ],
     "a": 0,
-    "topic": "Google Cloud Networking"
+    "topic": "Course 1"
   },
   {
-    "q": "Which SASE component ensures least-privilege access?",
-    "options": ["ZTNA", "SWG", "CASB", "Firewall"],
+    "q": "What has Cisco implemented on platforms across various technology domains that enables multidomain automation?",
+    "options": ["Security", "Smart Licensing", "APIs", "Guestshell"],
+    "a": 2,
+    "topic": "Course 1"
+  },
+  {
+    "q": "Which two options are the main data encoding formats? (Choose two.)",
+    "options": ["NETCONF", "HTTP", "JSON", "XML", "gRPC"],
+    "a": [2, 3],
+    "topic": "Course 1"
+  },
+  {
+    "q": "What is considered a disadvantage of Controller-Level management?",
+    "options": [
+      "large scope of impact",
+      "small scope of impact",
+      "time-consuming to configure and manage",
+      "potential for configuration drift"
+    ],
     "a": 0,
-    "topic": "Security"
+    "topic": "Course 1"
   },
   {
-    "q": "True or False: REST APIs can be stateless.",
-    "options": ["True", "False", "Sometimes", "Depends"],
+    "q": "What is one function of a controller on a network?",
+    "options": [
+      "provide a layer of abstraction",
+      "make the network more complex for network engineers to manage",
+      "control the flow of data between different network devices",
+      "lower the licensing costs for organizations"
+    ],
     "a": 0,
-    "topic": "REST/NETCONF"
+    "topic": "Course 1"
   },
   {
-    "q": "Which Cisco tool allows multi-device simulation?",
-    "options": ["CML", "NSO", "VIRL", "pyATS"],
-    "a": 0,
-    "topic": "Cisco Automation"
+    "q": "Which network automation use case verifies that all networking devices only communicate with each other using secured mechanisms?",
+    "options": [
+      "reporting",
+      "configuration management",
+      "pre- and post-validation",
+      "continuous compliance"
+    ],
+    "a": 3,
+    "topic": "Course 1"
   },
   {
-    "q": "Which OSI layer provides logical addressing?",
-    "options": ["Network", "Data Link", "Transport", "Session"],
-    "a": 0,
-    "topic": "Networking"
+    "q": "Which enterprise platform type can be used to receive real-time notifications from automation tools to alert a given individual or team?",
+    "options": ["dashboards", "orchestration", "ITSM", "chat"],
+    "a": 3,
+    "topic": "Course 1"
   },
   {
-    "q": "Which Git command updates a remote branch?",
-    "options": ["git push", "git commit", "git merge", "git fetch"],
-    "a": 0,
-    "topic": "DevOps"
+    "q": "Which option best describes the reason for using automation tools like Python and Ansible in large enterprise networks?",
+    "options": [
+      "Easily configure a networking device.",
+      "Obtain information programmatically.",
+      "Eliminate human error and standardize the configuration while bringing speed and efficiency to network operations.",
+      "Eliminate the need for the CLI."
+    ],
+    "a": 2,
+    "topic": "Course 1"
   },
   {
-    "q": "Which Python data type stores key-value pairs?",
-    "options": ["dict", "list", "tuple", "set"],
-    "a": 0,
-    "topic": "Python"
-  },
-  {
-    "q": "Which GCP service manages large-scale time-series data?",
-    "options": ["Bigtable", "Cloud SQL", "Firestore", "Spanner"],
-    "a": 0,
-    "topic": "Google Cloud Databases"
-  },
-  {
-    "q": "Which HTTP header carries authentication info?",
-    "options": ["Authorization", "Content-Type", "Accept", "Host"],
-    "a": 0,
-    "topic": "HTTP APIs"
-  },
-  {
-    "q": "Which Ansible module sends CLI commands to IOS devices?",
-    "options": ["ios_command", "ios_facts", "ios_config", "netconf"],
-    "a": 0,
-    "topic": "Ansible"
-  },
-  {
-    "q": "Which DevOps practice involves automated builds and tests?",
-    "options": ["CI/CD", "Monitoring", "Versioning", "Testing"],
-    "a": 0,
-    "topic": "DevOps"
-  },
-  {
-    "q": "Which Python keyword defines a function?",
-    "options": ["def", "func", "function", "lambda"],
-    "a": 0,
-    "topic": "Python"
-  },
-  {
-    "q": "Which GCP service handles serverless container workloads?",
-    "options": ["Cloud Run", "Cloud Functions", "GKE", "App Engine"],
-    "a": 0,
-    "topic": "Google Cloud Services"
-  },
-  {
-    "q": "Which SASE component enforces security policies for cloud apps?",
-    "options": ["CASB", "SWG", "ZTNA", "ADEM"],
-    "a": 0,
-    "topic": "Security"
-  },
-  {
-    "q": "Which Ansible file defines device inventory?",
-    "options": ["inventory", "playbook", "roles", "vars"],
-    "a": 0,
-    "topic": "Ansible"
-  },
-  {
-    "q": "Which HTTP method deletes a resource?",
-    "options": ["DELETE", "POST", "PUT", "GET"],
-    "a": 0,
-    "topic": "HTTP APIs"
-  },
-  {
-    "q": "Which Python method converts a string to integer?",
-    "options": ["int()", "str()", "float()", "cast()"],
-    "a": 0,
-    "topic": "Python"
-  },
-  {
-    "q": "Which GCP feature restricts resource usage across organizations?",
-    "options": ["Organization Policy", "IAM", "VPC Peering", "Cloud Armor"],
-    "a": 0,
-    "topic": "Google Cloud Security"
-  },
-  {
-    "q": "Which Cisco tool provides virtualized network topologies?",
-    "options": ["CML", "VIRL", "NSO", "pyATS"],
-    "a": 0,
-    "topic": "Cisco Automation"
-  },
-  {
-    "q": "Which OSI layer handles port numbers?",
-    "options": ["Transport", "Network", "Data Link", "Application"],
-    "a": 0,
-    "topic": "Networking"
-  },
-  {
-    "q": "Which Git command discards local changes?",
-    "options": ["git checkout", "git reset", "git commit", "git revert"],
-    "a": 0,
-    "topic": "DevOps"
-  },
-  {
-    "q": "Which Python collection stores unique unordered elements?",
-    "options": ["set", "list", "tuple", "dict"],
-    "a": 0,
-    "topic": "Python"
-  },
-  {
-    "q": "Which GCP service manages relational databases?",
-    "options": ["Cloud SQL", "Bigtable", "Firestore", "Spanner"],
-    "a": 0,
-    "topic": "Google Cloud Databases"
-  },
-  {
-    "q": "Which HTTP code indicates forbidden access?",
-    "options": ["403", "401", "404", "500"],
-    "a": 0,
-    "topic": "HTTP APIs"
-  },
-  {
-    "q": "Which Ansible module manages directories and files?",
-    "options": ["file", "copy", "template", "lineinfile"],
-    "a": 0,
-    "topic": "Ansible"
-  },
-  {
-    "q": "Which DevOps tool provides container orchestration?",
-    "options": ["Kubernetes", "Docker", "Ansible", "Terraform"],
-    "a": 0,
-    "topic": "DevOps"
-  },
-  {
-    "q": "Which Python function converts a number to string?",
-    "options": ["str()", "int()", "float()", "format()"],
-    "a": 0,
-    "topic": "Python"
-  },
-  {
-    "q": "Which GCP load balancer is global and supports HTTP(S)?",
-    "options": ["HTTP(S) LB", "Internal LB", "Network LB", "TCP LB"],
-    "a": 0,
-    "topic": "Google Cloud Networking"
-  },
-  {
-    "q": "Which SASE component provides secure web gateway functions?",
-    "options": ["SWG", "CASB", "ZTNA", "Firewall"],
-    "a": 0,
-    "topic": "Security"
-  },
-  {
-    "q": "Which Ansible module configures templates on devices?",
-    "options": ["template", "copy", "lineinfile", "command"],
-    "a": 0,
-    "topic": "Ansible"
-  },
-  {
-    "q": "Which HTTP method retrieves resource info without side effects?",
-    "options": ["GET", "POST", "PUT", "DELETE"],
-    "a": 0,
-    "topic": "HTTP APIs"
-  },
-  {
-    "q": "Which Python keyword handles exceptions?",
-    "options": ["try", "except", "catch", "raise"],
+    "q": "Which component streamlines the development of network automation applications?",
+    "options": ["RESTCONF", "SDK", "ChatBot", "DevOps"],
     "a": 1,
-    "topic": "Python"
+    "topic": "Course 1"
   },
   {
-    "q": "Which GCP service provides audit logs for admin actions?",
+    "q": "Which two options are common trends in the network industry in the context of automation? (Choose two.)",
     "options": [
-      "Audit Logs",
-      "VPC Flow Logs",
-      "Cloud Logging",
-      "Cloud Monitoring"
+      "increasing the rate and use of the CLI",
+      "adoption of open source",
+      "hiring more engineers to scale network management",
+      "implementing DevOps processes and principles",
+      "actively testing automation in production"
+    ],
+    "a": [1, 3],
+    "topic": "Course 1"
+  },
+  {
+    "q": "Which challenge does collaboration solve?",
+    "options": [
+      "network reachability",
+      "application availability",
+      "security concerns",
+      "communication among teams"
+    ],
+    "a": 3,
+    "topic": "Course 1"
+  },
+  {
+    "q": "Which method is used to automate a multidomain network?",
+    "options": ["CLI", "GUI", "console", "API"],
+    "a": 3,
+    "topic": "Course 1"
+  },
+  {
+    "q": "To which domain does Cisco Meraki belong?",
+    "options": ["data center", "security", "collaboration", "enterprise"],
+    "a": 3,
+    "topic": "Course 1"
+  },
+  {
+    "q": "Which type of automation use case is appropriate if you need to shut down an interface when errors are found on that interface?",
+    "options": [
+      "event-driven network automation",
+      "automated backups",
+      "configuration management",
+      "continuous compliance",
+      "reporting"
     ],
     "a": 0,
-    "topic": "Google Cloud Security"
+    "topic": "Course 1"
   },
   {
-    "q": "Which DevOps practice involves infrastructure as code?",
-    "options": ["IaC", "CI/CD", "Monitoring", "Testing"],
-    "a": 0,
-    "topic": "DevOps"
-  },
-  {
-    "q": "Which Cisco automation tool supports NETCONF?",
-    "options": ["NSO", "CML", "VIRL", "pyATS"],
-    "a": 0,
-    "topic": "Cisco Automation"
-  },
-  {
-    "q": "Which OSI layer is responsible for MAC addressing?",
-    "options": ["Data Link", "Network", "Transport", "Session"],
-    "a": 0,
-    "topic": "Networking"
-  },
-  {
-    "q": "Which Git command shows uncommitted changes?",
-    "options": ["git status", "git log", "git diff", "git branch"],
-    "a": 0,
-    "topic": "DevOps"
-  },
-  {
-    "q": "Which Python method removes an element by value?",
-    "options": ["remove()", "pop()", "delete()", "discard()"],
-    "a": 0,
-    "topic": "Python"
-  },
-  {
-    "q": "Which GCP service stores structured NoSQL data?",
-    "options": ["Firestore", "Cloud SQL", "Bigtable", "Spanner"],
-    "a": 0,
-    "topic": "Google Cloud Databases"
-  },
-  {
-    "q": "Which HTTP code indicates a resource created successfully?",
-    "options": ["201", "200", "400", "500"],
-    "a": 0,
-    "topic": "HTTP APIs"
-  },
-  {
-    "q": "Which Ansible module retrieves facts from network devices?",
-    "options": ["ios_facts", "ios_command", "ios_config", "netconf"],
-    "a": 0,
-    "topic": "Ansible"
-  },
-  {
-    "q": "Which DevOps tool automates deployment pipelines?",
-    "options": ["Jenkins", "Git", "Docker", "Terraform"],
-    "a": 0,
-    "topic": "DevOps"
-  },
-  {
-    "q": "Which Python keyword defines a class method?",
-    "options": ["def", "class", "self", "function"],
-    "a": 0,
-    "topic": "Python"
-  },
-  {
-    "q": "Which GCP service provides serverless function execution?",
-    "options": ["Cloud Functions", "Cloud Run", "GKE", "App Engine"],
-    "a": 0,
-    "topic": "Google Cloud Services"
-  },
-  {
-    "q": "Which SASE component monitors cloud app usage?",
-    "options": ["CASB", "SWG", "ZTNA", "Firewall"],
-    "a": 0,
-    "topic": "Security"
-  },
-  {
-    "q": "Which Ansible file contains variables for hosts or groups?",
-    "options": ["vars", "playbook", "inventory", "roles"],
-    "a": 0,
-    "topic": "Ansible"
-  },
-  {
-    "q": "Which HTTP method is idempotent and replaces a resource?",
-    "options": ["PUT", "POST", "GET", "PATCH"],
-    "a": 0,
-    "topic": "HTTP APIs"
-  },
-  {
-    "q": "Which Python method concatenates strings from a list?",
-    "options": ["join()", "concat()", "str()", "format()"],
-    "a": 0,
-    "topic": "Python"
-  },
-  {
-    "q": "Which GCP feature ensures private communication between VPCs?",
-    "options": ["Shared VPC", "VPC Peering", "Cloud NAT", "Cloud Router"],
-    "a": 0,
-    "topic": "Google Cloud Networking"
-  },
-  {
-    "q": "True or False: Containers can run multiple isolated applications sharing host kernel.",
-    "options": ["True", "False", "Depends", "Only Linux"],
-    "a": 0,
-    "topic": "DevOps"
-  },
-  {
-    "q": "Which Cisco tool allows automated network testing?",
-    "options": ["pyATS", "CML", "NSO", "VIRL"],
-    "a": 0,
-    "topic": "Cisco Automation"
-  },
-  {
-    "q": "Which OSI layer ensures reliable end-to-end data delivery?",
-    "options": ["Transport", "Network", "Data Link", "Session"],
-    "a": 0,
-    "topic": "Networking"
-  },
-  {
-    "q": "Which Git command restores a deleted branch?",
-    "options": ["git checkout -b", "git branch", "git restore", "git revert"],
-    "a": 0,
-    "topic": "DevOps"
-  },
-  {
-    "q": "Which Python collection is unordered and unique?",
-    "options": ["set", "list", "tuple", "dict"],
-    "a": 0,
-    "topic": "Python"
-  },
-  {
-    "q": "Which GCP service provides globally distributed database?",
-    "options": ["Spanner", "Bigtable", "Cloud SQL", "Firestore"],
-    "a": 0,
-    "topic": "Google Cloud Databases"
-  },
-  {
-    "q": "Which HTTP code means too many requests?",
-    "options": ["429", "404", "403", "500"],
-    "a": 0,
-    "topic": "HTTP APIs"
-  },
-  {
-    "q": "Which Ansible module ensures service is running on a host?",
-    "options": ["service", "systemd", "command", "copy"],
-    "a": 0,
-    "topic": "Ansible"
-  },
-  {
-    "q": "Which DevOps practice emphasizes monitoring in production?",
-    "options": ["Observability", "CI/CD", "Versioning", "Testing"],
-    "a": 0,
-    "topic": "DevOps"
-  },
-  {
-    "q": "Which Python keyword is used for exception handling?",
-    "options": ["except", "try", "catch", "raise"],
-    "a": 0,
-    "topic": "Python"
-  },
-  {
-    "q": "Which GCP load balancer provides TCP/UDP load balancing?",
-    "options": ["Network LB", "Internal LB", "HTTP LB", "Global LB"],
-    "a": 0,
-    "topic": "Google Cloud Networking"
-  },
-  {
-    "q": "Which SASE component enforces zero-trust access?",
-    "options": ["ZTNA", "CASB", "SWG", "Firewall"],
-    "a": 0,
-    "topic": "Security"
-  },
-  {
-    "q": "Which Ansible module deploys configuration templates?",
-    "options": ["template", "copy", "lineinfile", "command"],
-    "a": 0,
-    "topic": "Ansible"
-  },
-  {
-    "q": "Which HTTP method should be safe and read-only?",
-    "options": ["GET", "POST", "PUT", "DELETE"],
-    "a": 0,
-    "topic": "HTTP APIs"
-  },
-  {
-    "q": "Which Python method converts a string to integer?",
-    "options": ["int()", "str()", "float()", "eval()"],
-    "a": 0,
-    "topic": "Python"
-  },
-  {
-    "q": "Which GCP service logs admin actions for compliance?",
+    "q": "If it is a requirement to integrate network change automation directly with the automation system so that a change can be executed when a ticket is opened, which platforms and technology will need to be integrated? (Choose two.)",
     "options": [
-      "Audit Logs",
-      "Cloud Logging",
-      "Cloud Monitoring",
-      "VPC Flow Logs"
+      "automated backups",
+      "chat",
+      "configuration management",
+      "dashboard",
+      "ITSM"
     ],
-    "a": 0,
-    "topic": "Google Cloud Security"
+    "a": [2, 4],
+    "topic": "Course 1"
+  },
+  {
+    "q": "Cisco ISE belongs to which network domain?",
+    "options": ["service provider", "enterprise", "security", "data center"],
+    "a": 2,
+    "topic": "Course 1"
   }
 ]

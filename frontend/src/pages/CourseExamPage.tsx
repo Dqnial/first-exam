@@ -1,12 +1,16 @@
 import { useEffect, useState } from "react";
+import { useParams, useNavigate } from "react-router-dom";
 import QuestionCard from "@/components/QuestionCard";
-import { fetchRandomQuestions } from "@/api/examApi";
+import { fetchCourseQuestions } from "@/api/examApi";
 import type { Question } from "@/api/examApi";
 import { Button } from "@/components/ui/button";
 import { Spinner } from "@/components/ui/spinner";
 import { Card, CardContent, CardTitle } from "@/components/ui/card";
 
-const ExamPage = () => {
+const CourseExamPage = () => {
+  const { courseId } = useParams<{ courseId: string }>();
+  const navigate = useNavigate();
+
   const [questions, setQuestions] = useState<Question[]>([]);
   const [answers, setAnswers] = useState<{ [key: string]: number | number[] }>(
     {}
@@ -16,19 +20,19 @@ const ExamPage = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
-    fetchRandomQuestions()
+    if (!courseId) return;
+    fetchCourseQuestions(courseId)
       .then((data) => setQuestions(data))
       .catch(console.error)
       .finally(() => setLoading(false));
-  }, []);
+  }, [courseId]);
 
   const handleSelect = (id: string, idx: number) => {
     const q = questions.find((q) => q._id === id);
     if (!q) return;
 
-    // проверяем, может ли быть множественный выбор
-    const multiple = Array.isArray(q.a);
-    if (multiple) {
+    // Если множественный выбор
+    if (Array.isArray(q.a)) {
       setAnswers((prev) => {
         const prevArr = (prev[id] as number[]) || [];
         if (prevArr.includes(idx)) {
@@ -48,7 +52,7 @@ const ExamPage = () => {
     return (
       <div className="flex justify-center items-center h-screen flex-col">
         <Spinner />
-        <p className="mt-2 text-lg">Loading questions...</p>
+        <p className="mt-2 text-lg">Loading {courseId} questions...</p>
       </div>
     );
 
@@ -56,7 +60,6 @@ const ExamPage = () => {
     const correctCount = questions.reduce((acc, q) => {
       const userAnswer = answers[q._id];
       if (Array.isArray(q.a)) {
-        // множественный ответ
         if (
           Array.isArray(userAnswer) &&
           userAnswer.sort().join(",") === q.a.sort().join(",")
@@ -73,7 +76,9 @@ const ExamPage = () => {
 
     return (
       <div className="max-w-4xl mx-auto mt-8 space-y-6">
-        <h1 className="text-3xl font-bold text-center">Exam Finished</h1>
+        <h1 className="text-3xl font-bold text-center">
+          {courseId} Exam Finished
+        </h1>
         <p className="text-center text-lg">
           Score: {correctCount} / {questions.length} ({percent}%)
         </p>
@@ -118,11 +123,12 @@ const ExamPage = () => {
                         className={`${
                           (multiple ? (q.a as number[]).includes(i) : i === q.a)
                             ? "font-bold text-green-700"
-                            : (
-                                Array.isArray(userAnswer)
-                                  ? userAnswer.includes(i)
-                                  : userAnswer === i
-                              )
+                            : (Array.isArray(userAnswer)
+                                ? userAnswer.includes(i)
+                                : userAnswer === i) &&
+                              !(multiple
+                                ? (q.a as number[]).includes(i)
+                                : i === q.a)
                             ? "text-red-600 font-semibold"
                             : ""
                         }`}
@@ -147,6 +153,10 @@ const ExamPage = () => {
             );
           })}
         </div>
+
+        <Button className="mt-4" onClick={() => navigate("/")}>
+          Back to Courses
+        </Button>
       </div>
     );
   }
@@ -156,14 +166,17 @@ const ExamPage = () => {
   return (
     <div className="max-w-3xl mx-auto p-4">
       <h1 className="text-2xl font-bold mb-4 text-center">
-        Random Practice Exam
+        {courseId} Practice Exam
       </h1>
 
       <QuestionCard
         qNumber={currentIndex + 1}
         question={currentQuestion.q}
         options={currentQuestion.options}
-        selected={answers[currentQuestion._id]}
+        selected={
+          answers[currentQuestion._id] ??
+          (Array.isArray(currentQuestion.a) ? [] : -1)
+        }
         onSelect={(optIdx) => handleSelect(currentQuestion._id, optIdx)}
         multiple={Array.isArray(currentQuestion.a)}
       />
@@ -194,4 +207,4 @@ const ExamPage = () => {
   );
 };
 
-export default ExamPage;
+export default CourseExamPage;
