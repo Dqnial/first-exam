@@ -1,0 +1,2156 @@
+[
+  {
+    "q": "Which Cisco product allows creation of virtual network devices for testing?",
+    "options": ["NSO", "pyATS", "CML", "Ansible"],
+    "a": 2,
+    "topic": "Cisco Automation"
+  },
+  {
+    "q": "What does NSO stand for in Cisco automation?",
+    "options": [
+      "Network Services Orchestrator",
+      "Network Simplify Operator",
+      "Network Secure Object",
+      "None"
+    ],
+    "a": 0,
+    "topic": "Cisco Automation"
+  },
+  {
+    "q": "Which protocol uses TCP port 830 by default?",
+    "options": ["NETCONF", "SNMP", "HTTP", "SSH"],
+    "a": 0,
+    "topic": "REST/NETCONF"
+  },
+  {
+    "q": "RESTCONF is primarily based on which data model?",
+    "options": ["XML", "JSON", "YANG", "SNMP"],
+    "a": 2,
+    "topic": "REST/NETCONF"
+  },
+  {
+    "q": "What HTTP status code means too many requests?",
+    "options": ["401", "403", "429", "500"],
+    "a": 2,
+    "topic": "HTTP APIs"
+  },
+  {
+    "q": "Which feature of REST APIs ensures independence of each request?",
+    "options": ["Stateful", "Stateless", "Cacheable", "Private"],
+    "a": 1,
+    "topic": "HTTP APIs"
+  },
+  {
+    "q": "Which HTTP method retrieves data?",
+    "options": ["GET", "POST", "PUT", "DELETE"],
+    "a": 0,
+    "topic": "HTTP APIs"
+  },
+  {
+    "q": "Which HTTP method is used to update an existing resource?",
+    "options": ["GET", "POST", "PUT", "DELETE"],
+    "a": 2,
+    "topic": "HTTP APIs"
+  },
+  {
+    "q": "In Python, which function can show available methods for a data type?",
+    "options": ["len()", "help()", "list()", "show()"],
+    "a": 1,
+    "topic": "Python"
+  },
+  {
+    "q": "Which Python data type is used for key–value pairs?",
+    "options": ["list", "dict", "tuple", "set"],
+    "a": 1,
+    "topic": "Python"
+  },
+  {
+    "q": "How do you print the hostname from devices list [{'hostname':'csr1'}]?",
+    "options": [
+      "print(devices['hostname'])",
+      "print(devices[0]['hostname'])",
+      "print(devices.hostname)",
+      "print(hostname)"
+    ],
+    "a": 1,
+    "topic": "Python"
+  },
+  {
+    "q": "Which Ansible file defines device groups?",
+    "options": ["hosts", "playbook.yml", "vars.yml", "roles.yml"],
+    "a": 0,
+    "topic": "Ansible"
+  },
+  {
+    "q": "Which Ansible module sends operational commands to Cisco IOS devices?",
+    "options": ["ios_config", "ios_facts", "ios_command", "netconf"],
+    "a": 2,
+    "topic": "Ansible"
+  },
+  {
+    "q": "In Ansible templating, which language is used?",
+    "options": ["Handlebars", "Jinja2", "Mustache", "Liquid"],
+    "a": 1,
+    "topic": "Ansible"
+  },
+  {
+    "q": "Which parameter is required when using Ansible template module?",
+    "options": ["source", "template", "dest", "path"],
+    "a": 2,
+    "topic": "Ansible"
+  },
+  {
+    "q": "Which SDLC phase comes after planning?",
+    "options": ["Design", "Develop", "Test", "Deploy"],
+    "a": 0,
+    "topic": "DevOps"
+  },
+  {
+    "q": "What is the main goal of Lean methodology?",
+    "options": [
+      "Increase staff",
+      "Eliminate waste",
+      "Add more features",
+      "Reduce users"
+    ],
+    "a": 1,
+    "topic": "DevOps"
+  },
+  {
+    "q": "What is a Git remote repository used for?",
+    "options": [
+      "Local history backup",
+      "Shared central repo",
+      "Temporary storage",
+      "Debug logs"
+    ],
+    "a": 1,
+    "topic": "DevOps"
+  },
+  {
+    "q": "Which tool isolates an OS and dependencies for reproducible environments?",
+    "options": ["Vagrant", "Docker", "Pipenv", "Qemu"],
+    "a": 1,
+    "topic": "DevOps"
+  },
+  {
+    "q": "Docker containers share which part of the system?",
+    "options": ["Host OS kernel", "CPU only", "VM firmware", "Hypervisor"],
+    "a": 0,
+    "topic": "DevOps"
+  },
+  {
+    "q": "Which layer of OSI does IEEE 802 split into sublayers?",
+    "options": ["Physical", "Data Link", "Network", "Transport"],
+    "a": 1,
+    "topic": "Networking"
+  },
+  {
+    "q": "What is another term for a logical address?",
+    "options": ["MAC address", "IP address", "Subnet", "Gateway"],
+    "a": 1,
+    "topic": "Networking"
+  },
+  {
+    "q": "Which network device forwards packets based on MAC addresses?",
+    "options": ["Router", "Switch", "Hub", "Repeater"],
+    "a": 1,
+    "topic": "Networking"
+  },
+  {
+    "q": "True or False: A hypervisor allows multiple virtual OS to run on one host.",
+    "options": ["True", "False", "Only with special licenses", "Only in cloud"],
+    "a": 0,
+    "topic": "Virtualization"
+  },
+  {
+    "q": "Which Zero Trust principle eliminates implicit trust?",
+    "options": [
+      "Trust internal",
+      "Trust external",
+      "Never trust, always verify",
+      "Only perimeter"
+    ],
+    "a": 2,
+    "topic": "Security"
+  },
+  {
+    "q": "Which SASE component focuses on secure web traffic?",
+    "options": ["CASB", "ZTNA", "SWG", "SD-WAN"],
+    "a": 2,
+    "topic": "Security"
+  },
+  {
+    "q": "CASB in SASE provides protection for what?",
+    "options": [
+      "Network routing",
+      "Web filtering",
+      "SaaS usage",
+      "Private apps"
+    ],
+    "a": 2,
+    "topic": "Security"
+  },
+  {
+    "q": "Zero Trust design principle adopts what strategy?",
+    "options": [
+      "Least privilege",
+      "Implicit allow",
+      "Open network",
+      "Single trust"
+    ],
+    "a": 0,
+    "topic": "Security"
+  },
+  {
+    "q": "Which regulation addresses data export outside the EU?",
+    "options": ["HIPAA", "GDPR", "PCI DSS", "SOX"],
+    "a": 1,
+    "topic": "Security"
+  },
+  {
+    "q": "What type of log records who performed a specific action?",
+    "options": ["Error log", "Access log", "Audit log", "System log"],
+    "a": 2,
+    "topic": "Google Cloud Security"
+  },
+  {
+    "q": "Which GCP service tier uses the public internet?",
+    "options": ["Premium", "Standard", "Basic", "Private"],
+    "a": 1,
+    "topic": "Google Cloud Networking"
+  },
+  {
+    "q": "What GCP feature provides centralized multi-project networking?",
+    "options": ["Cloud VPN", "Shared VPC", "Interconnect", "Cloud NAT"],
+    "a": 1,
+    "topic": "Google Cloud Networking"
+  },
+  {
+    "q": "In GCP, lifecycle management rules apply to what?",
+    "options": [
+      "VM instances",
+      "Cloud Storage objects",
+      "Firewall rules",
+      "IAM roles"
+    ],
+    "a": 1,
+    "topic": "Google Cloud Storage"
+  },
+  {
+    "q": "Which GCP service enforces authentication before access?",
+    "options": [
+      "Cloud DNS",
+      "Identity-Aware Proxy",
+      "Cloud Armor",
+      "Cloud Router"
+    ],
+    "a": 1,
+    "topic": "Google Cloud Security"
+  },
+  {
+    "q": "Which GCP log type shows network traffic flows?",
+    "options": ["Audit Logs", "VPC Flow Logs", "System Logs", "Access Logs"],
+    "a": 1,
+    "topic": "Google Cloud Monitoring"
+  },
+  {
+    "q": "Which cloud model provides managed infrastructure but not hardware?",
+    "options": ["SaaS", "PaaS", "IaaS", "FaaS"],
+    "a": 2,
+    "topic": "Cloud Fundamentals"
+  },
+  {
+    "q": "Which GCP load balancer operates at layer 7?",
+    "options": ["Network LB", "Internal LB", "HTTP(S) LB", "Hybrid LB"],
+    "a": 2,
+    "topic": "Google Cloud Networking"
+  },
+  {
+    "q": "Which service lets you run containerized web apps serverlessly?",
+    "options": ["GKE", "Cloud Run", "Compute Engine", "App Engine"],
+    "a": 1,
+    "topic": "Google Cloud Services"
+  },
+  {
+    "q": "Which database is designed for high scalability across regions?",
+    "options": ["Cloud SQL", "Bigtable", "Firestore", "Spanner"],
+    "a": 3,
+    "topic": "Google Cloud Databases"
+  },
+  {
+    "q": "Which GCP interconnect option comes with an SLA?",
+    "options": [
+      "Carrier Peering",
+      "Direct Peering",
+      "Dedicated Interconnect",
+      "Standard Tier"
+    ],
+    "a": 2,
+    "topic": "Google Cloud Networking"
+  },
+  {
+    "q": "In cybersecurity, what is an internal threat actor?",
+    "options": [
+      "Malicious outsider",
+      "Employee insider",
+      "Contractor only",
+      "Partner only"
+    ],
+    "a": 1,
+    "topic": "Security"
+  },
+  {
+    "q": "Which OSI layer is responsible for routing between networks?",
+    "options": ["Physical", "Data Link", "Network", "Session"],
+    "a": 2,
+    "topic": "Networking"
+  },
+  {
+    "q": "Which type of authentication header uses a token?",
+    "options": ["Basic", "Bearer", "APIKey", "Cookie"],
+    "a": 1,
+    "topic": "HTTP APIs"
+  },
+  {
+    "q": "True or False: Containers are heavier than virtual machines.",
+    "options": ["True", "False", "Depends", "Only in Linux"],
+    "a": 1,
+    "topic": "DevOps"
+  },
+  {
+    "q": "Which principle is core for both SecOps and DevSecOps?",
+    "options": [
+      "Manual code review",
+      "Automation",
+      "Isolation",
+      "Exclusive tools"
+    ],
+    "a": 1,
+    "topic": "Security"
+  },
+  {
+    "q": "Which Google Cloud feature prevents data from being used outside Europe?",
+    "options": [
+      "VPC Service Controls",
+      "Organization policy constraints",
+      "Cloud Identity",
+      "Cloud Monitoring"
+    ],
+    "a": 1,
+    "topic": "Google Cloud Security"
+  },
+  {
+    "q": "Which JSON method converts a string into an object?",
+    "options": ["parse()", "stringify()", "fromJSON()", "toObject()"],
+    "a": 0,
+    "topic": "JSON Basics"
+  },
+  {
+    "q": "Which method updates an existing record in REST?",
+    "options": ["GET", "POST", "PUT", "DELETE"],
+    "a": 2,
+    "topic": "HTTP APIs"
+  },
+  {
+    "q": "What is the purpose of Git pull?",
+    "options": [
+      "Upload changes",
+      "Download changes",
+      "Delete branch",
+      "Format repo"
+    ],
+    "a": 1,
+    "topic": "DevOps"
+  },
+  {
+    "q": "Which command stages files for commit in Git?",
+    "options": ["git push", "git status", "git add", "git init"],
+    "a": 2,
+    "topic": "DevOps"
+  },
+  {
+    "q": "Which Linux command shows current directory?",
+    "options": ["ls", "pwd", "cd", "rm"],
+    "a": 1,
+    "topic": "Basics"
+  },
+  {
+    "q": "Which GCP service can store unstructured data?",
+    "options": ["Cloud SQL", "Cloud Storage", "Spanner", "Cloud Memorystore"],
+    "a": 1,
+    "topic": "Google Cloud Storage"
+  },
+  {
+    "q": "Which HTTP status code means resource not found?",
+    "options": ["200", "204", "404", "301"],
+    "a": 2,
+    "topic": "HTTP APIs"
+  },
+  {
+    "q": "Which Zero Trust component enforces least privilege?",
+    "options": ["ZTNA", "IAM", "CASB", "SWG"],
+    "a": 1,
+    "topic": "Security"
+  },
+  {
+    "q": "What is the default branch in Git called?",
+    "options": ["main", "master", "dev", "release"],
+    "a": 0,
+    "topic": "DevOps"
+  },
+  {
+    "q": "Which GCP feature routes traffic to closest endpoint?",
+    "options": ["Cloud Router", "Global LB", "Cloud Armor", "DNS Only"],
+    "a": 1,
+    "topic": "Google Cloud Networking"
+  },
+
+  {
+    "q": "Which Cisco tool automates network configuration changes?",
+    "options": ["NSO", "VIRL", "CML", "pyATS"],
+    "a": 0,
+    "topic": "Cisco Automation"
+  },
+  {
+    "q": "Which protocol is used to automate devices using structured data?",
+    "options": ["REST", "NETCONF", "SSH", "Telnet"],
+    "a": 1,
+    "topic": "REST/NETCONF"
+  },
+  {
+    "q": "Which Python data type is immutable?",
+    "options": ["list", "dict", "tuple", "set"],
+    "a": 2,
+    "topic": "Python"
+  },
+  {
+    "q": "Which Ansible module gathers facts from devices?",
+    "options": ["ios_command", "ios_facts", "ios_config", "netconf"],
+    "a": 1,
+    "topic": "Ansible"
+  },
+  {
+    "q": "Which HTTP method deletes a resource?",
+    "options": ["GET", "POST", "PUT", "DELETE"],
+    "a": 3,
+    "topic": "HTTP APIs"
+  },
+  {
+    "q": "Which SASE component provides secure access to private apps?",
+    "options": ["ZTNA", "SWG", "CASB", "SD-WAN"],
+    "a": 0,
+    "topic": "Security"
+  },
+  {
+    "q": "What GCP service allows serverless function execution?",
+    "options": ["Cloud Functions", "Cloud Run", "Compute Engine", "App Engine"],
+    "a": 0,
+    "topic": "Google Cloud Services"
+  },
+  {
+    "q": "Which load balancer operates at L4?",
+    "options": ["HTTP(S) LB", "TCP/UDP LB", "Internal LB", "Global LB"],
+    "a": 1,
+    "topic": "Google Cloud Networking"
+  },
+  {
+    "q": "Which network topology isolates sensitive data?",
+    "options": ["Hub-and-spoke", "Mesh", "Star", "Ring"],
+    "a": 0,
+    "topic": "Networking"
+  },
+  {
+    "q": "Which GCP log records API calls for auditing?",
+    "options": ["VPC Flow Logs", "Audit Logs", "System Logs", "Access Logs"],
+    "a": 1,
+    "topic": "Google Cloud Security"
+  },
+  {
+    "q": "True or False: Containers run isolated processes sharing the kernel.",
+    "options": ["True", "False", "Depends", "Only Linux"],
+    "a": 0,
+    "topic": "DevOps"
+  },
+  {
+    "q": "Which Git command shows commit history?",
+    "options": ["git log", "git status", "git branch", "git commit"],
+    "a": 0,
+    "topic": "DevOps"
+  },
+  {
+    "q": "Which Zero Trust principle applies verification at every step?",
+    "options": [
+      "Trust but verify",
+      "Never trust, always verify",
+      "Implicit trust",
+      "Perimeter only"
+    ],
+    "a": 1,
+    "topic": "Security"
+  },
+  {
+    "q": "What is the main advantage of Jinja2 templates in Ansible?",
+    "options": ["Automation", "Dynamic configs", "Debugging", "Monitoring"],
+    "a": 1,
+    "topic": "Ansible"
+  },
+  {
+    "q": "Which Cisco tool allows API-based testing?",
+    "options": ["CML", "NSO", "VIRL", "Ansible"],
+    "a": 2,
+    "topic": "Cisco Automation"
+  },
+  {
+    "q": "Which GCP database is NoSQL and scalable?",
+    "options": ["Cloud SQL", "Firestore", "Spanner", "Bigtable"],
+    "a": 1,
+    "topic": "Google Cloud Databases"
+  },
+  {
+    "q": "Which Python function returns length of a collection?",
+    "options": ["size()", "count()", "len()", "length()"],
+    "a": 2,
+    "topic": "Python"
+  },
+  {
+    "q": "Which GCP feature enforces resource access policies?",
+    "options": ["Cloud IAM", "Cloud Armor", "VPC Firewall", "Cloud DNS"],
+    "a": 0,
+    "topic": "Google Cloud Security"
+  },
+  {
+    "q": "What command stages files in Git for commit?",
+    "options": ["git push", "git add", "git commit", "git status"],
+    "a": 1,
+    "topic": "DevOps"
+  },
+  {
+    "q": "Which SASE component inspects web traffic for malware?",
+    "options": ["ZTNA", "SWG", "CASB", "Firewall"],
+    "a": 1,
+    "topic": "Security"
+  },
+  {
+    "q": "Which OSI layer is responsible for MAC addresses?",
+    "options": ["Network", "Data Link", "Physical", "Session"],
+    "a": 1,
+    "topic": "Networking"
+  },
+  {
+    "q": "Which HTTP status code means unauthorized?",
+    "options": ["200", "401", "403", "404"],
+    "a": 1,
+    "topic": "HTTP APIs"
+  },
+  {
+    "q": "Which GCP feature routes traffic within a VPC?",
+    "options": ["Cloud Router", "Cloud NAT", "Shared VPC", "Peering"],
+    "a": 0,
+    "topic": "Google Cloud Networking"
+  },
+  {
+    "q": "Which Ansible module configures IOS devices?",
+    "options": ["ios_command", "ios_facts", "ios_config", "netconf"],
+    "a": 2,
+    "topic": "Ansible"
+  },
+  {
+    "q": "Which Git command downloads remote changes?",
+    "options": ["git pull", "git push", "git clone", "git fetch"],
+    "a": 0,
+    "topic": "DevOps"
+  },
+  {
+    "q": "Which HTTP method submits new data to a server?",
+    "options": ["GET", "POST", "PUT", "DELETE"],
+    "a": 1,
+    "topic": "HTTP APIs"
+  },
+  {
+    "q": "Which Python data type is unordered?",
+    "options": ["dict", "list", "tuple", "set"],
+    "a": 3,
+    "topic": "Python"
+  },
+  {
+    "q": "Which GCP service is for object storage?",
+    "options": ["Cloud SQL", "Cloud Storage", "Firestore", "Bigtable"],
+    "a": 1,
+    "topic": "Google Cloud Storage"
+  },
+  {
+    "q": "Which SASE principle ensures complete traffic visibility?",
+    "options": ["ZTNA", "CASB", "SWG", "ADEM"],
+    "a": 3,
+    "topic": "Security"
+  },
+  {
+    "q": "Which cloud model provides applications only?",
+    "options": ["IaaS", "PaaS", "SaaS", "FaaS"],
+    "a": 2,
+    "topic": "Cloud Fundamentals"
+  },
+  {
+    "q": "Which GCP load balancer is global?",
+    "options": ["Network LB", "Internal LB", "HTTP(S) LB", "TCP LB"],
+    "a": 2,
+    "topic": "Google Cloud Networking"
+  },
+  {
+    "q": "Which tool automates testing and validation of network devices?",
+    "options": ["CML", "VIRL", "NSO", "pyATS"],
+    "a": 3,
+    "topic": "Cisco Automation"
+  },
+  {
+    "q": "Which Zero Trust principle enforces least privilege?",
+    "options": ["ZTNA", "IAM", "SWG", "CASB"],
+    "a": 1,
+    "topic": "Security"
+  },
+  {
+    "q": "Which DevOps tool builds reproducible environments?",
+    "options": ["Docker", "Vagrant", "Pipenv", "Qemu"],
+    "a": 0,
+    "topic": "DevOps"
+  },
+  {
+    "q": "Which Ansible file defines host variables?",
+    "options": ["inventory", "playbook", "vars", "roles"],
+    "a": 2,
+    "topic": "Ansible"
+  },
+  {
+    "q": "Which HTTP status code indicates success?",
+    "options": ["200", "404", "500", "403"],
+    "a": 0,
+    "topic": "HTTP APIs"
+  },
+  {
+    "q": "Which OSI layer handles routing between networks?",
+    "options": ["Network", "Data Link", "Session", "Transport"],
+    "a": 0,
+    "topic": "Networking"
+  },
+  {
+    "q": "True or False: Containers are lighter than VMs.",
+    "options": ["True", "False", "Depends", "Only Linux"],
+    "a": 0,
+    "topic": "DevOps"
+  },
+  {
+    "q": "Which Git command creates a new repository?",
+    "options": ["git init", "git clone", "git add", "git push"],
+    "a": 0,
+    "topic": "DevOps"
+  },
+  {
+    "q": "Which Google Cloud feature sets policies per organization unit?",
+    "options": ["Cloud IAM", "Organization Policy", "Cloud Armor", "Cloud DNS"],
+    "a": 1,
+    "topic": "Google Cloud Security"
+  },
+  {
+    "q": "Which Ansible module retrieves device facts?",
+    "options": ["ios_config", "ios_facts", "ios_command", "netconf"],
+    "a": 1,
+    "topic": "Ansible"
+  },
+  {
+    "q": "Which GCP service allows serverless containers?",
+    "options": ["GKE", "Cloud Run", "App Engine", "Compute Engine"],
+    "a": 1,
+    "topic": "Google Cloud Services"
+  },
+  {
+    "q": "Which database scales automatically and globally?",
+    "options": ["Cloud SQL", "Firestore", "Spanner", "Bigtable"],
+    "a": 2,
+    "topic": "Google Cloud Databases"
+  },
+  {
+    "q": "Which HTTP method updates a resource fully?",
+    "options": ["GET", "POST", "PUT", "PATCH"],
+    "a": 2,
+    "topic": "HTTP APIs"
+  },
+  {
+    "q": "Which Python method converts object to string?",
+    "options": ["json.parse()", "json.stringify()", "str()", "toString()"],
+    "a": 2,
+    "topic": "Python"
+  },
+  {
+    "q": "Which Git command shows branches?",
+    "options": ["git log", "git status", "git branch", "git remote"],
+    "a": 2,
+    "topic": "DevOps"
+  },
+  {
+    "q": "Which GCP log tracks API calls for auditing?",
+    "options": ["Audit Logs", "VPC Flow Logs", "System Logs", "Access Logs"],
+    "a": 0,
+    "topic": "Google Cloud Security"
+  },
+  {
+    "q": "Which SASE component manages cloud SaaS access?",
+    "options": ["ZTNA", "SWG", "CASB", "SD-WAN"],
+    "a": 2,
+    "topic": "Security"
+  },
+  {
+    "q": "Which Cisco tool models network topologies for testing?",
+    "options": ["VIRL", "NSO", "CML", "pyATS"],
+    "a": 0,
+    "topic": "Cisco Automation"
+  },
+  {
+    "q": "Which Python data type allows duplicate items?",
+    "options": ["set", "dict", "tuple", "list"],
+    "a": 3,
+    "topic": "Python"
+  },
+  {
+    "q": "Which OSI layer provides end-to-end communication?",
+    "options": ["Transport", "Network", "Data Link", "Session"],
+    "a": 0,
+    "topic": "Networking"
+  },
+  {
+    "q": "True or False: REST API requests must be stateless.",
+    "options": ["True", "False", "Sometimes", "Depends"],
+    "a": 0,
+    "topic": "REST/NETCONF"
+  },
+  {
+    "q": "Which Ansible module applies configuration templates?",
+    "options": ["template", "copy", "command", "lineinfile"],
+    "a": 0,
+    "topic": "Ansible"
+  },
+  {
+    "q": "Which GCP interconnect option is private?",
+    "options": [
+      "Carrier Peering",
+      "Direct Peering",
+      "Dedicated Interconnect",
+      "Standard Tier"
+    ],
+    "a": 2,
+    "topic": "Google Cloud Networking"
+  },
+  {
+    "q": "Which HTTP header contains basic authentication?",
+    "options": ["Authorization", "Cookie", "Token", "APIKey"],
+    "a": 0,
+    "topic": "HTTP APIs"
+  },
+  {
+    "q": "Which DevOps practice ensures code quality via continuous testing?",
+    "options": ["CI/CD", "Versioning", "Monitoring", "Deployment"],
+    "a": 0,
+    "topic": "DevOps"
+  },
+  {
+    "q": "Which Zero Trust component validates identity before granting access?",
+    "options": ["ZTNA", "IAM", "SWG", "Firewall"],
+    "a": 1,
+    "topic": "Security"
+  },
+  {
+    "q": "Which Python function converts string to integer?",
+    "options": ["int()", "str()", "float()", "bool()"],
+    "a": 0,
+    "topic": "Python"
+  },
+  {
+    "q": "Which SASE principle allows secure access from any location?",
+    "options": ["ZTNA", "CASB", "SWG", "ADEM"],
+    "a": 0,
+    "topic": "Security"
+  },
+  {
+    "q": "Which GCP service enables monitoring and alerting?",
+    "options": [
+      "Cloud Logging",
+      "Cloud Monitoring",
+      "Cloud Trace",
+      "Cloud Debugger"
+    ],
+    "a": 1,
+    "topic": "Google Cloud Monitoring"
+  },
+  {
+    "q": "Which Git command uploads commits to remote?",
+    "options": ["git pull", "git push", "git add", "git commit"],
+    "a": 1,
+    "topic": "DevOps"
+  },
+  {
+    "q": "Which Ansible file defines the sequence of tasks?",
+    "options": ["playbook", "inventory", "vars", "roles"],
+    "a": 0,
+    "topic": "Ansible"
+  },
+  {
+    "q": "Which Cisco automation tool supports REST APIs?",
+    "options": ["VIRL", "CML", "NSO", "pyATS"],
+    "a": 2,
+    "topic": "Cisco Automation"
+  },
+  {
+    "q": "Which cloud model provides only runtime environment?",
+    "options": ["SaaS", "PaaS", "IaaS", "FaaS"],
+    "a": 3,
+    "topic": "Cloud Fundamentals"
+  },
+  {
+    "q": "Which GCP load balancer is internal only?",
+    "options": ["Internal LB", "Network LB", "HTTP LB", "Global LB"],
+    "a": 0,
+    "topic": "Google Cloud Networking"
+  },
+  {
+    "q": "Which Python keyword is used to define a function?",
+    "options": ["func", "define", "def", "function"],
+    "a": 2,
+    "topic": "Python"
+  },
+  {
+    "q": "Which Ansible module manages files on a remote host?",
+    "options": ["copy", "file", "template", "lineinfile"],
+    "a": 1,
+    "topic": "Ansible"
+  },
+  {
+    "q": "Which HTTP method partially updates a resource?",
+    "options": ["GET", "POST", "PUT", "PATCH"],
+    "a": 3,
+    "topic": "HTTP APIs"
+  },
+  {
+    "q": "Which GCP service is used for container orchestration?",
+    "options": ["Cloud Run", "Cloud Functions", "GKE", "Compute Engine"],
+    "a": 2,
+    "topic": "Google Cloud Services"
+  },
+  {
+    "q": "Which SASE component inspects cloud application traffic?",
+    "options": ["ZTNA", "CASB", "SWG", "Firewall"],
+    "a": 1,
+    "topic": "Security"
+  },
+  {
+    "q": "True or False: NETCONF uses XML for configuration data.",
+    "options": ["True", "False", "Sometimes", "Depends"],
+    "a": 0,
+    "topic": "REST/NETCONF"
+  },
+  {
+    "q": "Which Git command creates a branch?",
+    "options": ["git branch", "git checkout", "git merge", "git log"],
+    "a": 0,
+    "topic": "DevOps"
+  },
+  {
+    "q": "Which OSI layer handles logical addressing?",
+    "options": ["Data Link", "Network", "Transport", "Session"],
+    "a": 1,
+    "topic": "Networking"
+  },
+  {
+    "q": "Which Python function outputs to console?",
+    "options": ["print()", "echo()", "console.log()", "write()"],
+    "a": 0,
+    "topic": "Python"
+  },
+  {
+    "q": "Which GCP feature allows private communication between VPCs?",
+    "options": ["VPC Peering", "Cloud NAT", "Shared VPC", "Cloud Router"],
+    "a": 0,
+    "topic": "Google Cloud Networking"
+  },
+  {
+    "q": "Which Ansible module executes CLI commands on devices?",
+    "options": ["ios_command", "ios_facts", "ios_config", "netconf"],
+    "a": 0,
+    "topic": "Ansible"
+  },
+  {
+    "q": "Which Cisco automation tool supports network modeling and simulation?",
+    "options": ["NSO", "VIRL", "CML", "pyATS"],
+    "a": 2,
+    "topic": "Cisco Automation"
+  },
+  {
+    "q": "Which HTTP status code indicates forbidden access?",
+    "options": ["401", "403", "404", "500"],
+    "a": 1,
+    "topic": "HTTP APIs"
+  },
+  {
+    "q": "Which DevOps practice involves continuous integration?",
+    "options": ["CI/CD", "GitOps", "Monitoring", "Testing"],
+    "a": 0,
+    "topic": "DevOps"
+  },
+  {
+    "q": "Which Python data type stores key-value pairs?",
+    "options": ["dict", "list", "set", "tuple"],
+    "a": 0,
+    "topic": "Python"
+  },
+  {
+    "q": "Which GCP load balancer distributes traffic globally for HTTP(S)?",
+    "options": ["Network LB", "Internal LB", "HTTP(S) LB", "TCP LB"],
+    "a": 2,
+    "topic": "Google Cloud Networking"
+  },
+  {
+    "q": "Which SASE component enforces web filtering policies?",
+    "options": ["ZTNA", "SWG", "CASB", "Firewall"],
+    "a": 1,
+    "topic": "Security"
+  },
+  {
+    "q": "Which cloud model provides full infrastructure control?",
+    "options": ["SaaS", "PaaS", "IaaS", "FaaS"],
+    "a": 2,
+    "topic": "Cloud Fundamentals"
+  },
+  {
+    "q": "Which Git command shows the status of changes?",
+    "options": ["git log", "git status", "git add", "git commit"],
+    "a": 1,
+    "topic": "DevOps"
+  },
+  {
+    "q": "Which Ansible module copies files from control node to managed node?",
+    "options": ["template", "copy", "file", "command"],
+    "a": 1,
+    "topic": "Ansible"
+  },
+  {
+    "q": "Which Zero Trust principle limits lateral movement?",
+    "options": ["Microsegmentation", "Least privilege", "ZTNA", "CASB"],
+    "a": 0,
+    "topic": "Security"
+  },
+  {
+    "q": "Which Python keyword handles exceptions?",
+    "options": ["try", "except", "catch", "error"],
+    "a": 1,
+    "topic": "Python"
+  },
+  {
+    "q": "Which GCP database service is relational?",
+    "options": ["Cloud SQL", "Firestore", "Bigtable", "Spanner"],
+    "a": 0,
+    "topic": "Google Cloud Databases"
+  },
+  {
+    "q": "Which HTTP header is used for bearer tokens?",
+    "options": ["Authorization", "Cookie", "APIKey", "Token"],
+    "a": 0,
+    "topic": "HTTP APIs"
+  },
+  {
+    "q": "True or False: Containers include the OS kernel.",
+    "options": ["True", "False", "Depends", "Only Linux"],
+    "a": 1,
+    "topic": "DevOps"
+  },
+  {
+    "q": "Which GCP feature restricts data movement across regions?",
+    "options": [
+      "Cloud IAM",
+      "Organization Policy",
+      "Cloud Armor",
+      "VPC Firewall"
+    ],
+    "a": 1,
+    "topic": "Google Cloud Security"
+  },
+  {
+    "q": "Which Cisco tool allows API-driven network validation?",
+    "options": ["CML", "VIRL", "NSO", "pyATS"],
+    "a": 3,
+    "topic": "Cisco Automation"
+  },
+  {
+    "q": "Which OSI layer ensures end-to-end delivery?",
+    "options": ["Network", "Data Link", "Transport", "Session"],
+    "a": 2,
+    "topic": "Networking"
+  },
+  {
+    "q": "Which SASE component provides secure remote access?",
+    "options": ["ZTNA", "SWG", "CASB", "Firewall"],
+    "a": 0,
+    "topic": "Security"
+  },
+  {
+    "q": "Which DevOps tool isolates environments with containers?",
+    "options": ["Docker", "Vagrant", "Pipenv", "Qemu"],
+    "a": 0,
+    "topic": "DevOps"
+  },
+  {
+    "q": "Which Python keyword declares a class?",
+    "options": ["class", "def", "object", "module"],
+    "a": 0,
+    "topic": "Python"
+  },
+  {
+    "q": "Which GCP service allows logging metrics and creating alerts?",
+    "options": [
+      "Cloud Monitoring",
+      "Cloud Logging",
+      "Cloud Trace",
+      "Cloud Debugger"
+    ],
+    "a": 0,
+    "topic": "Google Cloud Monitoring"
+  },
+  {
+    "q": "Which Ansible module manages device templates?",
+    "options": ["template", "copy", "lineinfile", "command"],
+    "a": 0,
+    "topic": "Ansible"
+  },
+  {
+    "q": "Which HTTP method retrieves information from server?",
+    "options": ["GET", "POST", "PUT", "DELETE"],
+    "a": 0,
+    "topic": "HTTP APIs"
+  },
+  {
+    "q": "Which Git command merges branches?",
+    "options": ["git merge", "git rebase", "git commit", "git branch"],
+    "a": 0,
+    "topic": "DevOps"
+  },
+  {
+    "q": "Which cloud model abstracts runtime and application stack?",
+    "options": ["IaaS", "PaaS", "SaaS", "FaaS"],
+    "a": 1,
+    "topic": "Cloud Fundamentals"
+  },
+  {
+    "q": "Which GCP service allows serverless execution of containers?",
+    "options": ["GKE", "Cloud Functions", "Cloud Run", "App Engine"],
+    "a": 2,
+    "topic": "Google Cloud Services"
+  },
+  {
+    "q": "Which Python method converts list to string?",
+    "options": ["str()", "join()", "concat()", "print()"],
+    "a": 1,
+    "topic": "Python"
+  },
+  {
+    "q": "Which Cisco tool models networks for QA testing?",
+    "options": ["VIRL", "NSO", "CML", "pyATS"],
+    "a": 0,
+    "topic": "Cisco Automation"
+  },
+  {
+    "q": "Which HTTP code indicates resource not found?",
+    "options": ["404", "403", "401", "500"],
+    "a": 0,
+    "topic": "HTTP APIs"
+  },
+  {
+    "q": "Which DevOps practice uses automated deployment pipelines?",
+    "options": ["CI/CD", "Versioning", "Testing", "Monitoring"],
+    "a": 0,
+    "topic": "DevOps"
+  },
+  {
+    "q": "Which Ansible module manages device facts?",
+    "options": ["ios_command", "ios_facts", "ios_config", "netconf"],
+    "a": 1,
+    "topic": "Ansible"
+  },
+  {
+    "q": "Which OSI layer manages MAC addressing?",
+    "options": ["Physical", "Data Link", "Network", "Transport"],
+    "a": 1,
+    "topic": "Networking"
+  },
+  {
+    "q": "Which GCP feature enables private communication between services?",
+    "options": ["VPC Peering", "Cloud NAT", "Shared VPC", "Cloud Router"],
+    "a": 2,
+    "topic": "Google Cloud Networking"
+  },
+  {
+    "q": "Which Zero Trust principle enforces strict access control?",
+    "options": ["IAM", "ZTNA", "SWG", "Firewall"],
+    "a": 0,
+    "topic": "Security"
+  },
+  {
+    "q": "True or False: RESTCONF is based on YANG models.",
+    "options": ["True", "False", "Sometimes", "Depends"],
+    "a": 0,
+    "topic": "REST/NETCONF"
+  },
+  {
+    "q": "Which Git command clones a repository?",
+    "options": ["git init", "git clone", "git pull", "git push"],
+    "a": 1,
+    "topic": "DevOps"
+  },
+  {
+    "q": "Which Python function reads user input?",
+    "options": ["input()", "read()", "get()", "scan()"],
+    "a": 0,
+    "topic": "Python"
+  },
+  {
+    "q": "Which GCP load balancer distributes TCP/UDP traffic?",
+    "options": ["HTTP LB", "Network LB", "Internal LB", "Global LB"],
+    "a": 1,
+    "topic": "Google Cloud Networking"
+  },
+  {
+    "q": "Which SASE component monitors SaaS applications?",
+    "options": ["ZTNA", "SWG", "CASB", "ADEM"],
+    "a": 2,
+    "topic": "Security"
+  },
+  {
+    "q": "Which Ansible file contains hosts and groups?",
+    "options": ["inventory", "playbook", "vars", "roles"],
+    "a": 0,
+    "topic": "Ansible"
+  },
+  {
+    "q": "Which HTTP method creates a new resource?",
+    "options": ["POST", "GET", "PUT", "DELETE"],
+    "a": 0,
+    "topic": "HTTP APIs"
+  },
+  {
+    "q": "Which Python keyword creates a loop?",
+    "options": ["for", "loop", "while", "repeat"],
+    "a": 0,
+    "topic": "Python"
+  },
+  {
+    "q": "Which GCP database is designed for time-series data?",
+    "options": ["Firestore", "Bigtable", "Cloud SQL", "Spanner"],
+    "a": 1,
+    "topic": "Google Cloud Databases"
+  },
+  {
+    "q": "Which DevOps tool manages Python dependencies?",
+    "options": ["Docker", "Pipenv", "Vagrant", "Ansible"],
+    "a": 1,
+    "topic": "DevOps"
+  },
+  {
+    "q": "Which Cisco tool allows programmatic network orchestration?",
+    "options": ["NSO", "VIRL", "CML", "pyATS"],
+    "a": 0,
+    "topic": "Cisco Automation"
+  },
+  {
+    "q": "Which OSI layer handles error detection and framing?",
+    "options": ["Data Link", "Network", "Transport", "Session"],
+    "a": 0,
+    "topic": "Networking"
+  },
+  {
+    "q": "Which GCP log type tracks network flow data?",
+    "options": ["Audit Logs", "VPC Flow Logs", "System Logs", "Access Logs"],
+    "a": 1,
+    "topic": "Google Cloud Security"
+  },
+  {
+    "q": "Which SASE component provides secure web gateway?",
+    "options": ["ZTNA", "SWG", "CASB", "Firewall"],
+    "a": 1,
+    "topic": "Security"
+  },
+  {
+    "q": "Which Python collection is ordered and mutable?",
+    "options": ["list", "dict", "tuple", "set"],
+    "a": 0,
+    "topic": "Python"
+  },
+  {
+    "q": "Which Git command discards local changes?",
+    "options": ["git reset", "git revert", "git checkout", "git clean"],
+    "a": 2,
+    "topic": "DevOps"
+  },
+  {
+    "q": "Which Ansible module manages text lines in a file?",
+    "options": ["lineinfile", "copy", "template", "ios_command"],
+    "a": 0,
+    "topic": "Ansible"
+  },
+  {
+    "q": "Which GCP service allows secure API management?",
+    "options": [
+      "API Gateway",
+      "Cloud Run",
+      "Cloud Functions",
+      "Cloud Endpoints"
+    ],
+    "a": 3,
+    "topic": "Google Cloud Security"
+  },
+  {
+    "q": "Which DevOps practice ensures reproducible builds?",
+    "options": ["CI/CD", "Versioning", "Testing", "Monitoring"],
+    "a": 0,
+    "topic": "DevOps"
+  },
+  {
+    "q": "Which cloud model abstracts all software and infrastructure?",
+    "options": ["SaaS", "PaaS", "IaaS", "FaaS"],
+    "a": 0,
+    "topic": "Cloud Fundamentals"
+  },
+  {
+    "q": "Which Python data type is unordered and unique?",
+    "options": ["list", "tuple", "dict", "set"],
+    "a": 3,
+    "topic": "Python"
+  },
+  {
+    "q": "Which GCP service allows scalable relational databases?",
+    "options": ["Cloud SQL", "Firestore", "Spanner", "Bigtable"],
+    "a": 2,
+    "topic": "Google Cloud Databases"
+  },
+  {
+    "q": "Which HTTP status code indicates internal server error?",
+    "options": ["500", "404", "403", "200"],
+    "a": 0,
+    "topic": "HTTP APIs"
+  },
+  {
+    "q": "Which Cisco tool allows virtual network simulation?",
+    "options": ["CML", "VIRL", "NSO", "pyATS"],
+    "a": 1,
+    "topic": "Cisco Automation"
+  },
+  {
+    "q": "Which Ansible module manages CLI commands on IOS devices?",
+    "options": ["ios_command", "ios_facts", "ios_config", "netconf"],
+    "a": 0,
+    "topic": "Ansible"
+  },
+  {
+    "q": "Which GCP service allows serverless event-driven execution?",
+    "options": ["Cloud Run", "Cloud Functions", "GKE", "App Engine"],
+    "a": 1,
+    "topic": "Google Cloud Services"
+  },
+  {
+    "q": "True or False: Containers share the host OS kernel.",
+    "options": ["True", "False", "Depends", "Only Linux"],
+    "a": 0,
+    "topic": "DevOps"
+  },
+  {
+    "q": "Which SASE component enforces zero trust access?",
+    "options": ["ZTNA", "CASB", "SWG", "Firewall"],
+    "a": 0,
+    "topic": "Security"
+  },
+  {
+    "q": "Which OSI layer provides reliable data transfer?",
+    "options": ["Transport", "Network", "Data Link", "Session"],
+    "a": 0,
+    "topic": "Networking"
+  },
+  {
+    "q": "Which Git command downloads latest commits without merging?",
+    "options": ["git pull", "git fetch", "git clone", "git checkout"],
+    "a": 1,
+    "topic": "DevOps"
+  },
+  {
+    "q": "Which Python keyword declares a loop that continues while condition is true?",
+    "options": ["for", "loop", "while", "repeat"],
+    "a": 2,
+    "topic": "Python"
+  },
+  {
+    "q": "Which GCP feature secures cloud apps using policies?",
+    "options": ["CASB", "Cloud Armor", "IAM", "VPC"],
+    "a": 0,
+    "topic": "Google Cloud Security"
+  },
+  {
+    "q": "Which Ansible module manages service states on devices?",
+    "options": ["service", "systemd", "command", "ios_service"],
+    "a": 0,
+    "topic": "Ansible"
+  },
+  {
+    "q": "Which HTTP header carries content type information?",
+    "options": ["Content-Type", "Authorization", "Accept", "Host"],
+    "a": 0,
+    "topic": "HTTP APIs"
+  },
+  {
+    "q": "Which Git command shows commit history?",
+    "options": ["git log", "git status", "git branch", "git diff"],
+    "a": 0,
+    "topic": "DevOps"
+  },
+  {
+    "q": "Which Python method adds an element to a list?",
+    "options": ["append()", "add()", "insert()", "push()"],
+    "a": 0,
+    "topic": "Python"
+  },
+  {
+    "q": "Which GCP service provides managed Kubernetes clusters?",
+    "options": ["Cloud Run", "GKE", "Cloud Functions", "App Engine"],
+    "a": 1,
+    "topic": "Google Cloud Services"
+  },
+  {
+    "q": "True or False: Zero Trust requires continuous verification of users.",
+    "options": ["True", "False", "Sometimes", "Depends"],
+    "a": 0,
+    "topic": "Security"
+  },
+  {
+    "q": "Which Cisco tool allows configuration automation via Python?",
+    "options": ["NSO", "VIRL", "CML", "pyATS"],
+    "a": 0,
+    "topic": "Cisco Automation"
+  },
+  {
+    "q": "Which OSI layer defines routing between networks?",
+    "options": ["Network", "Data Link", "Transport", "Session"],
+    "a": 0,
+    "topic": "Networking"
+  },
+  {
+    "q": "Which SASE component enforces cloud access policies?",
+    "options": ["ZTNA", "SWG", "CASB", "Firewall"],
+    "a": 2,
+    "topic": "Security"
+  },
+  {
+    "q": "Which DevOps tool creates reproducible virtual environments?",
+    "options": ["Docker", "Vagrant", "Pipenv", "Ansible"],
+    "a": 1,
+    "topic": "DevOps"
+  },
+  {
+    "q": "Which Python keyword defines an exception handler?",
+    "options": ["try", "except", "catch", "error"],
+    "a": 1,
+    "topic": "Python"
+  },
+  {
+    "q": "Which GCP service enables structured relational data storage?",
+    "options": ["Cloud SQL", "Firestore", "Bigtable", "Spanner"],
+    "a": 0,
+    "topic": "Google Cloud Databases"
+  },
+  {
+    "q": "Which HTTP method updates a resource completely?",
+    "options": ["PUT", "GET", "POST", "PATCH"],
+    "a": 0,
+    "topic": "HTTP APIs"
+  },
+  {
+    "q": "Which Ansible module manages users on devices?",
+    "options": ["user", "group", "ios_user", "command"],
+    "a": 0,
+    "topic": "Ansible"
+  },
+  {
+    "q": "Which Git command creates a new commit?",
+    "options": ["git commit", "git add", "git push", "git merge"],
+    "a": 0,
+    "topic": "DevOps"
+  },
+  {
+    "q": "Which cloud model abstracts infrastructure entirely?",
+    "options": ["SaaS", "PaaS", "IaaS", "FaaS"],
+    "a": 0,
+    "topic": "Cloud Fundamentals"
+  },
+  {
+    "q": "Which Python data type stores an ordered sequence of elements?",
+    "options": ["list", "tuple", "dict", "set"],
+    "a": 0,
+    "topic": "Python"
+  },
+  {
+    "q": "Which GCP load balancer handles global HTTP/HTTPS traffic?",
+    "options": ["Network LB", "Internal LB", "HTTP(S) LB", "TCP LB"],
+    "a": 2,
+    "topic": "Google Cloud Networking"
+  },
+  {
+    "q": "Which SASE component provides secure remote access without VPN?",
+    "options": ["ZTNA", "SWG", "CASB", "Firewall"],
+    "a": 0,
+    "topic": "Security"
+  },
+  {
+    "q": "Which OSI layer is responsible for framing and MAC addressing?",
+    "options": ["Data Link", "Network", "Transport", "Physical"],
+    "a": 0,
+    "topic": "Networking"
+  },
+  {
+    "q": "Which DevOps practice emphasizes automation of deployments?",
+    "options": ["CI/CD", "Testing", "Monitoring", "Versioning"],
+    "a": 0,
+    "topic": "DevOps"
+  },
+  {
+    "q": "Which Python keyword creates a class?",
+    "options": ["class", "def", "object", "module"],
+    "a": 0,
+    "topic": "Python"
+  },
+  {
+    "q": "Which GCP service provides audit logs for user actions?",
+    "options": [
+      "Cloud Logging",
+      "Cloud Monitoring",
+      "VPC Flow Logs",
+      "Audit Logs"
+    ],
+    "a": 3,
+    "topic": "Google Cloud Security"
+  },
+  {
+    "q": "Which Ansible module configures device templates?",
+    "options": ["template", "copy", "lineinfile", "command"],
+    "a": 0,
+    "topic": "Ansible"
+  },
+  {
+    "q": "Which HTTP method retrieves information?",
+    "options": ["GET", "POST", "PUT", "DELETE"],
+    "a": 0,
+    "topic": "HTTP APIs"
+  },
+  {
+    "q": "Which Git command merges one branch into another?",
+    "options": ["git merge", "git rebase", "git commit", "git branch"],
+    "a": 0,
+    "topic": "DevOps"
+  },
+  {
+    "q": "Which cloud model abstracts runtime and app stack?",
+    "options": ["IaaS", "PaaS", "SaaS", "FaaS"],
+    "a": 1,
+    "topic": "Cloud Fundamentals"
+  },
+  {
+    "q": "Which GCP service executes containers serverlessly?",
+    "options": ["GKE", "Cloud Functions", "Cloud Run", "App Engine"],
+    "a": 2,
+    "topic": "Google Cloud Services"
+  },
+  {
+    "q": "Which Python method joins elements of a list into a string?",
+    "options": ["join()", "str()", "concat()", "print()"],
+    "a": 0,
+    "topic": "Python"
+  },
+  {
+    "q": "Which Cisco automation tool simulates networks?",
+    "options": ["VIRL", "NSO", "CML", "pyATS"],
+    "a": 2,
+    "topic": "Cisco Automation"
+  },
+  {
+    "q": "Which HTTP status code means resource not found?",
+    "options": ["404", "403", "401", "500"],
+    "a": 0,
+    "topic": "HTTP APIs"
+  },
+  {
+    "q": "Which DevOps practice involves automated pipelines?",
+    "options": ["CI/CD", "Versioning", "Testing", "Monitoring"],
+    "a": 0,
+    "topic": "DevOps"
+  },
+  {
+    "q": "Which Ansible module collects device facts?",
+    "options": ["ios_command", "ios_facts", "ios_config", "netconf"],
+    "a": 1,
+    "topic": "Ansible"
+  },
+  {
+    "q": "Which OSI layer handles IP addresses?",
+    "options": ["Network", "Data Link", "Transport", "Session"],
+    "a": 0,
+    "topic": "Networking"
+  },
+  {
+    "q": "Which GCP feature enables private VPC communication?",
+    "options": ["VPC Peering", "Cloud NAT", "Shared VPC", "Cloud Router"],
+    "a": 2,
+    "topic": "Google Cloud Networking"
+  },
+  {
+    "q": "Which Zero Trust principle enforces least privilege?",
+    "options": ["IAM", "ZTNA", "SWG", "Firewall"],
+    "a": 0,
+    "topic": "Security"
+  },
+  {
+    "q": "True or False: RESTCONF uses YANG data models.",
+    "options": ["True", "False", "Sometimes", "Depends"],
+    "a": 0,
+    "topic": "REST/NETCONF"
+  },
+  {
+    "q": "Which Git command clones a repository?",
+    "options": ["git init", "git clone", "git pull", "git push"],
+    "a": 1,
+    "topic": "DevOps"
+  },
+  {
+    "q": "Which Python function reads input from the user?",
+    "options": ["input()", "read()", "get()", "scan()"],
+    "a": 0,
+    "topic": "Python"
+  },
+  {
+    "q": "Which GCP load balancer handles TCP/UDP traffic?",
+    "options": ["HTTP LB", "Network LB", "Internal LB", "Global LB"],
+    "a": 1,
+    "topic": "Google Cloud Networking"
+  },
+  {
+    "q": "Which SASE component monitors SaaS usage?",
+    "options": ["ZTNA", "SWG", "CASB", "ADEM"],
+    "a": 2,
+    "topic": "Security"
+  },
+  {
+    "q": "Which Ansible file lists hosts and groups?",
+    "options": ["inventory", "playbook", "vars", "roles"],
+    "a": 0,
+    "topic": "Ansible"
+  },
+  {
+    "q": "Which HTTP method creates a resource?",
+    "options": ["POST", "GET", "PUT", "DELETE"],
+    "a": 0,
+    "topic": "HTTP APIs"
+  },
+  {
+    "q": "Which Python keyword creates a while loop?",
+    "options": ["for", "loop", "while", "repeat"],
+    "a": 2,
+    "topic": "Python"
+  },
+  {
+    "q": "Which GCP feature enforces cloud app policies?",
+    "options": ["CASB", "Cloud Armor", "IAM", "VPC"],
+    "a": 0,
+    "topic": "Google Cloud Security"
+  },
+  {
+    "q": "Which Ansible module manages services on Linux hosts?",
+    "options": ["service", "systemd", "command", "copy"],
+    "a": 0,
+    "topic": "Ansible"
+  },
+  {
+    "q": "Which HTTP header provides bearer token?",
+    "options": ["Authorization", "Cookie", "Token", "APIKey"],
+    "a": 0,
+    "topic": "HTTP APIs"
+  },
+  {
+    "q": "Which DevOps tool isolates environments using containers?",
+    "options": ["Docker", "Vagrant", "Pipenv", "Ansible"],
+    "a": 0,
+    "topic": "DevOps"
+  },
+  {
+    "q": "Which Python collection is immutable and ordered?",
+    "options": ["list", "tuple", "dict", "set"],
+    "a": 1,
+    "topic": "Python"
+  },
+  {
+    "q": "Which GCP service provides scalable NoSQL database?",
+    "options": ["Cloud SQL", "Firestore", "Spanner", "Bigtable"],
+    "a": 1,
+    "topic": "Google Cloud Databases"
+  },
+  {
+    "q": "Which HTTP code indicates internal server error?",
+    "options": ["500", "404", "403", "200"],
+    "a": 0,
+    "topic": "HTTP APIs"
+  },
+  {
+    "q": "Which Cisco tool allows network modeling for QA?",
+    "options": ["CML", "VIRL", "NSO", "pyATS"],
+    "a": 0,
+    "topic": "Cisco Automation"
+  },
+  {
+    "q": "Which Ansible module sends CLI commands to IOS?",
+    "options": ["ios_command", "ios_facts", "ios_config", "netconf"],
+    "a": 0,
+    "topic": "Ansible"
+  },
+  {
+    "q": "Which GCP serverless service executes functions on events?",
+    "options": ["Cloud Run", "Cloud Functions", "GKE", "App Engine"],
+    "a": 1,
+    "topic": "Google Cloud Services"
+  },
+  {
+    "q": "True or False: Containers share host OS kernel.",
+    "options": ["True", "False", "Depends", "Only Linux"],
+    "a": 0,
+    "topic": "DevOps"
+  },
+  {
+    "q": "Which SASE component provides ZTNA access?",
+    "options": ["ZTNA", "CASB", "SWG", "Firewall"],
+    "a": 0,
+    "topic": "Security"
+  },
+  {
+    "q": "Which OSI layer ensures reliable delivery?",
+    "options": ["Transport", "Network", "Data Link", "Session"],
+    "a": 0,
+    "topic": "Networking"
+  },
+  {
+    "q": "Which Git command fetches commits without merging?",
+    "options": ["git pull", "git fetch", "git clone", "git checkout"],
+    "a": 1,
+    "topic": "DevOps"
+  },
+  {
+    "q": "Which Python keyword defines a while loop?",
+    "options": ["for", "loop", "while", "repeat"],
+    "a": 2,
+    "topic": "Python"
+  },
+  {
+    "q": "Which GCP feature restricts data across regions?",
+    "options": ["CASB", "Organization Policy", "IAM", "VPC"],
+    "a": 1,
+    "topic": "Google Cloud Security"
+  },
+  {
+    "q": "Which HTTP method partially updates a resource?",
+    "options": ["PATCH", "POST", "PUT", "GET"],
+    "a": 0,
+    "topic": "HTTP APIs"
+  },
+  {
+    "q": "Which GCP service provides managed Redis caching?",
+    "options": ["Memorystore", "Cloud SQL", "Bigtable", "Firestore"],
+    "a": 0,
+    "topic": "Google Cloud Services"
+  },
+  {
+    "q": "Which Ansible module manages file contents on devices?",
+    "options": ["copy", "lineinfile", "template", "file"],
+    "a": 1,
+    "topic": "Ansible"
+  },
+  {
+    "q": "Which DevOps principle emphasizes 'shift-left' testing?",
+    "options": [
+      "Early testing",
+      "Continuous deployment",
+      "Monitoring",
+      "Versioning"
+    ],
+    "a": 0,
+    "topic": "DevOps"
+  },
+  {
+    "q": "Which Python method removes and returns the last element of a list?",
+    "options": ["pop()", "remove()", "del()", "clear()"],
+    "a": 0,
+    "topic": "Python"
+  },
+  {
+    "q": "Which SASE component inspects web traffic?",
+    "options": ["SWG", "ZTNA", "CASB", "Firewall"],
+    "a": 0,
+    "topic": "Security"
+  },
+  {
+    "q": "Which Cisco automation tool validates configurations programmatically?",
+    "options": ["pyATS", "VIRL", "CML", "NSO"],
+    "a": 0,
+    "topic": "Cisco Automation"
+  },
+  {
+    "q": "Which OSI layer ensures end-to-end communication?",
+    "options": ["Transport", "Network", "Data Link", "Application"],
+    "a": 0,
+    "topic": "Networking"
+  },
+  {
+    "q": "Which Git command lists all branches?",
+    "options": ["git branch", "git status", "git log", "git checkout"],
+    "a": 0,
+    "topic": "DevOps"
+  },
+  {
+    "q": "Which Python function returns the number of items in a list?",
+    "options": ["len()", "size()", "count()", "length()"],
+    "a": 0,
+    "topic": "Python"
+  },
+  {
+    "q": "Which GCP load balancer is regional and internal?",
+    "options": ["Internal LB", "HTTP LB", "Network LB", "Global LB"],
+    "a": 0,
+    "topic": "Google Cloud Networking"
+  },
+  {
+    "q": "Which HTTP status code indicates successful request?",
+    "options": ["200", "201", "400", "500"],
+    "a": 0,
+    "topic": "HTTP APIs"
+  },
+  {
+    "q": "Which Ansible module manages users and groups?",
+    "options": ["user", "group", "ios_user", "file"],
+    "a": 0,
+    "topic": "Ansible"
+  },
+  {
+    "q": "Which DevOps tool automates configuration management?",
+    "options": ["Ansible", "Git", "Docker", "Terraform"],
+    "a": 0,
+    "topic": "DevOps"
+  },
+  {
+    "q": "Which Python keyword raises an exception?",
+    "options": ["raise", "throw", "error", "except"],
+    "a": 0,
+    "topic": "Python"
+  },
+  {
+    "q": "Which GCP feature monitors network flow logs?",
+    "options": [
+      "VPC Flow Logs",
+      "Cloud Logging",
+      "Cloud Monitoring",
+      "Audit Logs"
+    ],
+    "a": 0,
+    "topic": "Google Cloud Networking"
+  },
+  {
+    "q": "Which SASE component ensures least-privilege access?",
+    "options": ["ZTNA", "SWG", "CASB", "Firewall"],
+    "a": 0,
+    "topic": "Security"
+  },
+  {
+    "q": "True or False: REST APIs can be stateless.",
+    "options": ["True", "False", "Sometimes", "Depends"],
+    "a": 0,
+    "topic": "REST/NETCONF"
+  },
+  {
+    "q": "Which Cisco tool allows multi-device simulation?",
+    "options": ["CML", "NSO", "VIRL", "pyATS"],
+    "a": 0,
+    "topic": "Cisco Automation"
+  },
+  {
+    "q": "Which OSI layer provides logical addressing?",
+    "options": ["Network", "Data Link", "Transport", "Session"],
+    "a": 0,
+    "topic": "Networking"
+  },
+  {
+    "q": "Which Git command updates a remote branch?",
+    "options": ["git push", "git commit", "git merge", "git fetch"],
+    "a": 0,
+    "topic": "DevOps"
+  },
+  {
+    "q": "Which Python data type stores key-value pairs?",
+    "options": ["dict", "list", "tuple", "set"],
+    "a": 0,
+    "topic": "Python"
+  },
+  {
+    "q": "Which GCP service manages large-scale time-series data?",
+    "options": ["Bigtable", "Cloud SQL", "Firestore", "Spanner"],
+    "a": 0,
+    "topic": "Google Cloud Databases"
+  },
+  {
+    "q": "Which HTTP header carries authentication info?",
+    "options": ["Authorization", "Content-Type", "Accept", "Host"],
+    "a": 0,
+    "topic": "HTTP APIs"
+  },
+  {
+    "q": "Which Ansible module sends CLI commands to IOS devices?",
+    "options": ["ios_command", "ios_facts", "ios_config", "netconf"],
+    "a": 0,
+    "topic": "Ansible"
+  },
+  {
+    "q": "Which DevOps practice involves automated builds and tests?",
+    "options": ["CI/CD", "Monitoring", "Versioning", "Testing"],
+    "a": 0,
+    "topic": "DevOps"
+  },
+  {
+    "q": "Which Python keyword defines a function?",
+    "options": ["def", "func", "function", "lambda"],
+    "a": 0,
+    "topic": "Python"
+  },
+  {
+    "q": "Which GCP service handles serverless container workloads?",
+    "options": ["Cloud Run", "Cloud Functions", "GKE", "App Engine"],
+    "a": 0,
+    "topic": "Google Cloud Services"
+  },
+  {
+    "q": "Which SASE component enforces security policies for cloud apps?",
+    "options": ["CASB", "SWG", "ZTNA", "ADEM"],
+    "a": 0,
+    "topic": "Security"
+  },
+  {
+    "q": "Which Ansible file defines device inventory?",
+    "options": ["inventory", "playbook", "roles", "vars"],
+    "a": 0,
+    "topic": "Ansible"
+  },
+  {
+    "q": "Which HTTP method deletes a resource?",
+    "options": ["DELETE", "POST", "PUT", "GET"],
+    "a": 0,
+    "topic": "HTTP APIs"
+  },
+  {
+    "q": "Which Python method converts a string to integer?",
+    "options": ["int()", "str()", "float()", "cast()"],
+    "a": 0,
+    "topic": "Python"
+  },
+  {
+    "q": "Which GCP feature restricts resource usage across organizations?",
+    "options": ["Organization Policy", "IAM", "VPC Peering", "Cloud Armor"],
+    "a": 0,
+    "topic": "Google Cloud Security"
+  },
+  {
+    "q": "Which Cisco tool provides virtualized network topologies?",
+    "options": ["CML", "VIRL", "NSO", "pyATS"],
+    "a": 0,
+    "topic": "Cisco Automation"
+  },
+  {
+    "q": "Which OSI layer handles port numbers?",
+    "options": ["Transport", "Network", "Data Link", "Application"],
+    "a": 0,
+    "topic": "Networking"
+  },
+  {
+    "q": "Which Git command discards local changes?",
+    "options": ["git checkout", "git reset", "git commit", "git revert"],
+    "a": 0,
+    "topic": "DevOps"
+  },
+  {
+    "q": "Which Python collection stores unique unordered elements?",
+    "options": ["set", "list", "tuple", "dict"],
+    "a": 0,
+    "topic": "Python"
+  },
+  {
+    "q": "Which GCP service manages relational databases?",
+    "options": ["Cloud SQL", "Bigtable", "Firestore", "Spanner"],
+    "a": 0,
+    "topic": "Google Cloud Databases"
+  },
+  {
+    "q": "Which HTTP code indicates forbidden access?",
+    "options": ["403", "401", "404", "500"],
+    "a": 0,
+    "topic": "HTTP APIs"
+  },
+  {
+    "q": "Which Ansible module manages directories and files?",
+    "options": ["file", "copy", "template", "lineinfile"],
+    "a": 0,
+    "topic": "Ansible"
+  },
+  {
+    "q": "Which DevOps tool provides container orchestration?",
+    "options": ["Kubernetes", "Docker", "Ansible", "Terraform"],
+    "a": 0,
+    "topic": "DevOps"
+  },
+  {
+    "q": "Which Python function converts a number to string?",
+    "options": ["str()", "int()", "float()", "format()"],
+    "a": 0,
+    "topic": "Python"
+  },
+  {
+    "q": "Which GCP load balancer is global and supports HTTP(S)?",
+    "options": ["HTTP(S) LB", "Internal LB", "Network LB", "TCP LB"],
+    "a": 0,
+    "topic": "Google Cloud Networking"
+  },
+  {
+    "q": "Which SASE component provides secure web gateway functions?",
+    "options": ["SWG", "CASB", "ZTNA", "Firewall"],
+    "a": 0,
+    "topic": "Security"
+  },
+  {
+    "q": "Which Ansible module configures templates on devices?",
+    "options": ["template", "copy", "lineinfile", "command"],
+    "a": 0,
+    "topic": "Ansible"
+  },
+  {
+    "q": "Which HTTP method retrieves resource info without side effects?",
+    "options": ["GET", "POST", "PUT", "DELETE"],
+    "a": 0,
+    "topic": "HTTP APIs"
+  },
+  {
+    "q": "Which Python keyword handles exceptions?",
+    "options": ["try", "except", "catch", "raise"],
+    "a": 1,
+    "topic": "Python"
+  },
+  {
+    "q": "Which GCP service provides audit logs for admin actions?",
+    "options": [
+      "Audit Logs",
+      "VPC Flow Logs",
+      "Cloud Logging",
+      "Cloud Monitoring"
+    ],
+    "a": 0,
+    "topic": "Google Cloud Security"
+  },
+  {
+    "q": "Which DevOps practice involves infrastructure as code?",
+    "options": ["IaC", "CI/CD", "Monitoring", "Testing"],
+    "a": 0,
+    "topic": "DevOps"
+  },
+  {
+    "q": "Which Cisco automation tool supports NETCONF?",
+    "options": ["NSO", "CML", "VIRL", "pyATS"],
+    "a": 0,
+    "topic": "Cisco Automation"
+  },
+  {
+    "q": "Which OSI layer is responsible for MAC addressing?",
+    "options": ["Data Link", "Network", "Transport", "Session"],
+    "a": 0,
+    "topic": "Networking"
+  },
+  {
+    "q": "Which Git command shows uncommitted changes?",
+    "options": ["git status", "git log", "git diff", "git branch"],
+    "a": 0,
+    "topic": "DevOps"
+  },
+  {
+    "q": "Which Python method removes an element by value?",
+    "options": ["remove()", "pop()", "delete()", "discard()"],
+    "a": 0,
+    "topic": "Python"
+  },
+  {
+    "q": "Which GCP service stores structured NoSQL data?",
+    "options": ["Firestore", "Cloud SQL", "Bigtable", "Spanner"],
+    "a": 0,
+    "topic": "Google Cloud Databases"
+  },
+  {
+    "q": "Which HTTP code indicates a resource created successfully?",
+    "options": ["201", "200", "400", "500"],
+    "a": 0,
+    "topic": "HTTP APIs"
+  },
+  {
+    "q": "Which Ansible module retrieves facts from network devices?",
+    "options": ["ios_facts", "ios_command", "ios_config", "netconf"],
+    "a": 0,
+    "topic": "Ansible"
+  },
+  {
+    "q": "Which DevOps tool automates deployment pipelines?",
+    "options": ["Jenkins", "Git", "Docker", "Terraform"],
+    "a": 0,
+    "topic": "DevOps"
+  },
+  {
+    "q": "Which Python keyword defines a class method?",
+    "options": ["def", "class", "self", "function"],
+    "a": 0,
+    "topic": "Python"
+  },
+  {
+    "q": "Which GCP service provides serverless function execution?",
+    "options": ["Cloud Functions", "Cloud Run", "GKE", "App Engine"],
+    "a": 0,
+    "topic": "Google Cloud Services"
+  },
+  {
+    "q": "Which SASE component monitors cloud app usage?",
+    "options": ["CASB", "SWG", "ZTNA", "Firewall"],
+    "a": 0,
+    "topic": "Security"
+  },
+  {
+    "q": "Which Ansible file contains variables for hosts or groups?",
+    "options": ["vars", "playbook", "inventory", "roles"],
+    "a": 0,
+    "topic": "Ansible"
+  },
+  {
+    "q": "Which HTTP method is idempotent and replaces a resource?",
+    "options": ["PUT", "POST", "GET", "PATCH"],
+    "a": 0,
+    "topic": "HTTP APIs"
+  },
+  {
+    "q": "Which Python method concatenates strings from a list?",
+    "options": ["join()", "concat()", "str()", "format()"],
+    "a": 0,
+    "topic": "Python"
+  },
+  {
+    "q": "Which GCP feature ensures private communication between VPCs?",
+    "options": ["Shared VPC", "VPC Peering", "Cloud NAT", "Cloud Router"],
+    "a": 0,
+    "topic": "Google Cloud Networking"
+  },
+  {
+    "q": "True or False: Containers can run multiple isolated applications sharing host kernel.",
+    "options": ["True", "False", "Depends", "Only Linux"],
+    "a": 0,
+    "topic": "DevOps"
+  },
+  {
+    "q": "Which Cisco tool allows automated network testing?",
+    "options": ["pyATS", "CML", "NSO", "VIRL"],
+    "a": 0,
+    "topic": "Cisco Automation"
+  },
+  {
+    "q": "Which OSI layer ensures reliable end-to-end data delivery?",
+    "options": ["Transport", "Network", "Data Link", "Session"],
+    "a": 0,
+    "topic": "Networking"
+  },
+  {
+    "q": "Which Git command restores a deleted branch?",
+    "options": ["git checkout -b", "git branch", "git restore", "git revert"],
+    "a": 0,
+    "topic": "DevOps"
+  },
+  {
+    "q": "Which Python collection is unordered and unique?",
+    "options": ["set", "list", "tuple", "dict"],
+    "a": 0,
+    "topic": "Python"
+  },
+  {
+    "q": "Which GCP service provides globally distributed database?",
+    "options": ["Spanner", "Bigtable", "Cloud SQL", "Firestore"],
+    "a": 0,
+    "topic": "Google Cloud Databases"
+  },
+  {
+    "q": "Which HTTP code means too many requests?",
+    "options": ["429", "404", "403", "500"],
+    "a": 0,
+    "topic": "HTTP APIs"
+  },
+  {
+    "q": "Which Ansible module ensures service is running on a host?",
+    "options": ["service", "systemd", "command", "copy"],
+    "a": 0,
+    "topic": "Ansible"
+  },
+  {
+    "q": "Which DevOps practice emphasizes monitoring in production?",
+    "options": ["Observability", "CI/CD", "Versioning", "Testing"],
+    "a": 0,
+    "topic": "DevOps"
+  },
+  {
+    "q": "Which Python keyword is used for exception handling?",
+    "options": ["except", "try", "catch", "raise"],
+    "a": 0,
+    "topic": "Python"
+  },
+  {
+    "q": "Which GCP load balancer provides TCP/UDP load balancing?",
+    "options": ["Network LB", "Internal LB", "HTTP LB", "Global LB"],
+    "a": 0,
+    "topic": "Google Cloud Networking"
+  },
+  {
+    "q": "Which SASE component enforces zero-trust access?",
+    "options": ["ZTNA", "CASB", "SWG", "Firewall"],
+    "a": 0,
+    "topic": "Security"
+  },
+  {
+    "q": "Which Ansible module deploys configuration templates?",
+    "options": ["template", "copy", "lineinfile", "command"],
+    "a": 0,
+    "topic": "Ansible"
+  },
+  {
+    "q": "Which HTTP method should be safe and read-only?",
+    "options": ["GET", "POST", "PUT", "DELETE"],
+    "a": 0,
+    "topic": "HTTP APIs"
+  },
+  {
+    "q": "Which Python method converts a string to integer?",
+    "options": ["int()", "str()", "float()", "eval()"],
+    "a": 0,
+    "topic": "Python"
+  },
+  {
+    "q": "Which GCP service logs admin actions for compliance?",
+    "options": [
+      "Audit Logs",
+      "Cloud Logging",
+      "Cloud Monitoring",
+      "VPC Flow Logs"
+    ],
+    "a": 0,
+    "topic": "Google Cloud Security"
+  }
+]
