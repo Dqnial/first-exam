@@ -7,7 +7,7 @@ import examRoutes from "./routes/exam.routes.js";
 
 const app = express();
 const __dirname = path.resolve();
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 5000;
 
 dotenv.config();
 
